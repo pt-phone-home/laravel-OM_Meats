@@ -589,3 +589,86 @@ body {
   padding: 0rem 2rem;
 }
 
+.contact-container {
+  grid-column: 1/-1;
+  background: #f8f8f8;
+  display: grid;
+}
+
+.contact-container .contact {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-container .contact-phone {
+  grid-column: 1/-1;
+  justify-self: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-container .contact-phone i {
+  font-size: 4rem;
+  margin-right: 2rem;
+  color: #76232f;
+}
+
+.contact-container .contact-phone p {
+  font-size: 2rem;
+}
+
+.contact-container .contact-email {
+  justify-self: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-container .contact-email-heading {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-container .contact-email-info {
+  text-align: center;
+}
+
+.contact-container .contact-email-info i {
+  margin-right: 1rem;
+  color: #76232f;
+}
+
+.contact-container .contact-team {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.contact-container .contact-team-img {
+  justify-self: end;
+}
+
+.contact-container .contact-team-img img {
+  border-radius: 50%;
+}
+
+.contact-container .contact-team-info {
+  align-self: center;
+  justify-self: center;
+}
+
+.contact-container .contact-team-info-heading {
+  color: #76232f;
+  margin-bottom: 1rem;
+}
+
+.contact-container .contact-team-info p {
+  margin-bottom: 1rem;
+}
+
+.contact-container .contact-team-info p i {
+  margin-right: 1rem;
+}
+

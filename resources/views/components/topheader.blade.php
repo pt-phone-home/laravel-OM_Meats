@@ -25,22 +25,22 @@
     <div class="midheader">
             <ul class="midheadernav">
                 <li class="midheadernav-item">
-                    <a href="#!" class="midheadernav-item-link">Wholesale</a>
+                    <a href="/wholesale" class="midheadernav-item-link">Wholesale</a>
                 </li>
                 <li class="midheadernav-item">
-                    <a href="#!" class="midheadernav-item-link">Retail</a>
+                    <a href="/retail" class="midheadernav-item-link">Retail</a>
                 </li>
                 <li class="midheadernav-item">
-                    <a href="#!" class="midheadernav-item-link">Products</a>
+                    <a href="/products" class="midheadernav-item-link">Products</a>
                 </li>
                 <li class="midheadernav-item">
-                    <a href="#!" class="midheadernav-item-link">Offers</a>
+                    <a href="/offers" class="midheadernav-item-link">Offers</a>
                 </li>
                 <li class="midheadernav-item">
-                    <a href="#!" class="midheadernav-item-link">Recipes</a>
+                    <a href="/recipes" class="midheadernav-item-link">Recipes</a>
                 </li>
                 <li class="midheadernav-item">
-                    <a href="#!" class="midheadernav-item-link">News</a>
+                    <a href="/news" class="midheadernav-item-link">News</a>
                 </li>
             </ul>
         </div>

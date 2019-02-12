@@ -21,4 +21,22 @@ class PagesController extends Controller
     public function contact() {
         return view('contact');
     }
+    public function wholesale() {
+        return view('wholesale');
+    }
+    public function retail() {
+        return view('retail');
+    }
+    public function products() {
+        return view('products');
+    }
+    public function offers() {
+        return view('offers');
+    }
+    public function recipes() {
+        return view('recipes');
+    }
+    public function news() {
+        return view('news');
+    }
 }

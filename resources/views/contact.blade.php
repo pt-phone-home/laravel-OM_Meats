@@ -1,10 +1,17 @@
 @extends('master')
 
 @section('title')
-
+Contact | O'Mahoney Meats Ltd.
 @endsection
 
 @section('content')
+    <div class="contact-title-container">
+        <div class="contact-title">
+            <h1 class="contact-title-heading">
+                Contact Us
+            </h1>
+        </div>
+    </div>
     <div class="contact-container">
         <div class="contact">
 
@@ -35,9 +42,9 @@
                     <img src="https://via.placeholder.com/100" alt="">
                 </div>
                 <div class="contact-team-info">
-                    <h3 class="contact-team-info-heading">Contact Maryse</h3>
-                    <p><i class="fas fa-phone"></i>0872864205</p>
-                    <p><i class="fas fa-at"></i>maryse@ommeats.ie</p>
+                    <h3 class="contact-team-info-heading">Contact Kieran</h3>
+                    <p><i class="fas fa-phone"></i>0872633614</p>
+                    <p><i class="fas fa-at"></i>kieran@ommeats.ie</p>
                 </div>
             </div>
 

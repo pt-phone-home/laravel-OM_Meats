@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-
+About | O'Mahoney Meats Ltd.
 @endsection
 
 @section('content')

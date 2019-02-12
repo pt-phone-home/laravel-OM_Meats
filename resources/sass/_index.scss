@@ -54,8 +54,8 @@
             display: grid;
             i {
                 margin-top: 1rem;
-                margin-bottom: 1rem;
-                font-size: 4rem;
+                margin-bottom: 2rem;
+                font-size: 8rem;
                 color: $primary;
                 justify-self: center;
             }
@@ -63,6 +63,7 @@
             &-name {
                 font-size: 3rem;
                 text-align: center;
+                margin-bottom: 2rem;
             }
         }
     }

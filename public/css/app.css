@@ -205,14 +205,15 @@ body {
 .bottomheader {
   margin-top: -5px;
   grid-column: 2/4;
-  height: 30rem;
   background: white;
-  z-index: 1;
+  z-index: 2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .bottomheader-img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   justify-self: center;
   align-self: center;
 }
@@ -312,8 +313,8 @@ body {
 
 .products-container .product-item i {
   margin-top: 1rem;
-  margin-bottom: 1rem;
-  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-size: 8rem;
   color: #76232f;
   justify-self: center;
 }
@@ -321,6 +322,7 @@ body {
 .products-container .product-item-name {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .footer-conatiner {
@@ -589,6 +591,24 @@ body {
   padding: 0rem 2rem;
 }
 
+.contact-title-container {
+  grid-column: 1/-1;
+  background: #f8f8f8;
+  display: grid;
+}
+
+.contact-title-container .contact-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-self: center;
+  width: 80%;
+}
+
+.contact-title-container .contact-title-heading {
+  font-size: 4rem;
+  text-align: center;
+}
+
 .contact-container {
   grid-column: 1/-1;
   background: #f8f8f8;
@@ -605,7 +625,7 @@ body {
 .contact-container .contact-phone {
   grid-column: 1/-1;
   justify-self: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -640,6 +660,7 @@ body {
 }
 
 .contact-container .contact-team {
+  justify-self: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: grid;
@@ -648,6 +669,7 @@ body {
 
 .contact-container .contact-team-img {
   justify-self: end;
+  margin-right: -2rem;
 }
 
 .contact-container .contact-team-img img {
@@ -656,7 +678,8 @@ body {
 
 .contact-container .contact-team-info {
   align-self: center;
-  justify-self: center;
+  justify-self: start;
+  margin-left: 5rem;
 }
 
 .contact-container .contact-team-info-heading {
@@ -670,5 +693,87 @@ body {
 
 .contact-container .contact-team-info p i {
   margin-right: 1rem;
+}
+
+.wholesale-title-container {
+  grid-column: 1/-1;
+  display: grid;
+  background: #f8f8f8;
+}
+
+.wholesale-title-container .wholesale-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.wholesale-title-container .wholesale-title-heading {
+  justify-self: center;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.wholesale-banner-container {
+  grid-column: 1/-1;
+  display: grid;
+  background: #f8f8f8;
+}
+
+.wholesale-banner-container .wholesale-banner {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-self: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.wholesale-banner-container .wholesale-banner-img img {
+  width: 35rem;
+  height: 25rem;
+}
+
+.wholesale-info-header-container {
+  grid-column: 1/-1;
+  display: grid;
+  background: #f8f8f8;
+}
+
+.wholesale-info-header-container .wholesale-info-header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.wholesale-info-header-container .wholesale-info-header-heading {
+  justify-self: center;
+  text-align: center;
+  color: #76232f;
+  font-size: 2.4rem;
+}
+
+.wholesale-info-container {
+  grid-column: 1/-1;
+  display: grid;
+  background: #f8f8f8;
+}
+
+.wholesale-info-container .wholesale-info {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.wholesale-info-container .wholesale-info-item {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  padding: 0rem 1rem;
 }
 

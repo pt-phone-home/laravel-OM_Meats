@@ -73,17 +73,17 @@
             color: $grey1;
             border-radius: 10px 10px 0px 0px;
             transition: all 0.2s ease-in-out;
-            transform: translateY(10px);
+            // transform: translateY(10px);
             z-index: 0;
 
             &:hover {
-                transform: translateY(0px);
+                transform: translateY(-5px);
             }
 
             &-link {
                 text-decoration: none;
                 display: inline-block;
-                padding: 1rem 2rem 2rem 2rem;
+                padding: 1rem 2rem 1.2rem 2rem;
                 color: $grey1;
 
                 &:visited {
@@ -98,8 +98,9 @@
 }
 
 .bottomheader {
+    margin-top: -5px;
     grid-column: 2 / 4;
-    height: 35rem;
+    height: 30rem;
     background: $grey1;
     z-index: 1;
 

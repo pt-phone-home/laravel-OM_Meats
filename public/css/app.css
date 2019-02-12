@@ -183,20 +183,18 @@ body {
   color: #f8f8f8;
   border-radius: 10px 10px 0px 0px;
   transition: all 0.2s ease-in-out;
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
   z-index: 0;
 }
 
 .midheader .midheadernav-item:hover {
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 .midheader .midheadernav-item-link {
   text-decoration: none;
   display: inline-block;
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 1.2rem 2rem;
   color: #f8f8f8;
 }
 
@@ -205,8 +203,9 @@ body {
 }
 
 .bottomheader {
+  margin-top: -5px;
   grid-column: 2/4;
-  height: 35rem;
+  height: 30rem;
   background: #f8f8f8;
   z-index: 1;
   display: grid;

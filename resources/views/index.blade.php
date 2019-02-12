@@ -17,7 +17,7 @@
     <div class="products-container">
         <div class="product">
             <div class="product-item product-item-1">
-                <i class="fas fa-hamburger"></i>
+                <i class="fas fa-cow"></i>
                 <h2 class="product-item-name">
                     Beef
                 </h2>

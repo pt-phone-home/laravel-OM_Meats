@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    Quality
+    Contact
 @endsection
 
 @section('scripts')

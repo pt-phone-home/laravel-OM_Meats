@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    Quality
+    Careers
 @endsection
 
 @section('scripts')

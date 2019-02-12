@@ -94,6 +94,12 @@
             margin-top: 2rem;
             margin-bottom: 2rem;
             font-size: 4rem;
+
+            span {
+                font-weight: bolder;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
         }
 
         &-img {

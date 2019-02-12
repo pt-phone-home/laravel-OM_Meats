@@ -35,7 +35,7 @@
     </div>
     <div class="about-us-container-2">
         <div class="about-us-strength">
-            <h1 class="about-us-strength-heading">Strength to Strength</h1>
+            <h1 class="about-us-strength-heading"> <span>Strength</span> to <span>Strength</span></h1>
             <div class="about-us-strength-img">
                 <i class="fas fa-chart-line"></i>
             </div>

@@ -432,6 +432,12 @@ body {
   font-size: 4rem;
 }
 
+.about-us-container-2 .about-us-strength-heading span {
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 .about-us-container-2 .about-us-strength-img {
   justify-self: center;
   align-self: center;

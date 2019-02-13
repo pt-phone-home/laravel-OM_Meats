@@ -8,7 +8,7 @@ Home | O'Mahoney Meats Ltd.
     <div class="welcome-container">
         <div class="welcome">
             <h1 class="welcome-heading">
-                Welcome to <span> O’Mahony Meats </span> – Your One-stop Meat Supplier
+                Welcome to <span> O’Mahoney Meats </span> – Your One-stop Meat Supplier
             </h1>
 
             <p class="welcome-info">We supply meat to both the catering trade foodservice sector and the general public.</p>
@@ -31,7 +31,7 @@ Home | O'Mahoney Meats Ltd.
             <div class="product-item product-item-3">
                 <i class="far fa-pig"></i>
                 <h2 class="product-item-name">
-                    Port &amp; Bacon
+                    Pork &amp; Bacon
                 </h2>
             </div>
             <div class="product-item product-item-4">
@@ -52,9 +52,9 @@ Home | O'Mahoney Meats Ltd.
                     Eggs
                 </h2>
             </div>
-
         </div>
     </div>
+    
 @endsection
 
 @section('scripts')

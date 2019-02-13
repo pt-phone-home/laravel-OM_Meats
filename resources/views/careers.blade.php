@@ -5,7 +5,13 @@ Careers | O'Mahoney Meats Ltd.
 @endsection
 
 @section('content')
-    Careers
+    <div class="careers-header-container">
+        <div class="careers-header">
+            <h1 class="careers-header-heading">
+                Work with O'Mahoney Meats
+            </h1>
+        </div>
+    </div>
 @endsection
 
 @section('scripts')

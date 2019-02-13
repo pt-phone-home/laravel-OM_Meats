@@ -46,14 +46,38 @@
         </div>
         <div class="bottomheader">
 
-            <div class="bottomheader-img bottomheader-img-1">
-                <img src="https://via.placeholder.com/300" alt="">
+            <div class="bottomheader-img-container slide">
+                 <div class="bottomheader-img bottomheader-img-1">
+                    <img src="/images/gallery1.jpg" alt="">
+                </div>
+                <div class="bottomheader-img bottomheader-img-2">
+                    <img src="/images/gallery2.jpg" alt="">
+                </div>
+                <div class="bottomheader-img bottomheader-img-3">
+                    <img src="/images/gallery3.jpg" alt="">
+                </div>
             </div>
-            <div class="bottomheader-img bottomheader-img-2">
-                <img src="https://via.placeholder.com/300" alt="">
+            <div class="bottomheader-img-container slide">
+                 <div class="bottomheader-img bottomheader-img-1">
+                    <img src="/images/gallery4.jpg" alt="">
+                </div>
+                <div class="bottomheader-img bottomheader-img-2">
+                    <img src="/images/gallery5.jpg" alt="">
+                </div>
+                <div class="bottomheader-img bottomheader-img-3">
+                    <img src="/images/gallery6.jpg" alt="">
+                </div>
             </div>
-            <div class="bottomheader-img bottomheader-img-3">
-                <img src="https://via.placeholder.com/300" alt="">
+            <div class="bottomheader-img-container slide">
+                 <div class="bottomheader-img bottomheader-img-1">
+                    <img src="/images/gallery7.jpg" alt="">
+                </div>
+                <div class="bottomheader-img bottomheader-img-2">
+                    <img src="/images/gallery8.jpg" alt="">
+                </div>
+                <div class="bottomheader-img bottomheader-img-3">
+                    <img src="/images/gallery9.jpg" alt="">
+                </div>
             </div>
 
         </div>

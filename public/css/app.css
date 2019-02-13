@@ -210,14 +210,27 @@ body {
   background: white;
   z-index: 2;
   display: grid;
+}
+
+.bottomheader .bottomheader-img-container {
+  align-self: center;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.bottomheader-img {
+.bottomheader .bottomheader-img-container .bottomheader-img {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  justify-self: center;
+  margin-right: 2rem;
+  margin-left: 2rem;
   align-self: center;
+}
+
+.bottomheader .bottomheader-img-container .bottomheader-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 25rem;
+  width: 100%;
 }
 
 .sidelogo-container {
@@ -254,6 +267,26 @@ body {
 
 .sidelogo-container .sidelogo-2 {
   background: #4b4f54;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .welcome-container {
@@ -973,6 +1006,84 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   width: 25rem;
+}
+
+.careers-header-container {
+  grid-column: 1/-1;
+  display: grid;
+  background: #f8f8f8;
+}
+
+.careers-header-container .careers-header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-self: center;
+  width: 80%;
+  background: url("/images/uniform.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  position: relative;
+}
+
+.careers-header-container .careers-header-heading {
+  font-size: 4rem;
+  color: #f8f8f8;
+  position: absolute;
+  bottom: 0;
+  left: 25rem;
+  background: #76232f;
+  padding: 0rem 2rem;
+}
+
+.values-container {
+  grid-column: 1/-1;
+  background: #f8f8f8;
+  display: grid;
+}
+
+.values-container .values {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-self: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.values-container .values-img {
+  justify-self: center;
+  align-self: center;
+  display: grid;
+}
+
+.values-container .values-img img {
+  justify-self: center;
+  align-self: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 25rem;
+  width: 100%;
+}
+
+.values-container .values-img-heading {
+  justify-self: center;
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  color: #f8f8f8;
+  background: #76232f;
+  padding: 0 2rem;
+}
+
+.values-container .values-info {
+  justify-self: center;
+  align-self: start;
+}
+
+.values-container .values-info-heading {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
 }
 
 .fa,

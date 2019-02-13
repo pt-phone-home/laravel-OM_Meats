@@ -105,13 +105,26 @@
     z-index: 2;
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
 
-    &-img {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        justify-self: center;
+    .bottomheader-img-container {
         align-self: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        // animation: fade-in 4s ease;
+
+        .bottomheader-img {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-right: 2rem;
+            margin-left: 2rem;
+            align-self: center;
+
+            img {
+                object-fit: cover;
+                height: 25rem;
+                width: 100%;
+            }
+        }
     }
 }
 
@@ -152,5 +165,17 @@
         &-2 {
             background: $secondary;
         }
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        // transform: translateX(10rem);
+        opacity: 0;
+    }
+
+    100% {
+        // transform: translateX(0rem);
+        opacity: 1;
     }
 }

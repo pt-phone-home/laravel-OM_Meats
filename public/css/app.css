@@ -212,6 +212,11 @@ body {
   display: grid;
 }
 
+.bottomheader .bottomheader-img-container-2,
+.bottomheader .bottomheader-img-container-3 {
+  visibility: hidden;
+}
+
 .bottomheader .bottomheader-img-container {
   margin-right: 2rem;
   margin-left: 2rem;

@@ -57,7 +57,7 @@
                     <img src="/images/gallery3.jpg" alt="">
                 </div>
             </div>
-            <div class="bottomheader-img-container slide">
+            <div class="bottomheader-img-container bottomheader-img-container-2 slide">
                  <div class="bottomheader-img bottomheader-img-1">
                     <img src="/images/gallery4.jpg" alt="">
                 </div>
@@ -68,7 +68,7 @@
                     <img src="/images/gallery6.jpg" alt="">
                 </div>
             </div>
-            <div class="bottomheader-img-container slide">
+            <div class="bottomheader-img-container bottomheader-img-container-3 slide">
                  <div class="bottomheader-img bottomheader-img-1">
                     <img src="/images/gallery7.jpg" alt="">
                 </div>

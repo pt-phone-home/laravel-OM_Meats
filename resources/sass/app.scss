@@ -13,5 +13,12 @@
 @import "_contact";
 @import "_wholesale";
 
+$fa-font-path: "../webfonts";
+
 // Font Awesome
-@import "/node_modules/@fontawesome/fontawesome-pro/css/all.css";
+@import "~@fortawesome/fontawesome-pro/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-pro/scss/solid.scss";
+@import "~@fortawesome/fontawesome-pro/scss/regular.scss";
+@import "~@fortawesome/fontawesome-pro/scss/light.scss";
+@import "~@fortawesome/fontawesome-pro/scss/brands.scss";
+@import "~@fortawesome/fontawesome-pro/scss/v4-shims.scss";

@@ -7,7 +7,7 @@ About | O'Mahoney Meats Ltd.
 @section('content')
     <div class="about-us-header-container">
         <div class="about-us-header">
-            <h1 class="about-us-header-heading">About Us</h1>
+            <h1 class="about-us-header-heading">About O'Mahoney Meats</h1>
         </div>
     </div>
 

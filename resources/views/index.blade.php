@@ -17,37 +17,37 @@ Home | O'Mahoney Meats Ltd.
     <div class="products-container">
         <div class="product">
             <div class="product-item product-item-1">
-                <i class="fas fa-cow"></i>
+                <i class="far fa-cow"></i>
                 <h2 class="product-item-name">
                     Beef
                 </h2>
             </div>
             <div class="product-item product-item-2">
-                <i class="fas fa-hamburger"></i>
+                <i class="far fa-sheep"></i>
                 <h2 class="product-item-name">
                     Lamb
                 </h2>
             </div>
             <div class="product-item product-item-3">
-                <i class="fas fa-hamburger"></i>
+                <i class="far fa-pig"></i>
                 <h2 class="product-item-name">
                     Port &amp; Bacon
                 </h2>
             </div>
             <div class="product-item product-item-4">
-                <i class="fas fa-hamburger"></i>
+                <i class="far fa-kiwi-bird"></i>
                 <h2 class="product-item-name">
                     Poultry
                 </h2>
             </div>
             <div class="product-item product-item-5">
-                <i class="fas fa-hamburger"></i>
+                <i class="far fa-steak"></i>
                 <h2 class="product-item-name">
                     Cooked Meats
                 </h2>
             </div>
             <div class="product-item product-item-6">
-                <i class="fas fa-hamburger"></i>
+                <i class="far fa-egg"></i>
                 <h2 class="product-item-name">
                     Eggs
                 </h2>

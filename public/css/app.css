@@ -213,9 +213,23 @@ body {
 }
 
 .bottomheader .bottomheader-img-container {
+  margin-right: 2rem;
+  margin-left: 2rem;
   align-self: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 950px) {
+  .bottomheader .bottomheader-img-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 950px) {
+  .bottomheader .bottomheader-img-container .bottomheader-img-3 {
+    display: none;
+  }
 }
 
 .bottomheader .bottomheader-img-container .bottomheader-img {

@@ -107,10 +107,22 @@
     display: grid;
 
     .bottomheader-img-container {
+        margin-right: 2rem;
+        margin-left: 2rem;
         align-self: center;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         // animation: fade-in 4s ease;
+
+        @media (max-width: 950px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .bottomheader-img-3 {
+            @media (max-width: 950px) {
+                display: none;
+            }
+        }
 
         .bottomheader-img {
             margin-top: 2rem;

@@ -1,0 +1,51 @@
+.retail-title-container {
+    grid-column: 1 / -1;
+    background: $grey1;
+    display: grid;
+
+    .retail-title {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        justify-self: center;
+        width: 80%;
+
+        display: grid;
+
+        &-heading {
+            text-align: center;
+            font-size: 4rem;
+            color: $primary;
+        }
+    }
+}
+
+.retail-image-container {
+    grid-column: 1 / -1;
+    background: $grey1;
+    display: grid;
+
+    .retail-image {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        justify-self: center;
+        width: 80%;
+        display: grid;
+        position: relative;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 35rem;
+            object-position: left top;
+        }
+
+        &-title {
+            position: absolute;
+            bottom: 0;
+            left: 18rem;
+            color: $grey1;
+            background: $primary;
+            padding: 1rem 2rem;
+        }
+    }
+}

@@ -113,7 +113,6 @@ body {
   grid-column: 1/-1;
   display: grid;
   grid-template-columns: 15rem 1fr 1fr;
-  overflow: hidden;
 }
 
 .topheader {
@@ -208,24 +207,18 @@ body {
 .bottomheader {
   margin-top: -5px;
   grid-column: 2/4;
+  height: 29rem;
   background: white;
   z-index: 2;
   overflow: hidden;
   display: grid;
 }
 
-.bottomheader .bottomheader-img-container-2,
-.bottomheader .bottomheader-img-container-3 {
-  display: none;
-}
-
 .bottomheader .bottomheader-img-container {
   margin-right: 2rem;
   margin-left: 2rem;
-  align-self: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  overflow: hidden;
 }
 
 @media (max-width: 950px) {

@@ -68,39 +68,33 @@
 }
 
 .products-container {
-    grid-column: 1 / -1;
-    background: $grey3;
-    display: grid;
+    @include row;
 
-    .product {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        justify-self: center;
-        width: 80%;
-
+    .products {
+        @include rowinset(80%);
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 1rem;
+        grid-column-gap: 2rem;
 
         &-item {
-            // margin-top: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: $box-shadow-light;
-            border: 3px solid $primary;
-            background: $grey2;
             display: grid;
-            i {
-                margin-top: 2rem;
-                margin-bottom: 2rem;
-                font-size: 8rem;
-                color: $primary;
+            &-title {
                 justify-self: center;
+                text-align: center;
+                width: 35rem;
+                height: 5rem;
+                padding-top: 0.5rem;
+                border-radius: 20px 20px 0px 0px;
             }
 
-            &-name {
-                font-size: 3rem;
-                text-align: center;
-                margin-bottom: 2rem;
+            &-img {
+                justify-self: center;
+
+                img {
+                    object-fit: cover;
+                    height: 20rem;
+                    width: 35rem;
+                }
             }
         }
     }

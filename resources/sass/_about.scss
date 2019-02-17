@@ -1,6 +1,5 @@
 .about-us-header-container {
     grid-column: 1 / -1;
-    background: $grey1;
     display: grid;
 
     .about-us-header {
@@ -8,97 +7,100 @@
         width: 80%;
 
         &-heading {
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            color: $primary;
-            font-size: 4rem;
             text-align: center;
         }
     }
 }
 
-.about-us-container {
-    grid-column: 1 / -1;
-    background: $grey1;
-    display: grid;
+.about-us-quote-container {
+    @include row;
 
-    .about-us {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        justify-self: center;
-        width: 80%;
+    .about-us-quote {
+        @include rowinset(70%);
 
-        display: grid;
-        grid-row-gap: 1rem;
-
-        &-item {
-            grid-column: 1 / -1;
-
-            display: grid;
-            grid-template-columns: 1fr 3fr;
-
-            &-img {
-                // background: $primary;
-                display: grid;
-                img {
-                    // object-fit: cover;
-                    // object-position: center;
-                    // height: 100%;
-                    // max-width: 100%;
-                    margin-top: 1rem;
-                    margin-bottom: 1rem;
-                    justify-self: center;
-                    align-self: center;
-                    width: 28rem;
-                    height: 25rem;
-                    border: 5px solid $primary;
-                    padding: 5px;
-                }
-
-                i {
-                    color: $grey1;
-                    font-size: 10rem;
-                }
-            }
-
-            &-content {
-                justify-self: center;
-                align-self: center;
-
-                p {
-                    margin: 2rem;
-                    font-size: 1.7rem;
-                }
-            }
+        &-text {
+            text-align: center;
         }
     }
 }
-.about-us-container-2 {
-    grid-column: 1 / -1;
-    display: grid;
-    background: $grey3;
-    .about-us-strength {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        justify-self: center;
-        width: 80%;
+
+.about-us-1-title-container {
+    @include row;
+
+    .about-us-1-title {
+        @include rowinset(80%);
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        &-heading {
+            grid-column: 2 / 3;
+            text-align: center;
+            border-radius: 20px 20px 0px 0px;
+        }
+    }
+}
+
+.about-us-1-container {
+    @include row;
+
+    .about-us-1 {
+        @include rowinset(80%);
 
         display: grid;
         grid-template-columns: 1fr 3fr;
 
-        &-heading {
-            grid-column: 1 / -1;
+        &-img {
             justify-self: center;
             align-self: center;
-            text-align: center;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            font-size: 4rem;
 
-            span {
-                font-weight: bolder;
-                text-transform: uppercase;
-                letter-spacing: 3px;
+            img {
+                object-fit: cover;
+                height: 30rem;
+                width: 40rem;
+                box-shadow: $box-shadow;
+            }
+        }
+
+        &-info {
+            justify-self: center;
+            align-self: center;
+            line-height: 2.2rem;
+        }
+    }
+}
+
+.about-us-2-title-container {
+    @include row;
+
+    .about-us-2-title {
+        @include rowinset(80%);
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        &-heading {
+            grid-column: 2 / 3;
+            text-align: center;
+            border-radius: 20px 20px 0px 0px;
+        }
+    }
+}
+
+.about-us-2-container {
+    @include row;
+
+    .about-us-2 {
+        @include rowinset(80%);
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+
+        &-info {
+            justify-self: center;
+            align-self: center;
+
+            &-item {
+                line-height: 2.2rem;
             }
         }
 
@@ -106,24 +108,58 @@
             justify-self: center;
             align-self: center;
 
-            i {
-                font-size: 15rem;
-                color: $secondary;
+            img {
+                object-fit: cover;
+                height: 30rem;
+                width: 40rem;
+                box-shadow: $box-shadow;
             }
         }
+    }
+}
 
-        &-content {
+.about-us-3-title-container {
+    @include row;
+
+    .about-us-3-title {
+        @include rowinset(80%);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        &-heading {
+            text-align: center;
+            grid-column: 2 / 3;
+            border-radius: 20px 20px 0px 0px;
+        }
+    }
+}
+
+.about-us-3-container {
+    @include row;
+
+    .about-us-3 {
+        @include rowinset(80%);
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+        &-img {
             justify-self: center;
             align-self: center;
 
-            p {
-                margin: 2rem;
-                font-size: 1.7rem;
+            img {
+                object-fit: cover;
+                height: 30rem;
+                width: 40rem;
+                box-shadow: $box-shadow;
+            }
+        }
 
-                span {
-                    color: $primary;
-                    font-weight: bold;
-                }
+        &-info {
+            justify-self: center;
+            align-self: center;
+
+            &-item {
+                line-height: 2.2rem;
             }
         }
     }

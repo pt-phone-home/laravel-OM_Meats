@@ -29,44 +29,58 @@ Home | O'Mahony Meats Ltd.
         </div>
 
     </div>
-    <div class="products-container">
-        <div class="product">
-            <div class="product-item product-item-1">
-                <i class="far fa-cow"></i>
-                <h2 class="product-item-name">
+    <div class="products-container bg-g3">
+        <div class="products my-m">
+            <div class="products-item products-item-1 my-l">
+                <h2 class="products-item-title c-g1 bg-p fs-l">
                     Beef
                 </h2>
+                <div class="products-item-img">
+                    <img src="/images/gallery9.jpg" alt="">
+                </div>
             </div>
-            <div class="product-item product-item-2">
-                <i class="far fa-sheep"></i>
-                <h2 class="product-item-name">
+            <div class="products-item products-item-2 my-l">
+                <h2 class="products-item-title c-g1 bg-p fs-l">
                     Lamb
                 </h2>
+                <div class="products-item-img">
+                    <img src="/images/gallery4.jpg" alt="">
+                </div>
             </div>
-            <div class="product-item product-item-3">
-                <i class="far fa-pig"></i>
-                <h2 class="product-item-name">
+            <div class="products-item products-item-3 my-l">
+                <h2 class="products-item-title c-g1 bg-p fs-l">
                     Pork &amp; Bacon
                 </h2>
+                <div class="products-item-img">
+                    <img src="/images/gallery1.jpg" alt="">
+                </div>
             </div>
-            <div class="product-item product-item-4">
-                <i class="far fa-kiwi-bird"></i>
-                <h2 class="product-item-name">
+            <div class="products-item products-item-4 my-m">
+                <h2 class="products-item-title c-g1 bg-p fs-l">
                     Poultry
                 </h2>
+                <div class="products-item-img">
+                    <img src="/images/gallery3.jpg" alt="">
+                </div>
             </div>
-            <div class="product-item product-item-5">
-                <i class="far fa-steak"></i>
-                <h2 class="product-item-name">
+            <div class="products-item products-item-5 my-m">
+                <h2 class="products-item-title c-g1 bg-p fs-l">
                     Cooked Meats
                 </h2>
+                <div class="products-item-img">
+                    <img src="/images/gallery8.jpg" alt="">
+                </div>
             </div>
-            <div class="product-item product-item-6">
-                <i class="far fa-egg"></i>
-                <h2 class="product-item-name">
+            <div class="products-item products-item-6 my-m">
+                <h2 class="products-item-title c-g1 bg-p fs-l">
                     Eggs
                 </h2>
+                <div class="products-item-img">
+                    <img src="/images/gallery10.jpg" alt="">
+                </div>
             </div>
+            
+
         </div>
     </div>
     

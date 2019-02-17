@@ -61,6 +61,11 @@ body {
 
 // Margins
 
+.my-s {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .my-m {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -70,17 +75,41 @@ body {
     margin-bottom: 4rem;
 }
 
+.my-xl {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 // Padding
+
+.py-s {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 .py-m {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
+.px-m {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.px-l {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
 //Font Sizes
 
 .fs-s {
     font-size: 1.5rem;
+}
+
+.fs-sm {
+    font-size: 1.7rem;
 }
 
 .fs-m {
@@ -101,14 +130,25 @@ body {
     color: $primary;
 }
 
+.c-g1 {
+    color: $grey1;
+}
 // Backgrounds
 
 .bg-p {
     background: $primary;
 }
 
+.bg-s {
+    background: $secondary;
+}
+
 .bg-g1 {
     background: $grey1;
+}
+
+.bg-g2 {
+    background: $grey2;
 }
 .bg-g3 {
     background: $grey3;

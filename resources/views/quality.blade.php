@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-Quality | O'Mahoney Meats Ltd.
+Quality | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')

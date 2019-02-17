@@ -1,7 +1,7 @@
 <div class="main-header">
         <div class="topheader">
             <div class="topheader-slogan">
-                <h1 class="topheader-slogan-title">O'Mahoney Meats Ltd.</h1>
+                <h1 class="topheader-slogan-title">O'Mahony Meats Ltd.</h1>
                 <p class="topheader-slogan-tag">"Catering for Quality"</p>
             </div>
         <ul class="topheadernav">

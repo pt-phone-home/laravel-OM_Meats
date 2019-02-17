@@ -59,4 +59,68 @@ body {
     grid-template-columns: 7rem repeat(10, 1fr) 7rem;
 }
 
+// Margins
+
+.my-m {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.my-l {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+// Padding
+
+.py-m {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+//Font Sizes
+
+.fs-s {
+    font-size: 1.5rem;
+}
+
+.fs-m {
+    font-size: 2rem;
+}
+
+.fs-l {
+    font-size: 3rem;
+}
+
+.fs-xl {
+    font-size: 4rem;
+}
+
+// colors
+
+.c-p {
+    color: $primary;
+}
+
+// Backgrounds
+
+.bg-p {
+    background: $primary;
+}
+
+.bg-g1 {
+    background: $grey1;
+}
+.bg-g3 {
+    background: $grey3;
+}
+
 // mixins
+@mixin row {
+    grid-column: 1 / -1;
+    display: grid;
+}
+
+@mixin rowinset($width) {
+    justify-self: center;
+    width: $width;
+}

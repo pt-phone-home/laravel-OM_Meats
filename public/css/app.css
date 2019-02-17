@@ -92,6 +92,53 @@ body {
   grid-template-columns: 7rem repeat(10, 1fr) 7rem;
 }
 
+.my-m {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-l {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.py-m {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.fs-s {
+  font-size: 1.5rem;
+}
+
+.fs-m {
+  font-size: 2rem;
+}
+
+.fs-l {
+  font-size: 3rem;
+}
+
+.fs-xl {
+  font-size: 4rem;
+}
+
+.c-p {
+  color: #76232f;
+}
+
+.bg-p {
+  background: #76232f;
+}
+
+.bg-g1 {
+  background: #f8f8f8;
+}
+
+.bg-g3 {
+  background: #d3d3d3;
+}
+
 .btn {
   color: #f8f8f8;
   background-color: #00b279;
@@ -306,26 +353,27 @@ body {
 
 .welcome-container {
   grid-column: 1/-1;
-  background: #f8f8f8;
+  background: #76232f;
   display: grid;
 }
 
 .welcome-container .welcome {
-  margin-top: 2rem;
   justify-self: center;
   width: 80%;
   display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .welcome-container .welcome-heading {
   justify-self: center;
   align-self: center;
-  color: #4b4f54;
+  color: #f8f8f8;
 }
 
-.welcome-container .welcome-heading span {
-  color: #76232f;
-  border-bottom: 2px solid #76232f;
+.welcome-container .welcome-subheading {
+  justify-self: center;
+  align-self: center;
+  color: #f8f8f8;
 }
 
 .welcome-container .welcome-info {
@@ -337,9 +385,40 @@ body {
   font-size: 2rem;
 }
 
+.welcome-container .welcome-info-2 {
+  margin-bottom: 0rem;
+}
+
+.products-quote-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.products-quote-container .products-quote {
+  justify-self: center;
+  width: 80%;
+  margin-bottom: 7rem;
+}
+
+.products-quote-container .products-quote-text {
+  text-align: center;
+}
+
+.products-title {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.products-title-item {
+  grid-column: 2/3;
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
 .products-container {
   grid-column: 1/-1;
-  background: #f8f8f8;
+  background: #d3d3d3;
   display: grid;
 }
 
@@ -354,7 +433,6 @@ body {
 }
 
 .products-container .product-item {
-  margin-top: 2rem;
   margin-bottom: 2rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   border: 3px solid #76232f;

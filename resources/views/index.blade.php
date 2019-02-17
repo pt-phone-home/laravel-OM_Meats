@@ -1,18 +1,33 @@
 @extends('master')
 
 @section('title')
-Home | O'Mahoney Meats Ltd.
+Home | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
     <div class="welcome-container">
-        <div class="welcome">
-            <h1 class="welcome-heading">
-                Welcome to <span> O’Mahoney Meats </span> – Your One-stop Meat Supplier
+        <div class="welcome my-m">
+            <h1 class="welcome-heading fs-xl">
+                Welcome to O’Mahony Meats
             </h1>
 
-            <p class="welcome-info">We supply meat to both the catering trade foodservice sector and the general public.</p>
+            <h2 class="welcome-subheading fs-l">Your One-stop Meat Supplier</h2>
+
+            {{-- <p class="welcome-info">We supply meat to both the catering trade foodservice sector and the general public.</p>
+
+            <p class="welcome-info welcome-info-2">Our Product range includes:</p> --}}
         </div>
+    </div>
+    <div class="products-quote-container bg-g1">
+        <div class="products-quote my-l bg-g1">
+            <h3 class="products-quote-text fs-xl my-m c-p">"We supply meat to both the catering trade foodservice sector and the general public"</h3>
+        </div>
+    </div>
+    <div class="products-title bg-g1">
+        <div class="products-title-item c-p bg-g3  py-m fs-l">
+            Our products include:
+        </div>
+
     </div>
     <div class="products-container">
         <div class="product">

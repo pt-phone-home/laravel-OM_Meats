@@ -776,9 +776,99 @@ body {
   justify-self: center;
 }
 
+.quality-container-2 .quality-2-item .quality-card {
+  display: grid;
+  grid-template-columns: 3.5rem 45rem;
+  border: 3px solid #76232f;
+}
+
+.quality-container-2 .quality-2-item .quality-card-left {
+  height: 30rem;
+  display: grid;
+  grid-template-rows: 20rem 10rem;
+}
+
+.quality-container-2 .quality-2-item .quality-card-left-heading {
+  position: relative;
+}
+
+.quality-container-2 .quality-2-item .quality-card-left-heading h3 {
+  position: absolute;
+  top: 8rem;
+  left: -3.9rem;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.quality-container-2 .quality-2-item .quality-card-left-heading-2 {
+  position: relative;
+}
+
+.quality-container-2 .quality-2-item .quality-card-left-heading-2 h3 {
+  position: absolute;
+  top: 8rem;
+  left: -4.9rem;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.quality-container-2 .quality-2-item .quality-card-left-base {
+  display: grid;
+}
+
+.quality-container-2 .quality-2-item .quality-card-left-base i {
+  justify-self: center;
+  align-self: center;
+  font-size: 3rem;
+}
+
+.quality-container-2 .quality-2-item .quality-card-right-header {
+  display: grid;
+  position: relative;
+}
+
+.quality-container-2 .quality-2-item .quality-card-right-header i {
+  margin-top: 1rem;
+  justify-self: center;
+  font-size: 7rem;
+  opacity: 0.3;
+}
+
+.quality-container-2 .quality-2-item .quality-card-right-header-heading {
+  position: absolute;
+  justify-self: center;
+  -webkit-transform: translateY(4rem);
+          transform: translateY(4rem);
+  z-index: 5;
+}
+
+.quality-container-2 .quality-2-item .quality-card-right-header-info {
+  justify-self: center;
+  align-self: center;
+}
+
+.accreditation-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.accreditation-container .accreditation {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.accreditation-container .accreditation img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 30rem;
+  width: 30rem;
+}
+
 .contact-title-container {
   grid-column: 1/-1;
-  background: #f8f8f8;
+  background: #76232f;
   display: grid;
 }
 
@@ -790,8 +880,8 @@ body {
 }
 
 .contact-title-container .contact-title-heading {
-  font-size: 4rem;
   text-align: center;
+  color: #f8f8f8;
 }
 
 .contact-container {

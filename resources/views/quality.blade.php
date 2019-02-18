@@ -44,15 +44,56 @@ Quality | O'Mahony Meats Ltd.
             </div>
         </div>
     </div>
-    <div class="quality-container quality-container-2">
+    <div class="quality-container quality-container-2 bg-g1">
         <div class="quality quality-2">
-            <div class="quality-2-item quality-2-item-1">
-                Testing
+            <div class="quality-2-item quality-2-item-1 my-l">
+                <div class="quality-card my-m">
+                    <div class="quality-card-left bg-p">
+                        <div class="quality-card-left-heading bg-p c-g1"> <h3 class="fs-m">Traceability</h3></div>
+                        <div class="quality-card-left-base bg-s"><i class="fas fa-globe-europe c-g1"></i></div>
+                    </div>
+
+                    <div class="quality-card-right px-m">
+                        <div class="quality-card-right-header">
+                            <i class="fas fa-globe-europe"></i>
+                            <h2 class="quality-card-right-header-heading c-p fs-l">Traceability</h2>
+                        </div>
+                        <div class="quality-card-right-info">
+                            <p class="quality-card-right-info-item my-s">All products sold at O’Mahony Meats have a unique batch code which ensures that they are fully traceable right through the production process to the approved source.</p>
+                            <p class="quality-card-right-info-item my-s">Our traceability system is routinely tested by our independent food hygiene consultant. This involves tracing products right back to the approved processing plants and farms of origin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="quality-2-item quality-2-item-2">
-                Testing
+            <div class="quality-2-item quality-2-item-2 my-l">
+                <div class="quality-card my-m">
+                    <div class="quality-card-left bg-p">
+                        <div class="quality-card-left-heading quality-card-left-heading-2 bg-p c-g1"> <h3 class="fs-m">Accreditation</h3></div>
+                        <div class="quality-card-left-base bg-s"><i class="fas fa-stamp c-g1"></i></div>
+                    </div>
+
+                    <div class="quality-card-right px-m">
+                        <div class="quality-card-right-header">
+                            <i class="fas fa-stamp"></i>
+                            <h2 class="quality-card-right-header-heading c-p fs-l">Accreditation</h2>
+                        </div>
+                        <div class="quality-card-right-info">
+                            <p class="quality-card-right-info-item my-s">O’Mahony Meats are accredited to Excellence Standard Ireland Quality Association.</p>
+                            <p class="quality-card-right-info-item my-s">The Q mark for hygiene and food safety is a business excellence standard which reviews all aspects of a company’s performances and commitment to hygiene and food safety on an annual basis. It is recognised by the FSAI (Food Safety Authority of Ireland) and Safe Food. The standard has been endorsed by the EOQ (European Organisation for Quality) and involves an annual unannounced inspection of our premises and quality records.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+    <div class="accreditation-container bg-g1">
+        <div class="accreditation my-m bg-g1">
+            <img src="/images/craft.jpg" alt="">
+            <img src="/images/eiqa.jpg" alt="">
+            <img src="/images/hacp.png" alt="">
         </div>
     </div>
 

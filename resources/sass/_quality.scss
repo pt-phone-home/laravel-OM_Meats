@@ -76,6 +76,95 @@
 
         &-item {
             justify-self: center;
+
+            .quality-card {
+                display: grid;
+                grid-template-columns: 3.5rem 45rem;
+                border: 3px solid $primary;
+
+                &-left {
+                    height: 30rem;
+                    display: grid;
+                    grid-template-rows: 20rem 10rem;
+
+                    &-heading {
+                        position: relative;
+
+                        h3 {
+                            position: absolute;
+                            top: 8rem;
+                            left: -3.9rem;
+                            transform: rotate(-90deg);
+                        }
+                    }
+
+                    &-heading-2 {
+                        position: relative;
+
+                        h3 {
+                            position: absolute;
+                            top: 8rem;
+                            left: -4.9rem;
+                            transform: rotate(-90deg);
+                        }
+                    }
+
+                    &-base {
+                        display: grid;
+
+                        i {
+                            justify-self: center;
+                            align-self: center;
+                            font-size: 3rem;
+                        }
+                    }
+                }
+
+                &-right {
+                    &-header {
+                        display: grid;
+                        position: relative;
+
+                        i {
+                            margin-top: 1rem;
+                            justify-self: center;
+                            font-size: 7rem;
+                            opacity: 0.3;
+                        }
+
+                        &-heading {
+                            position: absolute;
+                            justify-self: center;
+                            transform: translateY(4rem);
+                            // top: 6rem;
+                            // left: 6rem;
+                            z-index: 5;
+                        }
+
+                        &-info {
+                            justify-self: center;
+                            align-self: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.accreditation-container {
+    @include row;
+
+    .accreditation {
+        @include rowinset(80%);
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        img {
+            object-fit: cover;
+            height: 30rem;
+            width: 30rem;
         }
     }
 }

@@ -11,15 +11,15 @@ About | O'Mahony Meats Ltd.
         </div>
     </div>
 
-    <div class="about-us-quote-container bg-g2">
-        <div class="about-us-quote my-xl bg-g2">
+    <div class="about-us-quote-container bg-g1">
+        <div class="about-us-quote my-xl bg-g1">
             <div class="about-us-quote-text fs-l c-p">
                 "For the past 50 years, O’Mahony Meats has gone from <strong>strength</strong> to <strong>strength</strong>. It is a thriving wholesale and retail business enjoying a great reputation as one of the main meat wholesalers in the greater Dublin area"
             </div>
         </div>
     </div>
 
-    <div class="about-us-1-title-container bg-g2">
+    <div class="about-us-1-title-container bg-g1">
         <div class="about-us-1-title">
             <h1 class="about-us-1-title-heading c-g1 bg-p py-m">
                 In the beginning

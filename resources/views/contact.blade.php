@@ -7,13 +7,13 @@ Contact | O'Mahoney Meats Ltd.
 @section('content')
     <div class="contact-title-container">
         <div class="contact-title">
-            <h1 class="contact-title-heading">
+            <h1 class="contact-title-heading my-m fs-xl">
                 Contact Us
             </h1>
         </div>
     </div>
     <div class="contact-container">
-        <div class="contact">
+        <div class="contact my-m">
 
             <div class="contact-phone">
                 <p><i class="fas fa-phone-volume"></i> Call us at our office on: 01-8476000</p>

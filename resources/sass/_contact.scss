@@ -1,6 +1,6 @@
 .contact-title-container {
     grid-column: 1 / -1;
-    background: $grey1;
+    background: $primary;
     display: grid;
 
     .contact-title {
@@ -10,8 +10,9 @@
         width: 80%;
 
         &-heading {
-            font-size: 4rem;
+            // font-size: 4rem;
             text-align: center;
+            color: $grey1;
         }
     }
 }

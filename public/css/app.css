@@ -303,8 +303,8 @@ body {
 }
 
 .bottomheader .bottomheader-img-container {
-  margin-right: 2rem;
-  margin-left: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -448,7 +448,7 @@ body {
 .products-title {
   grid-column: 1/-1;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1.5fr 1fr;
 }
 
 .products-title-item {
@@ -545,7 +545,7 @@ body {
   justify-self: center;
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1.5fr 1fr;
 }
 
 .about-us-1-title-container .about-us-1-title-heading {
@@ -594,7 +594,7 @@ body {
   justify-self: center;
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1.5fr 1fr;
 }
 
 .about-us-2-title-container .about-us-2-title-heading {
@@ -646,7 +646,7 @@ body {
   justify-self: center;
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1.5fr 1fr;
 }
 
 .about-us-3-title-container .about-us-3-title-heading {
@@ -692,7 +692,6 @@ body {
 .quality-heading-container {
   grid-column: 1/-1;
   display: grid;
-  background: #f8f8f8;
 }
 
 .quality-heading-container .quality-heading {
@@ -703,116 +702,78 @@ body {
 }
 
 .quality-heading-container .quality-heading-heading {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   justify-self: center;
   text-align: center;
 }
 
 .quality-heading-container .quality-heading-heading span {
-  color: #76232f;
-  border-bottom: 4px solid #76232f;
+  border-bottom: 4px solid #f8f8f8;
 }
 
-.logos-container {
+.quality-quote-container {
   grid-column: 1/-1;
   display: grid;
-  background: #f8f8f8;
 }
 
-.logos-container .logos {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+.quality-quote-container .quality-quote {
   justify-self: center;
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
 }
 
-.logos-container .logos-item {
+.quality-quote-container .quality-quote-item {
   justify-self: center;
-}
-
-.quality-info-container {
-  grid-column: 1/-1;
-  display: grid;
-  background: #e8e8e8;
-}
-
-.quality-info-container .quality-info {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  justify-self: center;
-  width: 80%;
-}
-
-.quality-info-container .quality-info-heading {
-  margin-top: 2rem;
-  margin-bottom: 3rem;
   text-align: center;
-  text-justify: newspaper;
 }
 
-.quality-info-container .quality-info-details {
-  padding: 1rem 3rem;
-}
-
-.quality-info-container .quality-info-details-item {
-  margin-bottom: 1.5rem;
-}
-
-.quality-info-container .quality-info-details-item i {
-  margin-right: 2rem;
-}
-
-.quality-trace-container {
+.quality-title-container {
   grid-column: 1/-1;
-  background: #4b4f54;
   display: grid;
 }
 
-.quality-trace-container .quality-trace {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.quality-title-container .quality-title {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.quality-title-container .quality-title-item {
+  grid-column: 2/3;
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.quality-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.quality-container .quality {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.quality-container .quality-item i {
+  margin-right: 2rem;
+  font-size: 3rem;
+}
+
+.quality-container-2 {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.quality-container-2 .quality-2 {
   justify-self: center;
   width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1rem;
 }
 
-.quality-trace-container .quality-trace-item {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 0rem 2rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to top right, #f8f8f8, 50%, #d3d3d3);
-  display: grid;
-  border: 6px solid #76232f;
-}
-
-.quality-trace-container .quality-trace-item-heading {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: 3rem;
-  color: #76232f;
-  text-align: center;
-}
-
-.quality-trace-container .quality-trace-item i {
+.quality-container-2 .quality-2-item {
   justify-self: center;
-  font-size: 8rem;
-  color: #76232f;
-  margin-bottom: 2rem;
-}
-
-.quality-trace-container .quality-trace-item-info {
-  justify-self: center;
-}
-
-.quality-trace-container .quality-trace-item-info p {
-  margin-bottom: 2rem;
-  padding: 0rem 2rem;
 }
 
 .contact-title-container {

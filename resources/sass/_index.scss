@@ -58,7 +58,8 @@
 
 .products-title {
     @include row();
-    grid-template-columns: repeat(3, 1fr);
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1.5fr 1fr;
 
     &-item {
         grid-column: 2 / 3;

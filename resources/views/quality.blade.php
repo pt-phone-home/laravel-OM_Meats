@@ -5,84 +5,58 @@ Quality | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
-    <div class="quality-heading-container">
-        <div class="quality-heading">
-            <h1 class="quality-heading-heading">We Focus on <span>Quality</span></h1>
+    <div class="quality-heading-container bg-p">
+        <div class="quality-heading my-m">
+            <h1 class="quality-heading-heading c-g1 fs-xl my-m">We Focus on <span>Quality</span></h1>
         </div>
     </div>
 
-    <div class="logos-container">
-        <div class="logos">
-            <div class="logos-item logo-item-1">
-                <img src="https://via.placeholder.com/200" alt="">
+    <div class="quality-quote-container bg-g1">
+        <div class="quality-quote my-l">
+            <div class="quality-quote-item c-p fs-l my-m">
+                “At O’Mahony Meats we are committed to selling high quality locally sourced products where possible. All our products meet the most current food safety regulations so you can be confident you are buying the best locally sourced quality meat”
             </div>
-            <div class="logos-item logo-item-2">
-                <img src="https://via.placeholder.com/200" alt="">
-            </div>
-            <div class="logos-item logo-item-3">
-                <img src="https://via.placeholder.com/200" alt="">
-            </div>
-            <div class="logos-item logo-item-4">
-                <img src="https://via.placeholder.com/200" alt="">
-            </div>
-
         </div>
     </div>
 
-    <div class="quality-info-container">
-        <div class="quality-info">
-            <h2 class="quality-info-heading">
-                "At O’Mahony Meats we are committed to selling high quality locally sourced products where possible. All our products meet the most current food safety regulations so you can be confident you are buying the best locally sourced quality meat"
+    <div class="quality-title-container quality-title-1-container bg-g1">
+        <div class="quality-title qulaity-title-1">
+            <h2 class="quality-title-item quality-title-item-1 bg-s py-m c-g1 fs-l">
+                Our Quality Commitment
             </h2>
-            <div class="quality-info-details">
-                <p class="quality-info-details-item"><i class="fas fa-check"></i>Implementation and maintenance of the HACCP Food Safety Management System
-                </p>
-                <p class="quality-info-details-item"><i class="fas fa-check"></i>An annual independent audit of our premises by Excellence Ireland Quality Association (EIQA)
+        </div>
+    </div>
+    <div class="quality-container quality-container-1 bg-s">
+        <div class="quality quality-1 my-l">
+            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Implementation and maintenance of the HACCP Food Safety Management System</p>
+            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>An annual independent audit of our premises by Excellence Ireland Quality Association (EIQA)</p>
+            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Maintenance and regular updating of Food Hygiene systems in place</p>
+            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Training of all our staff in Food Hygiene procedures</p>
+            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Quality control checks at all stages of our operation, including routine microbiological testing of all products</p>
+            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Regular unannounced audits of our production plant and practices</p>
+        </div>
+    </div>
 
-                </p>
-                <p class="quality-info-details-item"><i class="fas fa-check"></i>Maintenance and regular updating of Food Hygiene systems in place,
-
-                </p>
-                <p class="quality-info-details-item"><i class="fas fa-check"></i>Training of all our staff in Food Hygiene procedures,  
-
-                </p>
-                <p class="quality-info-details-item"><i class="fas fa-check"></i>Quality control checks at all stages of our operation, including routine microbiological testing of all products,
-
-                </p>
-                <p class="quality-info-details-item"><i class="fas fa-check"></i>Regular unannounced audits of our production plant and practices.
-
-                </p>
+    <div class="quality-title-container quality-title-container-2 bg-s">
+        <div class="quality-title quality-title-2">
+            <div class="quality-title-item quality-title-item-2 bg-g1 py-m fs-l">
+                Demonstrating Quality
             </div>
         </div>
     </div>
-    <div class="quality-trace-container">
-        <div class="quality-trace">
-            <div class="quality-trace-item quality-trace-item-1">
-                <h2 class="quality-trace-item-heading">
-                    Traceability
-                </h2>
-                <i class="fas fa-globe-europe"></i>
-                <div class="quality-trace-item-info">
-                    <p>All products sold at O’Mahony Meats have a unique batch code which ensures that they are fully traceable right through the production process to the approved source.
-                    </p>
-                    <p>Our traceability system is routinely tested by our independent food hygiene consultant. This involves tracing products right back to the approved processing plants and farms of origin.
-                    </p>
-                </div>
+    <div class="quality-container quality-container-2">
+        <div class="quality quality-2">
+            <div class="quality-2-item quality-2-item-1">
+                Testing
             </div>
-            <div class="quality-trace-item quality-trace-item-2">
-                <h2 class="quality-trace-item-heading">
-                    Accreditation
-                </h2>
-                <i class="fas fa-stamp"></i>
-                <div class="quality-trace-item-info">
-                    <p>O’Mahony Meats are accredited to Excellence Standard Ireland Quality Association.
-                    </p>
-                    <p>The Q mark for hygiene and food safety is a business excellence standard which reviews all aspects of a company’s performances and commitment to hygiene and food safety on an annual basis. It is recognised by the FSAI (Food Safety Authority of Ireland) and Safe Food. The standard has been endorsed by the EOQ (European Organisation for Quality) and involves an annual unannounced inspection of our premises and quality records.
-                    </p>
-                </div>
+
+            <div class="quality-2-item quality-2-item-2">
+                Testing
             </div>
         </div>
     </div>
+
+    
 @endsection
 
 @section('scripts')

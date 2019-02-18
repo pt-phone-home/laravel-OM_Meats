@@ -108,8 +108,10 @@
     display: grid;
 
     .bottomheader-img-container {
-        margin-right: 2rem;
-        margin-left: 2rem;
+        // margin-right: 2rem;
+        // margin-left: 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         // animation: fade-in 4s ease;

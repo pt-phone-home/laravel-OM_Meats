@@ -5,27 +5,33 @@
 @endsection
 
 @section('content')
-<div class="products-title-container">
-    <div class="products-title">
-        <h1 class="products-title-heading">
+<div class="products-header-container bg-p">
+    <div class="products-header my-m">
+        <h1 class="products-header-heading my-m fs-xl c-g1">
             Products
         </h1>
     </div>
 </div>
 <div class="products-info-container">
-    <div class="products-info">
-        <p class="products-info-headline">
+    <div class="products-info my-l">
+        <p class="products-info-headline my-l">
             Here at O'Mahony Meats we sell over 600 different products!
         </p>
-        <p class="products-info-item">
+        <p class="products-info-item fs-m c-p">
             Beef, Lamb, Pork, Bacon, Chicken &amp; Poultry - we can provide any cut or tailor any service you require.
-            Simply call the factory on 01-8476000 or Michael on 087-2576678
+            Simply call the factory on <strong>01-8476000</strong> or Michael on <strong>087-2576678</strong>
         </p>
-
     </div>
 </div>
-<div class="image-gallery-container">
-    <div class="image-gallery">
+<div class="image-gallery-title-container bg-g1">
+    <div class="image-gallery-title">
+        <div class="image-gallery-title-item bg-s py-m c-g1 fs-l">
+            Over 600 Products
+        </div>
+    </div>
+</div>
+<div class="image-gallery-container bg-s">
+    <div class="image-gallery bg-s my-xl">
         <img src="/images/gallery1.jpg" alt="">
         <img src="/images/gallery2.jpg" alt="">
         <img src="/images/gallery3.jpg" alt="">

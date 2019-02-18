@@ -1,7 +1,7 @@
 .wholesale-title-container {
     grid-column: 1 / -1;
     display: grid;
-    background: $grey1;
+    background: $primary;
 
     .wholesale-title {
         margin-top: 2rem;
@@ -17,14 +17,28 @@
         }
     }
 }
+
+.wholesale-quote-container {
+    @include row;
+
+    .wholesale-quote {
+        @include rowinset(80%);
+        display: grid;
+
+        &-item {
+            text-align: center;
+        }
+    }
+}
+
 .wholesale-banner-container {
     grid-column: 1 / -1;
     display: grid;
-    background: $grey1;
+    // background: $grey1;
 
     .wholesale-banner {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 8rem;
         justify-self: center;
         width: 80%;
 
@@ -39,45 +53,39 @@
         }
     }
 }
-.wholesale-info-header-container {
-    grid-column: 1 / -1;
-    display: grid;
-    background: $grey1;
+.wholesale-info-title-container {
+    @include row;
 
-    .wholesale-info-header {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        justify-self: center;
-        width: 80%;
-
+    .wholesale-info-title {
+        @include rowinset(80%);
         display: grid;
 
-        &-heading {
-            justify-self: center;
+        grid-template-columns: 1fr 1.5fr 1fr;
+
+        &-item {
+            grid-column: 2 / 3;
             text-align: center;
-            color: $primary;
-            font-size: 2.4rem;
+            border-radius: 20px 20px 0px 0px;
         }
     }
 }
-
 .wholesale-info-container {
     grid-column: 1 / -1;
     display: grid;
     background: $grey1;
 
     .wholesale-info {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        // margin-top: 2rem;
+        // margin-bottom: 2rem;
         justify-self: center;
-        width: 80%;
+        width: 70%;
 
         display: grid;
 
         &-item {
             margin-top: 1rem;
             margin-bottom: 1rem;
-            font-size: 1.7rem;
+            // font-size: 1.7rem;
             padding: 0rem 1rem;
         }
     }

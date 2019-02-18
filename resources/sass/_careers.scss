@@ -1,80 +1,57 @@
 .careers-header-container {
     grid-column: 1 / -1;
     display: grid;
-    background: $grey1;
 
     .careers-header {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        justify-self: center;
-        width: 80%;
-        background: url("/images/uniform.jpg");
-        background-position: center;
-        background-size: cover;
-        height: 20rem;
-        position: relative;
+        @include rowinset(80%);
+
+        display: grid;
 
         &-heading {
-            font-size: 4rem;
-            color: $grey1;
-            position: absolute;
-            bottom: 0;
-            left: 25rem;
-            background: $primary;
-            padding: 0rem 2rem;
+            text-align: center;
         }
     }
 }
-.values-container {
-    grid-column: 1 / -1;
-    background: $grey1;
-    display: grid;
 
-    .values {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        justify-self: center;
-        width: 80%;
+.careers-title-container {
+    @include row;
 
+    .careers-title {
+        @include rowinset(80%);
         display: grid;
-        grid-template-columns: 1fr 3fr;
 
-        &-img {
-            justify-self: center;
-            align-self: center;
-            display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
 
-            img {
-                justify-self: center;
-                align-self: center;
-                object-fit: cover;
-                height: 25rem;
-                width: 100%;
-            }
-
-            &-heading {
-                // position: absolute;
-                // bottom: 0.5rem;
-                // left: 7rem;
-                justify-self: center;
-                transform: translateY(-3rem);
-                color: $grey1;
-                background: $primary;
-                padding: 0 2rem;
-            }
+        &-item {
+            text-align: center;
+            grid-column: 2 / 3;
+            border-radius: 20px 20px 0px 0px;
         }
+    }
+}
 
-        &-info {
+.careers-container {
+    @include row;
+
+    .careers {
+        @include rowinset(80%);
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        &-item {
             justify-self: center;
-            align-self: start;
+            border: 3px solid $primary;
+            width: 35rem;
 
             &-heading {
                 margin-bottom: 2rem;
-                text-align: center;
-                font-size: 3rem;
+                margin-left: 1rem;
             }
 
-            &-item {
+            &-info {
+                margin-bottom: 1rem;
+                margin-left: 1rem;
             }
         }
     }

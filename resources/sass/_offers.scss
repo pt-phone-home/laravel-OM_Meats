@@ -1,0 +1,96 @@
+.offers-banner-container {
+    @include row;
+
+    .offers-banner {
+        @include rowinset(80%);
+        display: grid;
+
+        &-item {
+            justify-self: center;
+            text-align: center;
+        }
+    }
+}
+.latest-offer-container {
+    @include row;
+
+    .latest-offer {
+        @include rowinset(80%);
+        display: grid;
+
+        &-title {
+            justify-self: center;
+            align-self: center;
+        }
+
+        &-card {
+            justify-self: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: 3px solid $primary;
+
+            &-left {
+                grid-column: 1 / 2;
+                width: 30rem;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            &-right {
+                grid-column: 2 / 3;
+                width: 30rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            &-bottom {
+                grid-column: 1 / 3;
+                margin-top: -1rem;
+
+                &-item {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.offers-container {
+    @include row;
+
+    .offers {
+        @include rowinset(80%);
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .offers-card {
+            display: flex;
+            flex-direction: column;
+            width: 30rem;
+            border: 3px solid $primary;
+
+            &-img {
+                justify-self: center;
+                align-self: center;
+
+                img {
+                    object-fit: cover;
+                    width: 30rem;
+                    height: 25rem;
+                }
+            }
+
+            &-title {
+                margin-top: -0.5rem;
+            }
+        }
+    }
+}

@@ -122,6 +122,11 @@ body {
   padding-bottom: 2rem;
 }
 
+.px-s {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-m {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1364,6 +1369,111 @@ body {
 .careers-container .careers-item-info {
   margin-bottom: 1rem;
   margin-left: 1rem;
+}
+
+.offers-banner-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.offers-banner-container .offers-banner {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.offers-banner-container .offers-banner-item {
+  justify-self: center;
+  text-align: center;
+}
+
+.latest-offer-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.latest-offer-container .latest-offer {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.latest-offer-container .latest-offer-title {
+  justify-self: center;
+  align-self: center;
+}
+
+.latest-offer-container .latest-offer-card {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 3px solid #76232f;
+}
+
+.latest-offer-container .latest-offer-card-left {
+  grid-column: 1/2;
+  width: 30rem;
+}
+
+.latest-offer-container .latest-offer-card-left img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.latest-offer-container .latest-offer-card-right {
+  grid-column: 2/3;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.latest-offer-container .latest-offer-card-bottom {
+  grid-column: 1/3;
+  margin-top: -1rem;
+}
+
+.latest-offer-container .latest-offer-card-bottom-item {
+  text-align: center;
+}
+
+.offers-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.offers-container .offers {
+  justify-self: center;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.offers-container .offers .offers-card {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  border: 3px solid #76232f;
+}
+
+.offers-container .offers .offers-card-img {
+  justify-self: center;
+  align-self: center;
+}
+
+.offers-container .offers .offers-card-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30rem;
+  height: 25rem;
+}
+
+.offers-container .offers .offers-card-title {
+  margin-top: -0.5rem;
 }
 
 .fa,

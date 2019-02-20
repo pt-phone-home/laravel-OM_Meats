@@ -112,6 +112,18 @@ body {
   margin-bottom: 5rem;
 }
 
+.mt-s {
+  margin-top: 1rem;
+}
+
+.mt-m {
+  margin-top: 2rem;
+}
+
+.mb-s {
+  margin-bottom: 1rem;
+}
+
 .py-s {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -135,6 +147,10 @@ body {
 .px-l {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.fs-xs {
+  font-size: 1.3rem;
 }
 
 .fs-s {
@@ -1393,6 +1409,7 @@ body {
 }
 
 .latest-offer-container .latest-offer {
+  margin-top: 2rem;
   justify-self: center;
   width: 80%;
   display: grid;
@@ -1439,6 +1456,24 @@ body {
   text-align: center;
 }
 
+.offers-title-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.offers-title-container .offers-title {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.offers-title-container .offers-title-item {
+  grid-column: 2/3;
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
 .offers-container {
   grid-column: 1/-1;
   display: grid;
@@ -1448,7 +1483,7 @@ body {
   justify-self: center;
   width: 80%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -1458,6 +1493,7 @@ body {
   flex-direction: column;
   width: 30rem;
   border: 3px solid #76232f;
+  margin-right: 2rem;
 }
 
 .offers-container .offers .offers-card-img {
@@ -1474,6 +1510,212 @@ body {
 
 .offers-container .offers .offers-card-title {
   margin-top: -0.5rem;
+}
+
+.recipes-banner-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.recipes-banner-container .recipes-banner {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.recipes-banner-container .recipes-banner-item {
+  justify-self: center;
+  text-align: center;
+}
+
+.latest-recipe-title-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.latest-recipe-title-container .latest-recipe-title {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.latest-recipe-title-container .latest-recipe-title-item {
+  text-align: center;
+}
+
+.latest-recipe-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.latest-recipe-container .latest-recipe {
+  justify-self: center;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.latest-recipe-container .latest-recipe-card {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #76232f;
+}
+
+.latest-recipe-container .latest-recipe-card-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-recipe-container .latest-recipe-card-right img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30rem;
+  height: 100%;
+}
+
+.recipes-title-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.recipes-title-container .recipes-title {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.recipes-title-container .recipes-title-item {
+  text-align: center;
+  grid-column: 2/3;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.recipes-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.recipes-container .recipes {
+  justify-self: center;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recipes-container .recipes-card {
+  margin-right: 2rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #76232f;
+}
+
+.recipes-container .recipes-card-top {
+  height: 15rem;
+}
+
+.recipes-container .recipes-card-top img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.recipes-container .recipes-card-bottom {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-banner-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.news-banner-container .news-banner {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.news-banner-container .news-banner-item {
+  justify-self: center;
+  text-align: center;
+}
+
+.latest-news-title-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.latest-news-title-container .latest-news-title {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+}
+
+.latest-news-title-container .latest-news-title-item {
+  justify-self: center;
+  text-align: center;
+}
+
+.latest-news-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.latest-news-container .latest-news {
+  justify-self: center;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.latest-news-container .latest-news-card {
+  width: 70rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #76232f;
+}
+
+.latest-news-container .latest-news-card-left {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-news-container .latest-news-card-right {
+  width: 35rem;
+}
+
+.latest-news-container .latest-news-card-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.news-title-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.news-title-container .news-title {
+  justify-self: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.news-title-container .news-title-item {
+  grid-column: 2/3;
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .fa,

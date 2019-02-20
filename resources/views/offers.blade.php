@@ -15,14 +15,14 @@
 </div>
 
 <div class="latest-offer-container bg-g2">
-    <div class="latest-offer">
-        <div class="latest-offer-title my-m">
+    <div class="latest-offer my-m">
+        <div class="latest-offer-title">
             <div class="latest-offer-title-item fs-l c-p">
                 Latest Offer
             </div>
         </div>
 
-        <div class="latest-offer-card my-l">
+        <div class="latest-offer-card my-m">
             <div class="latest-offer-card-left">
                 <img src="/images/gallery7.jpg" alt="">
             </div>
@@ -38,9 +38,17 @@
     </div>
 </div>
 
-<div class="offers-container">
+
+<div class="offers-title-container bg-g2">
+    <div class="offers-title">
+        <h2 class="offers-title-item fs-l c-p bg-g3 py-m">
+            Offers
+        </h2>
+    </div>
+</div>
+<div class="offers-container bg-g3">
     <div class="offers my-l">
-        <div class="offers-card">
+        <div class="offers-card my-m">
             <div class="offers-card-img">
                 <img src="/images/gallery9.jpg" alt="">
             </div>

@@ -80,6 +80,16 @@ body {
     margin-bottom: 5rem;
 }
 
+.mt-s {
+    margin-top: 1rem;
+}
+.mt-m {
+    margin-top: 2rem;
+}
+
+.mb-s {
+    margin-bottom: 1rem;
+}
 // Padding
 
 .py-s {
@@ -107,6 +117,10 @@ body {
 }
 
 //Font Sizes
+
+.fs-xs {
+    font-size: 1.3rem;
+}
 
 .fs-s {
     font-size: 1.5rem;

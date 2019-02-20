@@ -1,0 +1,116 @@
+.recipes-banner-container {
+    @include row;
+
+    .recipes-banner {
+        @include rowinset(80%);
+
+        display: grid;
+
+        &-item {
+            justify-self: center;
+            text-align: center;
+        }
+    }
+}
+
+.latest-recipe-title-container {
+    @include row;
+
+    .latest-recipe-title {
+        @include rowinset(80%);
+        display: grid;
+        // grid-template-columns: 1fr 1.5fr 1fr;
+        &-item {
+            text-align: center;
+            // grid-column: 2 / 3;
+            // border-radius: 20px 20px 0px 0px;
+        }
+    }
+}
+
+.latest-recipe-container {
+    @include row;
+
+    .latest-recipe {
+        @include rowinset(80%);
+
+        display: flex;
+        justify-content: center;
+
+        &-card {
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            border: 3px solid $primary;
+
+            &-left {
+                // width: 25rem;
+                display: flex;
+                flex-direction: column;
+            }
+
+            &-right {
+                // width: 25rem;
+
+                img {
+                    object-fit: cover;
+                    width: 30rem;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+.recipes-title-container {
+    @include row;
+
+    .recipes-title {
+        @include rowinset(80%);
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+
+        &-item {
+            text-align: center;
+            grid-column: 2 / 3;
+            border-radius: 20px 20px 0px 0px;
+        }
+    }
+}
+
+.recipes-container {
+    @include row;
+
+    .recipes {
+        @include rowinset(80%);
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        &-card {
+            margin-right: 2rem;
+            width: 30rem;
+            display: flex;
+            flex-direction: column;
+            border: 3px solid $primary;
+
+            &-top {
+                height: 15rem;
+                img {
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            &-bottom {
+                height: 15rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+}

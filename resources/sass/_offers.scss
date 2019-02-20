@@ -15,6 +15,7 @@
     @include row;
 
     .latest-offer {
+        margin-top: 2rem;
         @include rowinset(80%);
         display: grid;
 
@@ -60,6 +61,22 @@
     }
 }
 
+.offers-title-container {
+    @include row;
+
+    .offers-title {
+        @include rowinset(80%);
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+
+        &-item {
+            grid-column: 2 / 3;
+            text-align: center;
+            border-radius: 20px 20px 0px 0px;
+        }
+    }
+}
+
 .offers-container {
     @include row;
 
@@ -67,7 +84,7 @@
         @include rowinset(80%);
 
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
 
@@ -76,6 +93,7 @@
             flex-direction: column;
             width: 30rem;
             border: 3px solid $primary;
+            margin-right: 2rem;
 
             &-img {
                 justify-self: center;

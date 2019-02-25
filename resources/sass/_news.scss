@@ -78,3 +78,43 @@
         }
     }
 }
+
+.news-container {
+    @include row;
+
+    .news {
+        @include rowinset(80%);
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        &-card {
+            display: flex;
+            flex-direction: column;
+            width: 40rem;
+            // height: 20rem;
+            border: 3px solid $primary;
+
+            &-top {
+                height: 10rem;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            &-bottom {
+                background: $grey1;
+                display: flex;
+                flex-direction: column;
+
+                &-title {
+                }
+            }
+        }
+    }
+}

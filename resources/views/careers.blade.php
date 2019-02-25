@@ -13,9 +13,9 @@ Careers | O'Mahoney Meats Ltd.
         </div>
     </div>
 
-    <div class="careers-title-container bg-g3">
+    <div class="careers-title-container bg-g1">
         <div class="careers-title">
-            <div class="careers-title-item py-m bg-g1 fs-m">
+            <div class="careers-title-item py-m bg-g1 fs-l fw-b">
                 Current Career Opportunties
             </div>
         </div>

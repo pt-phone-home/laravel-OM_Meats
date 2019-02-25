@@ -1,5 +1,5 @@
 <footer class="footer-conatiner">
-    <div class="footer">
+    <div class="footer my-l c-g1">
         <div class="footer-item footer-links">
             <h3>Links</h3>
         </div>

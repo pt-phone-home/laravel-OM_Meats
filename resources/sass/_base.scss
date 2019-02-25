@@ -176,6 +176,12 @@ body {
     background: $grey3;
 }
 
+// FONT WEIGHT
+
+.fw-b {
+    font-weight: bold;
+}
+
 // mixins
 @mixin row {
     grid-column: 1 / -1;

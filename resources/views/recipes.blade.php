@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<div class="latest-recipe-title-container bg-g2">
+<div class="latest-recipe-title-container bg-g1">
     <div class="latest-recipe-title">
         <h2 class="latest-recipe-title-item fs-l py-m ">
             Latest Recipe Idea
@@ -22,7 +22,7 @@
     </div>
 </div>
 
-<div class="latest-recipe-container bg-g2">
+<div class="latest-recipe-container bg-g1">
     <div class="latest-recipe my-l">
 
         <div class="latest-recipe-card my-m">
@@ -38,21 +38,21 @@
     </div>
 </div>
 
-<div class="recipes-title-container bg-g2">
+<div class="recipes-title-container bg-g1">
     <div class="recipes-title">
-        <h2 class="recipes-title-item py-m bg-s c-g1 fs-l">
+        <h2 class="recipes-title-item py-m bg-g3 c-p fs-l">
             Recipe Ideas
         </h2>
     </div>
 </div>
 
-<div class="recipes-container bg-s">
+<div class="recipes-container bg-g3">
     <div class="recipes my-l">
         <div class="recipes-card my-s">
             <div class="recipes-card-top">
                 <img src="/images/gallery3.jpg" alt="">
             </div>
-            <div class="recipes-card-bottom bg-g3">
+            <div class="recipes-card-bottom bg-g1">
                 <h3 class="recipes-card-bottom-title px-s my-s">
                     Recipe Title
                 </h3>
@@ -65,7 +65,7 @@
             <div class="recipes-card-top">
                 <img src="/images/gallery3.jpg" alt="">
             </div>
-            <div class="recipes-card-bottom bg-g3">
+            <div class="recipes-card-bottom bg-g1">
                 <h3 class="recipes-card-bottom-title px-s my-s">
                     Recipe Title
                 </h3>
@@ -78,7 +78,7 @@
             <div class="recipes-card-top">
                 <img src="/images/gallery3.jpg" alt="">
             </div>
-            <div class="recipes-card-bottom bg-g3">
+            <div class="recipes-card-bottom bg-g1">
                 <h3 class="recipes-card-bottom-title px-s my-s">
                     Recipe Title
                 </h3>
@@ -91,7 +91,7 @@
             <div class="recipes-card-top">
                 <img src="/images/gallery3.jpg" alt="">
             </div>
-            <div class="recipes-card-bottom bg-g3">
+            <div class="recipes-card-bottom bg-g1">
                 <h3 class="recipes-card-bottom-title px-s my-s">
                     Recipe Title
                 </h3>

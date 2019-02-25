@@ -70,7 +70,7 @@ About | O'Mahony Meats Ltd.
 
     <div class="about-us-3-title-container bg-s">
         <div class="about-us-3-title ">
-            <div class="about-us-3-title-heading bg-g2 py-m fs-l c-p">
+            <div class="about-us-3-title-heading bg-g2 py-m fs-l c-p fw-b">
                 Strength to Strength
             </div>
         </div>

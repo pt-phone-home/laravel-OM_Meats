@@ -5,10 +5,12 @@
 
     .footer {
         justify-self: center;
-        width: 90%;
-        display: grid;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         height: 20rem;
 
-        grid-template-columns: repeat(3, 1fr);
+        // grid-template-columns: repeat(3, 1fr);
     }
 }

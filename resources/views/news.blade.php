@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<div class="latest-news-title-container bg-g2">
+<div class="latest-news-title-container bg-g1">
     <div class="latest-news-title">
         <div class="latest-news-title-item fs-l my-m">
             Latest Story
@@ -22,8 +22,8 @@
     </div>
 </div>
 
-<div class="latest-news-container bg-g2">
-    <div class="latest-news">
+<div class="latest-news-container bg-g1">
+    <div class="latest-news my-m">
 
         <div class="latest-news-card my-m">
             <div class="latest-news-card-left bg-g1">
@@ -43,15 +43,73 @@
     </div>
 </div>
 
-<div class="news-title-container bg-g2">
+<div class="news-title-container bg-g1">
     <div class="news-title">
-        <h2 class="news-title-item bg-s fs-l py-m c-g1">
+        <h2 class="news-title-item bg-g3 fs-l py-m c-p">
             News
         </h2>
     </div>
 </div>
 
+<div class="news-container bg-g3">
+    <div class="news my-m">
+        <div class="news-card my-m">
 
+            <div class="news-card-top">
+                <img src="/images/gallery1.jpg" alt="">
+            </div>
+            <div class="news-card-bottom">
+                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
+                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
+            </div>
+
+        </div>
+        <div class="news-card my-m">
+
+            <div class="news-card-top">
+                <img src="/images/gallery1.jpg" alt="">
+            </div>
+            <div class="news-card-bottom">
+                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
+                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
+            </div>
+
+        </div>
+        <div class="news-card my-m">
+
+            <div class="news-card-top">
+                <img src="/images/gallery1.jpg" alt="">
+            </div>
+            <div class="news-card-bottom">
+                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
+                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
+            </div>
+
+        </div>
+        <div class="news-card my-m">
+
+            <div class="news-card-top">
+                <img src="/images/gallery1.jpg" alt="">
+            </div>
+            <div class="news-card-bottom">
+                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
+                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
+            </div>
+
+        </div>
+        <div class="news-card my-m">
+
+            <div class="news-card-top">
+                <img src="/images/gallery1.jpg" alt="">
+            </div>
+            <div class="news-card-bottom">
+                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
+                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 @endsection
 

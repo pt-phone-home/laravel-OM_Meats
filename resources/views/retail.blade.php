@@ -30,7 +30,7 @@
     <div class="retail retail-1 my-m">
 
         <div class="retail-img retail-1-img my-m">
-            <img src="/images/retail5.jpg" alt="">
+            <img src="/images/retail5.JPG" alt="">
         </div>
         <div class="retail-info retail-info-1">
             <p class="retail-info-item retail-info-item-1 px-l fs-m">

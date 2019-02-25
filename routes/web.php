@@ -24,3 +24,6 @@ Route::get('/recipes', 'PagesController@recipes');
 Route::get('/news', 'PagesController@news');
 
 
+// Careers 
+Route::get('/createcareer', 'CareersController@create');
+

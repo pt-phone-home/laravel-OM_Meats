@@ -21,14 +21,22 @@ Careers | O'Mahoney Meats Ltd.
         </div>
     </div>
     <div class="careers-container bg-g1">
+
+        @if($careers)
+        @foreach($careers as $career)
         <div class="careers">
             <div class="careers-item my-m">
-                <h3 class="careers-item-heading fs-m"> Sales Executive</h3>
+                <h3 class="careers-item-heading fs-m"> {{$career->title}}</h3>
 
-                <h5 class="careers-item-info">Brief Details</h5>
+                <div class="careers-item-info">
+                   <h5 class="careers-item-info-text">{{$career->overview}}</h5> 
+                   <a href="" class="careers-item-info-btn px-s py-s">More</a>
+                </div>
 
             </div>
-            <div class="careers-item my-m">
+            @endforeach
+            @endif
+            {{-- <div class="careers-item my-m">
                 <h3 class="careers-item-heading fs-m"> Accounts Assistant</h3>
 
                 <h5 class="careers-item-info">Brief Details</h5>
@@ -45,7 +53,7 @@ Careers | O'Mahoney Meats Ltd.
 
                 <h5 class="careers-item-info">Brief Details</h5>
 
-            </div>
+            </div> --}}
         </div>
     </div>
     

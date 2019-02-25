@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Careers;
 
 class PagesController extends Controller
 {
@@ -16,7 +17,10 @@ class PagesController extends Controller
         return view('quality');
     }
     public function careers() {
-        return view('careers');
+
+        $careers = Careers::orderBy('updated_at', 'DESC')->get();
+
+        return view('careers')->with('careers', $careers);
     }
     public function contact() {
         return view('contact');

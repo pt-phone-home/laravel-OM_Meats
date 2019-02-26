@@ -24,19 +24,20 @@ Careers | O'Mahoney Meats Ltd.
 
        
         <div class="careers">
-                @if($careers)
-                @foreach($careers as $career)
+               
             <div class="careers-item my-m">
                 <h3 class="careers-item-heading fs-m"> {{$career->title}}</h3>
 
                 <div class="careers-item-info">
                    <h5 class="careers-item-info-text">{{$career->overview}}</h5> 
-                <a href="/careersitem/{{$career->id}}" class="careers-item-info-btn px-s py-s">More</a>
+                </div>
+
+                <div class="careers-item-description">
+                    {!! $career->details !!}
                 </div>
 
             </div>
-            @endforeach
-            @endif
+            
             {{-- <div class="careers-item my-m">
                 <h3 class="careers-item-heading fs-m"> Accounts Assistant</h3>
 

@@ -224,6 +224,45 @@ body {
   cursor: pointer;
 }
 
+.form-container {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 80%;
+}
+
+.form-group {
+  margin: 1rem 1rem;
+}
+
+.form-group label {
+  display: block;
+  /*   height: 3em; */
+  margin: 1rem 1rem;
+}
+
+.form-group input {
+  display: block;
+  width: 70%;
+  height: 2.5rem;
+  margin: 1rem 1rem;
+}
+
+.form-group textarea {
+  display: block;
+  width: 70%;
+  margin: 1rem 1rem;
+}
+
+.form-group button {
+  margin: 1rem 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+}
+
 .main-header {
   grid-column: 1/-1;
   display: grid;

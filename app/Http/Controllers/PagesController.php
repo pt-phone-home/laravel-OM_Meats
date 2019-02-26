@@ -43,4 +43,11 @@ class PagesController extends Controller
     public function news() {
         return view('news');
     }
+
+
+    // ADMIN PAGES
+
+    public function admin() {
+        return view('admin');
+    }
 }

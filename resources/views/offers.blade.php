@@ -24,14 +24,14 @@
 
         <div class="latest-offer-card my-m">
             <div class="latest-offer-card-left">
-                <img src="/images/gallery7.jpg" alt="">
+            <img src="{{$latest_offer->img}}" alt="">
             </div>
             <div class="latest-offer-card-right px-m py-m bg-g1">
-                <p class="latest-offer-card-right-details fs-m">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores consequatur porro sapiente pariatur, quos fuga.</p>
-                <h2 class="latest-offer-card-right-valid c-p ">Valid Until: </h2>
+                <p class="latest-offer-card-right-details fs-m"> {!! $latest_offer->detail !!}</p>
+                <h2 class="latest-offer-card-right-valid c-p ">Valid Until: {{$latest_offer->valid}} </h2>
             </div>
             <div class="latest-offer-card-bottom bg-p c-g1">
-                <h3 class="latest-offer-card-bottom-item py-s fs-l">Offer Title</h3>
+            <h3 class="latest-offer-card-bottom-item py-s fs-l">{{$latest_offer->title}}</h3>
             </div>
 
         </div>
@@ -48,25 +48,29 @@
 </div>
 <div class="offers-container bg-g3">
     <div class="offers my-l">
+        @if($offers)
+        @foreach($offers as $offer)
         <div class="offers-card my-m">
             <div class="offers-card-img">
-                <img src="/images/gallery9.jpg" alt="">
+                <img src="{{$offer->img}}" alt="">
             </div>
             <div class="offers-card-title bg-p c-g1 px-s py-s fs-m">
                 <h4 class="offers-card-title-item">
-                    Offer Title
+                    {{$offer->title}}
                 </h4>
             </div>
             <div class="offers-card-detail">
-                <p class="offers-card-detail-item my-m px-s">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ratione repudiandae porro, autem illo atque?</p>
+            <p class="offers-card-detail-item my-m px-s">{!! $offer->detail !!}</p>
             </div>
             <div class="offers-card-bottom bg-s">
                 <h4 class="offers-card-bottom-item py-s c-g1 px-s">
-                    Valid Until: 
+                    Valid Until: {{$offer->valid}}
                 </h4>
             </div>
         </div>
-        <div class="offers-card my-m">
+        @endforeach
+        @endif
+        {{-- <div class="offers-card my-m">
             <div class="offers-card-img">
                 <img src="/images/gallery9.jpg" alt="">
             </div>
@@ -101,7 +105,7 @@
                     Valid Until: 
                 </h4>
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>
 

@@ -39,5 +39,6 @@ Route::put('{id}', 'CareersController@update');
 
 // Offers
 
-Route::get('createoffer', 'OffersController@create');
+Route::get('/createoffer', 'OffersController@create');
+Route::post('/createoffer', 'OffersController@store');
 

@@ -47,6 +47,10 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+
+                &-details {
+                    overflow: scroll;
+                }
             }
 
             &-bottom {

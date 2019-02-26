@@ -11,21 +11,22 @@ Add Offer
 
 
 <div class="form-container">
-    <form action="" method="" class="form my-l" enctype="multipart/form-data">
+    <form action="/createoffer" method="POST" class="form my-l" enctype="multipart/form-data">
+        @csrf
 
         <div class="form-group">
             <label for="title">Offer Title:</label>
-            <input type="text" name="title">
+        <input type="text" name="title" value="{{old('title')}}" placeholder="Offer Title" required>
         </div>
 
         <div class="form-group">
             <label for="valid">Valid Until:</label>
-            <input type="text" name="valid">
+        <input type="text" name="valid" value="{{old('valid')}}" placeholder="Offer Valid Until..." required>
         </div>
 
         <div class="form-group">
             <label for="detail">Offer Detail:</label>
-            <textarea name="detail" id="" cols="30" rows="10"></textarea>
+        <textarea name="detail" id="" cols="30" rows="10" placeholder="Information about offer" required>{{old('detail')}}</textarea>
         </div>
         <div class="form-group">
             <label for="img">Upload Image (Optional):</label>

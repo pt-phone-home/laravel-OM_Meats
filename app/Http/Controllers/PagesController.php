@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Careers;
+use App\Offer;
 
 class PagesController extends Controller
 {
@@ -35,7 +36,18 @@ class PagesController extends Controller
         return view('products');
     }
     public function offers() {
-        return view('offers');
+
+        $latest_offer = Offer::OrderBy('updated_at', 'DESC')->findorfail(1);
+
+        // dd($latest_offer);
+
+        $offers = Offer::OrderBy('updated_at', 'DESC')->take(6)->get();
+
+        
+        return view('offers')->with([
+            'latest_offer' => $latest_offer,
+            'offers' => $offers
+        ]);
     }
     public function recipes() {
         return view('recipes');

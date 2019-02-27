@@ -34,11 +34,28 @@ Route::get('/admin', 'PagesController@admin');
 // Careers 
 Route::get('/createcareer', 'CareersController@create');
 Route::post('/createcareer', 'CareersController@store');
-Route::get('{id}/editcareer', 'CareersController@edit');
-Route::put('{id}', 'CareersController@update');
+Route::get('/career/{id}/editcareer', 'CareersController@edit');
+Route::put('/career/{id}', 'CareersController@update');
 
 // Offers
 
 Route::get('/createoffer', 'OffersController@create');
 Route::post('/createoffer', 'OffersController@store');
+Route::get('{id}/editoffer', 'OffersController@edit');
+Route::put('{id}', 'OffersController@update');
+
+// Recipes
+Route::get('/createrecipe', 'RecipesController@create');
+Route::post('/createrecipe', 'RecipesController@store');
+Route::get('/recipe/{id}/editrecipe', 'RecipesController@edit');
+Route::put('/recipe/{id}', 'RecipesController@update');
+
+// DOWN TO HERE BUT NEED TO UPDATE THE ROUTES FOR OFFERS TOO
+
+// News
+Route::get('/createnewsitem', 'NewsController@create');
+Route::post('/createnewsitem', 'NewsController@store');
+Route::get('/newsitem/{id}/editnewsitem', 'NewsController@edit');
+Route::put('/newsitem/{id}', 'NewsController@update');
+
 

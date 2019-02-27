@@ -3,13 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Offer;
+use App\Recipe;
 
-class OffersController extends Controller
+class RecipesController extends Controller
 {
     public function create() {
-
-        return view('createoffer');
+        return view('createrecipe');
     }
 
     public function store(Request $request) {
@@ -17,7 +16,6 @@ class OffersController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'detail' => 'required|min:10',
-            'valid' => 'required'
         ]);
 
         if ($request->file('img')) {
@@ -25,28 +23,25 @@ class OffersController extends Controller
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
             $extension = $request->file('img')->getClientOriginalExtension();
             $filenameToStore = $filename . '_' . time() . '.' . $extension;
-            $path = $request->file('img')->move('images/offers', $filenameToStore);
+            $path = $request->file('img')->move('images/recipes', $filenameToStore);
         } else {
-            $path = 'images/offers/default' . rand(1, 4) . '.jpg';
+            $path = 'images/recipes/default' . rand(1, 4) . '.jpg';
         }
 
-        $offer = new Offer;
+        $recipe = new Recipe;
 
-        $offer->title = $request['title'];
-        $offer->valid = $request['valid'];
-        $offer->detail = $request['detail'];
-        $offer->img = $path;
+        $recipe->title = $request['title'];
+        $recipe->detail = $request['detail'];
+        $recipe->img = $path;
 
-        $offer->save();
-        return redirect('admin')->with('success', 'Offer Added Successfully');
+        $recipe->save();
+        return redirect('admin')->with('success', 'Recipe Added Successfully');
     }
 
     public function edit($id) {
+        $recipe = Recipe::find($id);
 
-        $offer = Offer::findorfail($id);
-
-        return view('editoffer')->with('offer', $offer);
-
+        return view('editrecipe')->with('recipe', $recipe);
     }
 
     public function update(Request $request, $id) {
@@ -54,7 +49,6 @@ class OffersController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'detail' => 'required|min:10',
-            'valid' => 'required'
         ]);
 
         if ($request->file('img')) {
@@ -62,20 +56,19 @@ class OffersController extends Controller
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
             $extension = $request->file('img')->getClientOriginalExtension();
             $filenameToStore = $filename . '_' . time() . '.' . $extension;
-            $path = $request->file('img')->move('images/offers', $filenameToStore);
+            $path = $request->file('img')->move('images/recipes', $filenameToStore);
         } else {
-            $path = 'images/offers/default' . rand(1, 4) . '.jpg';
+            $path = 'images/recipes/default' . rand(1, 4) . '.jpg';
         }
 
-        $offer = Offer::find($id);
+        $recipe = Recipe::find($id);
 
-        $offer->title = $request['title'];
-        $offer->valid = $request['valid'];
-        $offer->detail = $request['detail'];
-        $offer->img = $path;
+        $recipe->title = $request['title'];
+        $recipe->detail = $request['detail'];
+        $recipe->img = $path;
 
-        $offer->save();
-        return redirect('admin')->with('success', 'Offer Added Successfully');
+        $recipe->save();
+        return redirect('admin')->with('success', 'Recipe Updated Successfully');
 
     }
 }

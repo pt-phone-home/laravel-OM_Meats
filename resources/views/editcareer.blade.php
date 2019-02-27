@@ -15,7 +15,7 @@ Edit Career
 </div>
 
 <div class="createcareer-container">
-    <form action="/{{$career->id}}" method="POST" class="careerform my-m">
+    <form action="/career/{{$career->id}}" method="POST" class="careerform my-m">
         @csrf
         @method('PUT')
         <div class="careerform-group py-m">
@@ -28,7 +28,7 @@ Edit Career
         </div>
         <div class="careerform-group">
             <label for="summernote">Job Description:</label>
-        <textarea name="details" id="details" cols="30" rows="10" placeholder="Please enter the detail of the job description, responsibilities etc.." required>{{$career->detail}}</textarea>
+        <textarea name="details" id="details" cols="30" rows="10" placeholder="Please enter the detail of the job description, responsibilities etc.." required>{{$career->details}}</textarea>
         </div>
 
         <div class="careerform-group">

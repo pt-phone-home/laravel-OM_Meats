@@ -39,7 +39,7 @@ class CareersController extends Controller
 
     public function edit($id) {
 
-        $career = Careers::findorfail($id);
+        $career = Careers::find($id);
 
         return view('editcareer')->with('career', $career);
     }

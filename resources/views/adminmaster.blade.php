@@ -19,6 +19,9 @@
             </h1>
 
         </div>
+        <div class="admin-nav bg-s c-g1 py-m px-s">
+            <li class="admin-nav-item"><a class="admin-nav-item-link c-g1" href="/">Return to main site</a></li>
+        </div>
         @yield('content')
 
 

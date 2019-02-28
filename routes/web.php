@@ -41,16 +41,14 @@ Route::put('/career/{id}', 'CareersController@update');
 
 Route::get('/createoffer', 'OffersController@create');
 Route::post('/createoffer', 'OffersController@store');
-Route::get('{id}/editoffer', 'OffersController@edit');
-Route::put('{id}', 'OffersController@update');
+Route::get('/offer/{id}/editoffer', 'OffersController@edit');
+Route::put('/offer/{id}', 'OffersController@update');
 
 // Recipes
 Route::get('/createrecipe', 'RecipesController@create');
 Route::post('/createrecipe', 'RecipesController@store');
 Route::get('/recipe/{id}/editrecipe', 'RecipesController@edit');
 Route::put('/recipe/{id}', 'RecipesController@update');
-
-// DOWN TO HERE BUT NEED TO UPDATE THE ROUTES FOR OFFERS TOO
 
 // News
 Route::get('/createnewsitem', 'NewsController@create');

@@ -9,6 +9,63 @@
     }
 }
 
+.admin-nav {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: start;
+
+    &-item {
+        list-style: none;
+
+        &-link {
+            text-decoration: none;
+
+            &:hover {
+                color: $grey2;
+            }
+
+            &:active,
+            &:visited {
+                color: inherit;
+            }
+        }
+    }
+}
+
+.messages-container {
+    grid-column: 1 / -1;
+    display: grid;
+
+    .messages {
+        justify-self: center;
+    }
+}
+
+.admin-container {
+    grid-column: 1 / -1;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.admin-news,
+.admin-careers,
+.admin-offers,
+.admin-recipes {
+    width: 60rem;
+    overflow: scroll;
+    max-height: 30rem;
+}
+
+.admin-news,
+.admin-careers,
+.admin-offers {
+    table {
+        width: 90%;
+    }
+}
+
 // Careers Page
 
 .createcareer-title-container {

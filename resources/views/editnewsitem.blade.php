@@ -2,7 +2,7 @@
 
 @section('title')
 
-Edit Offer
+Edit News Item
 
 @endsection
 
@@ -11,23 +11,23 @@ Edit Offer
 
 
 <div class="form-container">
-<form action="/offer/{{$offer->id}}" method="POST" class="form my-l" enctype="multipart/form-data">
+<form action="/newsitem/{{$newsitem->id}}" method="POST" class="form my-l" enctype="multipart/form-data">
         @csrf
         @method('PUT')
 
         <div class="form-group">
-            <label for="title">Offer Title:</label>
-        <input type="text" name="title" value="{{$offer->title}}" placeholder="Offer Title" required>
+            <label for="title">News Title:</label>
+        <input type="text" name="title" value="{{$newsitem->title}}" placeholder="News Title" required>
         </div>
 
         <div class="form-group">
-            <label for="valid">Valid Until:</label>
-        <input type="text" name="valid" value="{{$offer->valid}}" placeholder="Offer Valid Until..." required>
+            <label for="valid">News Headline:</label>
+        <input type="text" name="headline" value="{{$newsitem->headline}}" placeholder="News Headline" required>
         </div>
 
         <div class="form-group">
-            <label for="detail">Offer Detail:</label>
-        <textarea name="detail" id="" cols="30" rows="10" placeholder="Information about offer" required>{{$offer->detail}}</textarea>
+            <label for="body"> News Text:</label>
+        <textarea name="body" id="" cols="30" rows="10" placeholder="News Item Text" required>{{$newsitem->body}}</textarea>
         </div>
         <div class="form-group">
             <label for="img">Upload Image (Optional):</label>
@@ -46,6 +46,6 @@ Edit Offer
 @section('scripts')
 <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
 <script>
-        CKEDITOR.replace('detail');
+        CKEDITOR.replace('body');
     </script>
 @endsection

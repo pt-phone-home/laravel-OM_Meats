@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Careers;
 use App\Offer;
+use App\News;
+use App\Recipe;
 
 class PagesController extends Controller
 {
@@ -41,7 +43,7 @@ class PagesController extends Controller
 
         // dd($latest_offer);
 
-        $offers = Offer::OrderBy('updated_at', 'DESC')->take(6)->get();
+        $offers = Offer::OrderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
 
         
         return view('offers')->with([
@@ -50,16 +52,37 @@ class PagesController extends Controller
         ]);
     }
     public function recipes() {
-        return view('recipes');
+
+        $latest_recipe = Recipe::orderBy('updated_at', 'DESC')->findorfail(1);
+
+        $recipes = Recipe::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
+        return view('recipes')->with([
+            'latest_recipe' => $latest_recipe,
+            'recipes' => $recipes
+            ]);
     }
     public function news() {
-        return view('news');
+
+        $latest_news = News::orderBy('updated_at', 'DESC')->findorfail(1);
+        $news = News::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
+        return view('news')->with('news', $news);
     }
 
 
     // ADMIN PAGES
 
     public function admin() {
-        return view('admin');
+
+        $newsitem = News::all();
+        $career = Careers::all();
+        $offers = Offer::all();
+        $recipes = Recipe::all();
+
+        return view('admin')->with([
+            'newsitem' => $newsitem,
+            'career' => $career,
+            'offers' => $offers,
+            'recipes' => $recipes
+        ]);
     }
 }

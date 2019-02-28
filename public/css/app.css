@@ -1821,6 +1821,60 @@ body {
   text-align: center;
 }
 
+.admin-nav {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: start;
+}
+
+.admin-nav-item {
+  list-style: none;
+}
+
+.admin-nav-item-link {
+  text-decoration: none;
+}
+
+.admin-nav-item-link:hover {
+  color: #e8e8e8;
+}
+
+.admin-nav-item-link:active,
+.admin-nav-item-link:visited {
+  color: inherit;
+}
+
+.messages-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.messages-container .messages {
+  justify-self: center;
+}
+
+.admin-container {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.admin-news,
+.admin-careers,
+.admin-offers,
+.admin-recipes {
+  width: 60rem;
+  overflow: scroll;
+  max-height: 30rem;
+}
+
+.admin-news table,
+.admin-careers table,
+.admin-offers table {
+  width: 90%;
+}
+
 .createcareer-title-container {
   grid-column: 1/-1;
   display: grid;

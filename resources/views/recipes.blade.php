@@ -26,13 +26,16 @@
     <div class="latest-recipe my-l">
 
         <div class="latest-recipe-card my-m">
+            @if($latest_recipe)
+            
             <div class="latest-recipe-card-left">
-                <h3 class="latest-recipe-card-left-title my-m fs-m px-s">Recipe Title</h3>
-                <p class="latest-recipe-card-left-decription px-m">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste hic fuga quo modi, labore culpa? Aut, a fugit optio consequuntur, tempore sed dolorem modi, voluptatem quas quod corporis ut.</p> 
+                <h3 class="latest-recipe-card-left-title my-m fs-m px-s">{{$latest_recipe->title}}</h3>
+                <p class="latest-recipe-card-left-decription px-m">{!!$latest_recipe->detail!!}</p> 
             </div>
             <div class="latest-recipe-card-right">
-                <img src="/images/gallery2.jpg" alt="">
+                <img src="{{$latest_recipe->img}}" alt="">
             </div>
+            @endif
         </div>
 
     </div>

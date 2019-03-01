@@ -21,20 +21,23 @@
                 Latest Offer
             </div>
         </div>
-
+        @if($latest_offer)
         <div class="latest-offer-card my-m">
             <div class="latest-offer-card-left">
+                @if($latest_offer->img)
             <img src="{{$latest_offer->img}}" alt="">
+            @endif
             </div>
             <div class="latest-offer-card-right px-m py-m bg-g1">
-                <p class="latest-offer-card-right-details fs-m"> {!! $latest_offer->detail !!}</p>
-                <h2 class="latest-offer-card-right-valid c-p ">Valid Until: {{$latest_offer->valid}} </h2>
+                <p class="latest-offer-card-right-details fs-m"></p>
+                <h2 class="latest-offer-card-right-valid c-p ">Valid Until: </h2>
             </div>
             <div class="latest-offer-card-bottom bg-p c-g1">
-            <h3 class="latest-offer-card-bottom-item py-s fs-l">{{$latest_offer->title}}</h3>
+            <h3 class="latest-offer-card-bottom-item py-s fs-l"></h3>
             </div>
 
         </div>
+        @endif
     </div>
 </div>
 

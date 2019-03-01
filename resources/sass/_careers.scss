@@ -68,3 +68,39 @@
         }
     }
 }
+
+.careersitem-container {
+    @include row;
+
+    .careersitem-description {
+        @include rowinset(60%);
+        display: grid;
+
+        &-title {
+            justify-self: center;
+            text-align: center;
+        }
+
+        &-output {
+            height: auto;
+            h1,
+            h2,
+            h3,
+            h4,
+            h5 {
+                margin: 2rem;
+            }
+
+            p {
+                margin: 1rem 2rem;
+            }
+
+            ul,
+            ol {
+                li {
+                    margin: 1rem 2rem;
+                }
+            }
+        }
+    }
+}

@@ -63,4 +63,13 @@ class CareersController extends Controller
 
         return redirect('admin')->with('success', 'Career Successfully Updated');
     }
+
+    public function destroy($id) {
+
+        $career = Careers::find($id);
+
+        $career->delete();
+
+        return redirect('admin')->with('success', 'Item Deleted Successfully');
+    }
 }

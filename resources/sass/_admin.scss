@@ -12,13 +12,14 @@
 .admin-nav {
     grid-column: 1 / -1;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 
     &-item {
         list-style: none;
 
         &-link {
             text-decoration: none;
+            margin-right: 2rem;
 
             &:hover {
                 color: $grey2;
@@ -56,14 +57,54 @@
     width: 60rem;
     overflow: scroll;
     max-height: 30rem;
+    border: 2px solid $primary;
+    padding: 0rem 2rem;
+
+    &-heading {
+        text-align: center;
+    }
 }
 
 .admin-news,
 .admin-careers,
-.admin-offers {
+.admin-offers,
+.admin-recipes {
     table {
-        width: 90%;
+        width: 100%;
+        thead {
+            font-weight: bold;
+        }
+
+        tr {
+            height: 3rem;
+        }
+
+        tr:nth-child(even) {
+            background: $grey2;
+        }
     }
+}
+
+.admin-create-btn {
+    text-align: center;
+    justify-self: center;
+    text-decoration: none;
+    background: $primary;
+    color: $grey1;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+
+    &:hover {
+        background: $secondary;
+        // color: $primary;
+    }
+}
+
+.admin-delete-btn {
+    color: $grey1;
+    padding: 0.2rem 0.75rem;
+    border-radius: 5px;
+    background: red;
 }
 
 // Careers Page

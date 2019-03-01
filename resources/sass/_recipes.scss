@@ -38,24 +38,64 @@
         justify-content: center;
 
         &-card {
-            width: 60%;
-            display: flex;
-            flex-direction: row;
+            width: 60rem;
+            height: auto;
+            // height: 30rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             border: 3px solid $primary;
 
             &-left {
-                // width: 25rem;
+                grid-column: 1 / 2;
+                width: 30rem;
+                // width: 100%;
                 display: flex;
                 flex-direction: column;
+                justify-content: flex-start;
+
+                &-title {
+                }
+
+                &-description {
+                    p {
+                    }
+                }
             }
 
             &-right {
-                // width: 25rem;
+                grid-column: 2 / 3;
+                width: 30rem;
+                height: 100%;
+                // width: 100%;
 
                 img {
                     object-fit: cover;
-                    width: 30rem;
+                    width: 100%;
                     height: 100%;
+                }
+            }
+
+            &-bottom {
+                grid-column: 1 / -1;
+
+                // height: 4rem;
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+                justify-content: center;
+                &-cta {
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    text-decoration: none;
+                    background: $primary;
+                    color: $grey1;
+                    padding: 0.5rem 1.5rem;
+                    border-radius: 5px;
+
+                    &:hover {
+                        background: $secondary;
+                        // color: $primary;
+                    }
                 }
             }
         }
@@ -109,7 +149,20 @@
                 height: 15rem;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
+                justify-content: space-evenly;
+            }
+
+            &-cta {
+                height: 3rem;
+                background: $primary;
+                display: flex;
+                align-items: center;
+
+                &-link {
+                    text-decoration: none;
+                    color: $grey1;
+                    padding: 0rem 1rem;
+                }
             }
         }
     }

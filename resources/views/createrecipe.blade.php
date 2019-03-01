@@ -15,7 +15,7 @@ Add A Recipe
 </div>
 
 <div class="createcareer-container">
-    <form action="/createrecipe" method="POST" class="careerform my-m">
+    <form action="/createrecipe" method="POST" class="careerform my-m" enctype="multipart/form-data">
         @csrf
         <div class="careerform-group py-m">
             <label for="title">Recipe Title:</label>

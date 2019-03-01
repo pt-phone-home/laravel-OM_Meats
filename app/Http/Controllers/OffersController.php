@@ -78,4 +78,13 @@ class OffersController extends Controller
         return redirect('admin')->with('success', 'Offer Added Successfully');
 
     }
+
+    public function destroy($id) {
+
+        $offer = Offer::find($id);
+
+        $offer->delete();
+
+        return redirect('admin')->with('success', 'Item deleted successfully');
+    }
 }

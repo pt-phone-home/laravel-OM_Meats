@@ -15,7 +15,7 @@ Add Career
 </div>
 
 <div class="createcareer-container">
-    <form action="/createcareer" method="POST" class="careerform my-m">
+    <form action="/createcareer" method="POST"  enctype="multipart/form-data" class="careerform my-m">
         @csrf
         <div class="careerform-group py-m">
             <label for="title">Position Title:</label>

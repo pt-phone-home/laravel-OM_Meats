@@ -16,47 +16,22 @@ Careers | O'Mahoney Meats Ltd.
     <div class="careers-title-container bg-g1">
         <div class="careers-title">
             <div class="careers-title-item py-m bg-g1 fs-l fw-b">
-                Current Career Opportunties
+                {{$career->title}}
             </div>
         </div>
     </div>
-    <div class="careers-container bg-g1">
+    <div class="careersitem-container bg-g1">
+        <div class="careersitem-description my-m">
+            <h3 class="careersitem-description-title">Job Description</h3>
 
-       
-        <div class="careers">
-               
-            <div class="careers-item my-m">
-                <h3 class="careers-item-heading fs-m"> {{$career->title}}</h3>
-
-                <div class="careers-item-info">
-                   <h5 class="careers-item-info-text">{{$career->overview}}</h5> 
-                </div>
-
-                <div class="careers-item-description">
-                    {!! $career->details !!}
-                </div>
-
+            <div class="careersitem-description-output my-l">
+                {!!$career->details !!}
             </div>
-            
-            {{-- <div class="careers-item my-m">
-                <h3 class="careers-item-heading fs-m"> Accounts Assistant</h3>
-
-                <h5 class="careers-item-info">Brief Details</h5>
-
-            </div>
-            <div class="careers-item my-m">
-                <h3 class="careers-item-heading fs-m"> Sales Executive</h3>
-
-                <h5 class="careers-item-info">Brief Details</h5>
-
-            </div>
-            <div class="careers-item my-m">
-                <h3 class="careers-item-heading fs-m"> Accounts Assistant</h3>
-
-                <h5 class="careers-item-info">Brief Details</h5>
-
-            </div> --}}
         </div>
+
+        <a href="/careers" class="btn my-s">Back to Careers</a>
+
+        <a href="/contact" class="admin-create-btn my-m">Contact Us</a>
     </div>
     
 @endsection

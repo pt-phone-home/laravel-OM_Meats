@@ -7,6 +7,14 @@ use App\Recipe;
 
 class RecipesController extends Controller
 {
+
+    public function show($id) {
+
+        $recipe = Recipe::find($id);
+
+        return view('recipeitem')->with('recipe', $recipe);
+    }
+
     public function create() {
         return view('createrecipe');
     }
@@ -33,6 +41,7 @@ class RecipesController extends Controller
         $recipe->title = $request['title'];
         $recipe->detail = $request['detail'];
         $recipe->img = $path;
+        
 
         $recipe->save();
         return redirect('admin')->with('success', 'Recipe Added Successfully');
@@ -70,5 +79,14 @@ class RecipesController extends Controller
         $recipe->save();
         return redirect('admin')->with('success', 'Recipe Updated Successfully');
 
+    }
+
+    public function destory($id) {
+
+        $recipe = Recipe::find($id);
+
+        $recipe->delete();
+
+        return redirect('admin')->with('success', 'Item deleted successfully');
     }
 }

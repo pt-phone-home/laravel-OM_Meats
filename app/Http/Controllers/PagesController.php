@@ -21,7 +21,7 @@ class PagesController extends Controller
     }
     public function careers() {
 
-        $careers = Careers::orderBy('updated_at', 'DESC')->get();
+        $careers = Careers::orderBy('updated_at', 'desc')->get();
 
         return view('careers')->with('careers', $careers);
     }
@@ -37,35 +37,49 @@ class PagesController extends Controller
     public function products() {
         return view('products');
     }
-    public function offers() {
+    // public function offers() {
 
-        $latest_offer = Offer::OrderBy('updated_at', 'DESC')->findorfail(1);
+    //     $latest_offer = Offer::orderBy('updated_at', 'DESC')->findorfail(1);
 
-        // dd($latest_offer);
+    //     // dd($latest_offer);
 
-        $offers = Offer::OrderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
+    //     $offers = Offer::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
 
         
+    //     return view('offers')->with([
+    //         'latest_offer' => $latest_offer,
+    //         'offers' => $offers
+    //     ]);
+    // }
+
+    public function offers() {
+
+        $latest_offer = Offer::orderBy('updated_at', 'DESC')->find(1);
+        $offers = Offer::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
         return view('offers')->with([
             'latest_offer' => $latest_offer,
             'offers' => $offers
         ]);
     }
+
     public function recipes() {
 
-        $latest_recipe = Recipe::orderBy('updated_at', 'DESC')->findorfail(1);
+        $latest_recipe = Recipe::orderBy('updated_at', 'DESC')->first();
 
-        $recipes = Recipe::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
+        $recipes = Recipe::orderBy('updated_at', 'DESC')->take(6)->get();
         return view('recipes')->with([
-            'latest_recipe' => $latest_recipe,
-            'recipes' => $recipes
+            'recipes' => $recipes,
+            'latest_recipe' => $latest_recipe
             ]);
     }
     public function news() {
 
-        $latest_news = News::orderBy('updated_at', 'DESC')->findorfail(1);
+        $latest_news = News::orderBy('updated_at', 'DESC')->first();
         $news = News::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
-        return view('news')->with('news', $news);
+        return view('news')->with([
+            'latest_news' => $latest_news,
+            'news' => $news
+        ]);
     }
 
 

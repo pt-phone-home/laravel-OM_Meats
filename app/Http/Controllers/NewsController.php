@@ -81,5 +81,14 @@ class NewsController extends Controller
 
     }
 
+    public function destroy($id) {
+
+        $newsitem = News::find($id);
+
+        $newsitem->delete();
+
+        return redirect('admin')->with('success', 'Item deleted successfully');
+    }
+
     
 }

@@ -30,10 +30,15 @@
             
             <div class="latest-recipe-card-left">
                 <h3 class="latest-recipe-card-left-title my-m fs-m px-s">{{$latest_recipe->title}}</h3>
-                <p class="latest-recipe-card-left-decription px-m">{!!$latest_recipe->detail!!}</p> 
+                <div class="latest-recipe-card-left-description">
+                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum perspiciatis amet quaerat vero temporibus corporis libero dolorum molestias perferendis repellendus?
+                </div>
             </div>
             <div class="latest-recipe-card-right">
                 <img src="{{$latest_recipe->img}}" alt="">
+            </div>
+            <div class="latest-recipe-card-bottom">
+                <a href="/recipeitem/{{$latest_recipe->id}}" class="latest-recipe-card-bottom-cta">Read More</a>
             </div>
             @endif
         </div>
@@ -51,6 +56,26 @@
 
 <div class="recipes-container bg-g3">
     <div class="recipes my-l">
+        @if($recipes)
+        @foreach($recipes as $recipe)
+        <div class="recipes-card my-s">
+            <div class="recipes-card-top">
+                <img src="{{$recipe->img}}" alt="">
+            </div>
+            <div class="recipes-card-bottom bg-g1">
+                <h3 class="recipes-card-bottom-title px-s my-s">
+                    {{ $recipe->title }}
+                </h3>
+                <p class="recipes-card-bottom-info px-s fs-xs my-s">
+                   {!! substr($recipe->detail, 0, 40) !!}
+                </p>
+            </div>
+            <div class="recipes-card-cta">
+            <a href="/recipeitem/{{$recipe->id}}" class="recipes-card-cta-link">Read More</a>
+                </div>
+        </div>
+        @endforeach
+        @endif
         <div class="recipes-card my-s">
             <div class="recipes-card-top">
                 <img src="/images/gallery3.jpg" alt="">
@@ -62,6 +87,9 @@
                 <p class="recipes-card-bottom-info px-s fs-xs my-s">
                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit perspiciatis ipsa velit ad debitis ratione cumque placeat reiciendis sunt.
                 </p>
+            </div>
+            <div class="recipes-card-cta">
+                <a href="/recipeitem/" class="recipes-card-cta-link">Read More</a>
             </div>
         </div>
         <div class="recipes-card my-s">
@@ -89,21 +117,8 @@
                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit perspiciatis ipsa velit ad debitis ratione cumque placeat reiciendis sunt.
                 </p>
             </div>
-        </div>
-        <div class="recipes-card my-s">
-            <div class="recipes-card-top">
-                <img src="/images/gallery3.jpg" alt="">
-            </div>
-            <div class="recipes-card-bottom bg-g1">
-                <h3 class="recipes-card-bottom-title px-s my-s">
-                    Recipe Title
-                </h3>
-                <p class="recipes-card-bottom-info px-s fs-xs my-s">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit perspiciatis ipsa velit ad debitis ratione cumque placeat reiciendis sunt.
-                </p>
-            </div>
-        </div>
-
+        </div> 
+    </div>
     </div>
 </div>
 

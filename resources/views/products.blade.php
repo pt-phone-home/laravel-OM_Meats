@@ -23,7 +23,7 @@
         </p>
     </div>
 </div>
-<div class="image-gallery-title-container bg-g1">
+<div class="image-gallery-title-container bg-g1 pt-l">
     <div class="image-gallery-title">
         <div class="image-gallery-title-item bg-s py-m c-g1 fs-l">
             Over 600 Products

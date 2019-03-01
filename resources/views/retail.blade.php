@@ -18,7 +18,7 @@
     </div>
 </div>
 
-<div class="retail-header-container retail-header-container-1 bg-g1">
+<div class="retail-header-container retail-header-container-1 bg-g1 pt-l">
     <div class="retail-header retail-header-1">
         <div class="retail-header-item retail-header-item-1 bg-g2 py-m fs-l">
             Huge selection of products
@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<div class="retail-header-container-2 bg-g2">
+<div class="retail-header-container-2 bg-g2 pt-l">
     <div class="retail-header-2">
         <div class="retail-header-2-item bg-s py-m c-g1 fs-l">
             Products for All Occasions
@@ -66,7 +66,7 @@
     </div>
 </div>
 
-<div class="retail-header-container-2 bg-s">
+<div class="retail-header-container-2 bg-s pt-l">
         <div class="retail-header-2">
             <div class="retail-header-2-item bg-g1 py-m c-p fs-l">
                 Expert Staff

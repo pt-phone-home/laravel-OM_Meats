@@ -7,6 +7,14 @@ use App\News;
 
 class NewsController extends Controller
 {
+
+    public function show($id) {
+
+        $newsitem = News::find($id);
+
+        return view('newsitem')->with('newsitem', $newsitem);
+    }
+
     public function create() {
 
         return view('createnewsitem');

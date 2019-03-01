@@ -24,7 +24,7 @@ Add A Recipe
         
         <div class="careerform-group">
             <label for="summernote">Recipe Detail:</label>
-        <textarea name="detail" id="detail" cols="30" rows="10" placeholder="Please enter the detail of the job description, responsibilities etc.." required>{{old('details')}}</textarea>
+        <textarea name="detail" id="detail" cols="30" rows="10" placeholder="Please enter the detail of the job description, responsibilities etc.." required>{{old('detail')}}</textarea>
         </div>
         <div class="form-group">
             <label for="img">Upload Image (Optional):</label>

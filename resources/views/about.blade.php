@@ -19,7 +19,7 @@ About | O'Mahony Meats Ltd.
         </div>
     </div>
 
-    <div class="about-us-1-title-container bg-g1">
+    <div class="about-us-1-title-container bg-g1 pt-l">
         <div class="about-us-1-title">
             <h1 class="about-us-1-title-heading c-g1 bg-p py-m">
                 In the beginning
@@ -44,7 +44,7 @@ About | O'Mahony Meats Ltd.
         </div>
     </div>
 
-    <div class="about-us-2-title-container bg-p">
+    <div class="about-us-2-title-container bg-p pt-l">
         <div class="about-us-2-title">
             <h1 class="about-us-2-title-heading bg-s fs-l c-g1 py-m">
                 A new era for O'Mahony Meats
@@ -68,7 +68,7 @@ About | O'Mahony Meats Ltd.
         </div>
     </div>
 
-    <div class="about-us-3-title-container bg-s">
+    <div class="about-us-3-title-container bg-s pt-l">
         <div class="about-us-3-title ">
             <div class="about-us-3-title-heading bg-g2 py-m fs-l c-p fw-b">
                 Strength to Strength
@@ -76,7 +76,7 @@ About | O'Mahony Meats Ltd.
         </div>
     </div>
     <div class="about-us-3-container bg-g2">
-        <div class="about-us-3 my-m">
+        <div class="about-us-3 my-l">
             <div class="about-us-3-img my-m">
                 <img src="/images/staff.jpg" alt="">
             </div>

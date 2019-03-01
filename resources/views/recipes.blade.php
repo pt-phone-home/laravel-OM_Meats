@@ -29,24 +29,27 @@
             @if($latest_recipe)
             
             <div class="latest-recipe-card-left">
-                <h3 class="latest-recipe-card-left-title my-m fs-m px-s">{{$latest_recipe->title}}</h3>
-                <div class="latest-recipe-card-left-description">
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum perspiciatis amet quaerat vero temporibus corporis libero dolorum molestias perferendis repellendus?
+                <h3 class="latest-recipe-card-left-title  fs-m px-s bg-s c-g1 py-s">{{$latest_recipe->title}}
+                </h3>
+                <div class="latest-recipe-card-left-output">
+                    {!! str_limit($latest_recipe->detail, $limit = 100, $end = '...') !!}
                 </div>
+                <div class="latest-recipe-card-left-bottom">
+                    <a href="/recipeitem/{{$latest_recipe->id}}" class="latest-recipe-card-left-bottom-cta">Read More</a>
+                </div>
+               
             </div>
-            <div class="latest-recipe-card-right">
-                <img src="{{$latest_recipe->img}}" alt="">
+            <div class="latest-recipe-card-right bg-g1 px-m py-m bg-g3">
+                <img src="/{{$latest_recipe->img}}" alt="">
             </div>
-            <div class="latest-recipe-card-bottom">
-                <a href="/recipeitem/{{$latest_recipe->id}}" class="latest-recipe-card-bottom-cta">Read More</a>
-            </div>
+            
             @endif
         </div>
 
     </div>
 </div>
 
-<div class="recipes-title-container bg-g1">
+<div class="recipes-title-container bg-g1 pt-l">
     <div class="recipes-title">
         <h2 class="recipes-title-item py-m bg-g3 c-p fs-l">
             Recipe Ideas
@@ -59,65 +62,26 @@
         @if($recipes)
         @foreach($recipes as $recipe)
         <div class="recipes-card my-s">
-            <div class="recipes-card-top">
+            <div class="recipes-card-top px-s py-s bg-g4">
                 <img src="{{$recipe->img}}" alt="">
             </div>
             <div class="recipes-card-bottom bg-g1">
-                <h3 class="recipes-card-bottom-title px-s my-s">
+                <h3 class="recipes-card-bottom-title px-s py-s bg-s c-g1">
                     {{ $recipe->title }}
                 </h3>
-                <p class="recipes-card-bottom-info px-s fs-xs my-s">
-                   {!! substr($recipe->detail, 0, 40) !!}
+                <p class="recipes-card-bottom-output px-s fs-xs my-s">
+                   {!! str_limit($recipe->detail, $limit = 50, $end = '...') !!}
                 </p>
             </div>
             <div class="recipes-card-cta">
             <a href="/recipeitem/{{$recipe->id}}" class="recipes-card-cta-link">Read More</a>
-                </div>
+            </div>
         </div>
         @endforeach
         @endif
-        <div class="recipes-card my-s">
-            <div class="recipes-card-top">
-                <img src="/images/gallery3.jpg" alt="">
-            </div>
-            <div class="recipes-card-bottom bg-g1">
-                <h3 class="recipes-card-bottom-title px-s my-s">
-                    Recipe Title
-                </h3>
-                <p class="recipes-card-bottom-info px-s fs-xs my-s">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit perspiciatis ipsa velit ad debitis ratione cumque placeat reiciendis sunt.
-                </p>
-            </div>
-            <div class="recipes-card-cta">
-                <a href="/recipeitem/" class="recipes-card-cta-link">Read More</a>
-            </div>
-        </div>
-        <div class="recipes-card my-s">
-            <div class="recipes-card-top">
-                <img src="/images/gallery3.jpg" alt="">
-            </div>
-            <div class="recipes-card-bottom bg-g1">
-                <h3 class="recipes-card-bottom-title px-s my-s">
-                    Recipe Title
-                </h3>
-                <p class="recipes-card-bottom-info px-s fs-xs my-s">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit perspiciatis ipsa velit ad debitis ratione cumque placeat reiciendis sunt.
-                </p>
-            </div>
-        </div>
-        <div class="recipes-card my-s">
-            <div class="recipes-card-top">
-                <img src="/images/gallery3.jpg" alt="">
-            </div>
-            <div class="recipes-card-bottom bg-g1">
-                <h3 class="recipes-card-bottom-title px-s my-s">
-                    Recipe Title
-                </h3>
-                <p class="recipes-card-bottom-info px-s fs-xs my-s">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit perspiciatis ipsa velit ad debitis ratione cumque placeat reiciendis sunt.
-                </p>
-            </div>
-        </div> 
+        
+        
+        
     </div>
     </div>
 </div>

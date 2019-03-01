@@ -19,7 +19,7 @@ Quality | O'Mahony Meats Ltd.
         </div>
     </div>
 
-    <div class="quality-title-container quality-title-1-container bg-g1">
+    <div class="quality-title-container quality-title-1-container bg-g1 pt-l">
         <div class="quality-title qulaity-title-1">
             <h2 class="quality-title-item quality-title-item-1 bg-s py-m c-g1 fs-l">
                 Our Quality Commitment
@@ -37,7 +37,7 @@ Quality | O'Mahony Meats Ltd.
         </div>
     </div>
 
-    <div class="quality-title-container quality-title-container-2 bg-s">
+    <div class="quality-title-container quality-title-container-2 bg-s pt-l">
         <div class="quality-title quality-title-2">
             <div class="quality-title-item quality-title-item-2 bg-g1 py-m fs-l">
                 Demonstrating Quality

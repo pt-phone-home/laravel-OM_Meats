@@ -54,7 +54,7 @@ class PagesController extends Controller
 
     public function offers() {
 
-        $latest_offer = Offer::orderBy('updated_at', 'DESC')->find(1);
+        $latest_offer = Offer::orderBy('updated_at', 'DESC')->first();
         $offers = Offer::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
         return view('offers')->with([
             'latest_offer' => $latest_offer,
@@ -66,7 +66,7 @@ class PagesController extends Controller
 
         $latest_recipe = Recipe::orderBy('updated_at', 'DESC')->first();
 
-        $recipes = Recipe::orderBy('updated_at', 'DESC')->take(6)->get();
+        $recipes = Recipe::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
         return view('recipes')->with([
             'recipes' => $recipes,
             'latest_recipe' => $latest_recipe

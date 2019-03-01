@@ -13,9 +13,9 @@ Careers | O'Mahoney Meats Ltd.
         </div>
     </div>
 
-    <div class="careers-title-container bg-g1">
+    <div class="careers-title-container bg-g1 pt-l">
         <div class="careers-title">
-            <div class="careers-title-item py-m bg-g1 fs-l fw-b">
+            <div class="careers-title-item py-s bg-g1 fs-l fw-b">
                 Current Career Opportunties
             </div>
         </div>
@@ -23,7 +23,7 @@ Careers | O'Mahoney Meats Ltd.
     <div class="careers-container bg-g1">
 
        
-        <div class="careers">
+        <div class="careers py-m">
                 @if($careers)
                 @foreach($careers as $career)
             <div class="careers-item my-m">

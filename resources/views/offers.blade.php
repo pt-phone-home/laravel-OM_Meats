@@ -23,17 +23,19 @@
         </div>
         @if($latest_offer)
         <div class="latest-offer-card my-m">
-            <div class="latest-offer-card-left">
-                @if($latest_offer->img)
+            <div class="latest-offer-card-left px-m py-m bg-g2">
+                
             <img src="{{$latest_offer->img}}" alt="">
-            @endif
+            
             </div>
             <div class="latest-offer-card-right px-m py-m bg-g1">
-                <p class="latest-offer-card-right-details fs-m"></p>
-                <h2 class="latest-offer-card-right-valid c-p ">Valid Until: </h2>
+                <div class="latest-offer-card-right-details fs-m">
+                    {!! $latest_offer->detail !!}
+                </div>
+                <h2 class="latest-offer-card-right-valid c-p ">Valid Until: {{$latest_offer->valid}} </h2>
             </div>
             <div class="latest-offer-card-bottom bg-p c-g1">
-            <h3 class="latest-offer-card-bottom-item py-s fs-l"></h3>
+            <h3 class="latest-offer-card-bottom-item py-s fs-l">{{$latest_offer->title}}</h3>
             </div>
 
         </div>
@@ -42,7 +44,7 @@
 </div>
 
 
-<div class="offers-title-container bg-g1">
+<div class="offers-title-container bg-g1 pt-l">
     <div class="offers-title">
         <h2 class="offers-title-item fs-l c-p bg-g3 py-m">
             Offers
@@ -54,7 +56,7 @@
         @if($offers)
         @foreach($offers as $offer)
         <div class="offers-card my-m">
-            <div class="offers-card-img">
+            <div class="offers-card-img px-s py-s">
                 <img src="{{$offer->img}}" alt="">
             </div>
             <div class="offers-card-title bg-p c-g1 px-s py-s fs-m">
@@ -63,7 +65,8 @@
                 </h4>
             </div>
             <div class="offers-card-detail">
-            <p class="offers-card-detail-item my-m px-s">{!! $offer->detail !!}</p>
+            <div class="offers-card-detail-item my-m px-s">{!! $offer->detail !!}
+            </div>
             </div>
             <div class="offers-card-bottom bg-s">
                 <h4 class="offers-card-bottom-item py-s c-g1 px-s">

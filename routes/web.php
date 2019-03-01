@@ -55,6 +55,7 @@ Route::put('/recipe/{id}', 'RecipesController@update');
 Route::delete('/recipe/{id}', 'RecipesController@destory');
 
 // News
+Route::get('/newsitem/{id}', 'NewsController@show');
 Route::get('/createnewsitem', 'NewsController@create');
 Route::post('/createnewsitem', 'NewsController@store');
 Route::get('/newsitem/{id}/editnewsitem', 'NewsController@edit');

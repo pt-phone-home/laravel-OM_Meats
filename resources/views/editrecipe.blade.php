@@ -15,7 +15,7 @@ Edit Recipe
 </div>
 
 <div class="createcareer-container">
-<form action="/recipe/{{$recipe->id}}" method="POST" class="careerform my-m">
+<form action="/recipe/{{$recipe->id}}" method="POST" class="careerform my-m" enctype="multipart/form-data">
         @csrf
         @method('PUT')
         <div class="careerform-group py-m">

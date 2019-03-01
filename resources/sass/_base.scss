@@ -80,11 +80,20 @@ body {
     margin-bottom: 5rem;
 }
 
+.mx-m {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 .mt-s {
     margin-top: 1rem;
 }
 .mt-m {
     margin-top: 2rem;
+}
+
+.mt-l {
+    margin-top: 4rem;
 }
 
 .mb-s {
@@ -101,6 +110,10 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+.py-l {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 
 .px-s {
     padding-left: 1rem;
@@ -114,6 +127,10 @@ body {
 .px-l {
     padding-left: 4rem;
     padding-right: 4rem;
+}
+
+.pt-l {
+    padding-top: 4rem;
 }
 
 //Font Sizes

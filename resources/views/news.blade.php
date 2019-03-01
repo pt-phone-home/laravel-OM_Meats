@@ -26,24 +26,29 @@
     <div class="latest-news my-m">
 
         <div class="latest-news-card my-m">
+            @if($latest_news)
             <div class="latest-news-card-left bg-g1">
-                <h2 class="latest-news-card-left-title py-s px-s">
-                    Story Title
+                <h2 class="latest-news-card-left-title py-s px-s bg-s c-g1">
+                    {{$latest_news->title}}
                 </h2>
 
-                <p class="latest-news-card-left-info py-s px-s">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus totam perspiciatis quas praesentium quia id inventore, dolorum cumque sint aliquid.
-                </p>
+                <div class="latest-news-card-left-info py-s px-s">
+                    {!! $latest_news->body !!}
+                </div>
+                <div class="latest-news-card-left-bottom">
+                <a href="/newsitem/{{$latest_news->id}}" class="latest-news-card-left-bottom-cta">Read More</a>
+                </div>
             </div>
-            <div class="latest-news-card-right">
-                <img src="/images/gallery6.jpg" alt="">
+            <div class="latest-news-card-right bg-g2 px-s py-s">
+                <img src="/{{$latest_news->img}}" alt="">
             </div>
+            @endif
         </div>
 
     </div>
 </div>
 
-<div class="news-title-container bg-g1">
+<div class="news-title-container bg-g1 pt-l">
     <div class="news-title">
         <h2 class="news-title-item bg-g3 fs-l py-m c-p">
             News
@@ -53,61 +58,25 @@
 
 <div class="news-container bg-g3">
     <div class="news my-m">
+        @if($news)
+        @foreach($news as $new)
         <div class="news-card my-m">
 
             <div class="news-card-top">
-                <img src="/images/gallery1.jpg" alt="">
+                <img src="/{{$new->img}}" alt="">
             </div>
             <div class="news-card-bottom">
-                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
-                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
+                <h5 class="news-card-bottom-title px-m py-s fs-m"> {{$new->title}}</h5>
+                <div class="news-card-bottom-info px-m my-s">{!! str_limit($new->body, $limit = 50, $end = '...') !!}</div>
+            </div>
+            <div class="news-card-bottom-cta">
+            <a href="/newsitem/{{$new->id}}" class="news-card-bottom-cta-link">Read More</a>
             </div>
 
         </div>
-        <div class="news-card my-m">
-
-            <div class="news-card-top">
-                <img src="/images/gallery1.jpg" alt="">
-            </div>
-            <div class="news-card-bottom">
-                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
-                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
-            </div>
-
-        </div>
-        <div class="news-card my-m">
-
-            <div class="news-card-top">
-                <img src="/images/gallery1.jpg" alt="">
-            </div>
-            <div class="news-card-bottom">
-                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
-                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
-            </div>
-
-        </div>
-        <div class="news-card my-m">
-
-            <div class="news-card-top">
-                <img src="/images/gallery1.jpg" alt="">
-            </div>
-            <div class="news-card-bottom">
-                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
-                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
-            </div>
-
-        </div>
-        <div class="news-card my-m">
-
-            <div class="news-card-top">
-                <img src="/images/gallery1.jpg" alt="">
-            </div>
-            <div class="news-card-bottom">
-                <h5 class="news-card-bottom-title px-m py-s fs-m"> News Title</h5>
-                <p class="news-card-bottom-info px-m my-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore!</p>
-            </div>
-
-        </div>
+        @endforeach
+        @endif
+        
     </div>
 </div>
 

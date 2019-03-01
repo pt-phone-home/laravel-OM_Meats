@@ -48,13 +48,44 @@
 
                 display: flex;
                 flex-direction: column;
+                justify-content: space-between;
+
+                &-title,
+                &-info {
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5 {
+                        margin: 1rem 1rem;
+                        padding: 1rem 1rem;
+                    }
+
+                    ul li {
+                        margin: 1rem 1rem;
+                    }
+                    p {
+                        margin: 1rem 1rem;
+                    }
+                }
+
+                &-bottom {
+                    background: $primary;
+                    padding: 1rem;
+
+                    &-cta {
+                        color: $grey1;
+                        text-decoration: none;
+                        padding: 1.5rem 1rem;
+                    }
+                }
             }
 
             &-right {
                 width: 35rem;
 
                 img {
-                    // object-fit: fill;
+                    object-fit: contain;
                     width: 100%;
                     height: 100%;
                 }
@@ -114,6 +145,83 @@
 
                 &-title {
                 }
+
+                &-info {
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5 {
+                        margin: 1rem 1rem;
+                        padding: 1rem 1rem;
+                    }
+
+                    ul li {
+                        margin: 1rem 1rem;
+                    }
+                    p {
+                        margin: 1rem 1rem;
+                    }
+                }
+
+                &-cta {
+                    background: $primary;
+                    padding: 1rem;
+
+                    &-link {
+                        color: $grey1;
+                        text-decoration: none;
+                        padding: 1.5rem 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// News Item Page
+.newsitem-container {
+    @include row;
+
+    .newsitem {
+        @include rowinset(60%);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 3px solid $primary;
+
+        &-title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &-img {
+            height: 30rem;
+
+            img {
+                object-fit: contain;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        &-detail {
+            h1,
+            h2,
+            h3,
+            h4,
+            h5 {
+                margin: 1rem 1rem;
+                padding: 1rem 1rem;
+            }
+
+            ul li {
+                margin: 1rem 1rem;
+            }
+            p {
+                margin: 1rem 1rem;
             }
         }
     }

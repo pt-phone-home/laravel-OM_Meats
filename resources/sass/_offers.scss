@@ -1,5 +1,7 @@
 .offers-banner-container {
     @include row;
+    background: url("/images/background.png");
+    background-repeat: repeat;
 
     .offers-banner {
         @include rowinset(80%);
@@ -13,6 +15,8 @@
 }
 .latest-offer-container {
     @include row;
+    // background: url("/images/background.png");
+    // background-repeat: repeat;
 
     .latest-offer {
         margin-top: 2rem;
@@ -22,6 +26,7 @@
         &-title {
             justify-self: center;
             align-self: center;
+            font-weight: bold;
         }
 
         &-card {
@@ -33,11 +38,13 @@
             &-left {
                 grid-column: 1 / 2;
                 width: 30rem;
+                display: flex;
+                justify-content: flex-start;
 
                 img {
                     object-fit: cover;
                     width: 100%;
-                    height: auto;
+                    height: 100%;
                 }
             }
 
@@ -105,8 +112,8 @@
 
                 img {
                     object-fit: cover;
-                    width: 30rem;
-                    height: 25rem;
+                    width: auto;
+                    height: 100%;
                 }
             }
 

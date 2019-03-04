@@ -1,7 +1,5 @@
 .offers-banner-container {
     @include row;
-    background: url("/images/background.png");
-    background-repeat: repeat;
 
     .offers-banner {
         @include rowinset(80%);
@@ -113,6 +111,12 @@
                 img {
                     object-fit: cover;
                     width: auto;
+                    height: 100%;
+                }
+            }
+
+            &-detail {
+                &-item {
                     height: 100%;
                 }
             }

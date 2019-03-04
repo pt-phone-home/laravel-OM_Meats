@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<div class="latest-news-title-container bg-g1">
+<div class="latest-news-title-container bgi-g1">
     <div class="latest-news-title">
         <div class="latest-news-title-item fs-l my-m">
             Latest Story
@@ -22,7 +22,7 @@
     </div>
 </div>
 
-<div class="latest-news-container bg-g1">
+<div class="latest-news-container bgi-g1">
     <div class="latest-news my-m">
 
         <div class="latest-news-card my-m">
@@ -31,15 +31,17 @@
                 <h2 class="latest-news-card-left-title py-s px-s bg-s c-g1">
                     {{$latest_news->title}}
                 </h2>
-
+                <div class="latest-news-card-left-headline">
+                    <strong>{{$latest_news->headline}}</strong>
+                </div>
                 <div class="latest-news-card-left-info py-s px-s">
-                    {!! $latest_news->body !!}
+                    {!! str_limit($latest_news->body, $limit = 100, $end = '...') !!}
                 </div>
                 <div class="latest-news-card-left-bottom">
                 <a href="/newsitem/{{$latest_news->id}}" class="latest-news-card-left-bottom-cta">Read More</a>
                 </div>
             </div>
-            <div class="latest-news-card-right bg-g2 px-s py-s">
+            <div class="latest-news-card-right bgi-g1 px-s py-s">
                 <img src="/{{$latest_news->img}}" alt="">
             </div>
             @endif
@@ -48,15 +50,15 @@
     </div>
 </div>
 
-<div class="news-title-container bg-g1 pt-l">
+<div class="news-title-container bgi-g1 pt-l">
     <div class="news-title">
-        <h2 class="news-title-item bg-g3 fs-l py-m c-p">
+        <h2 class="news-title-item bgi-g3 fs-l py-m c-p">
             News
         </h2>
     </div>
 </div>
 
-<div class="news-container bg-g3">
+<div class="news-container bgi-g3">
     <div class="news my-m">
         @if($news)
         @foreach($news as $new)

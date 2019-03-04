@@ -5,28 +5,28 @@
 @endsection
 
 @section('content')
-<div class="retail-title-container">
+<div class="retail-title-container bgi-p">
     <div class="retail-title my-m">
         <h1 class="retail-title-heading my-m">Retail</h1>
     </div>
 </div>
 
-<div class="retail-quote-container bg-g1">
+<div class="retail-quote-container bgi-g1">
     <div class="retail-quote my-m">
         <h1 class="retail-quote-item my-xl fs-l c-p">Come and visit our genuine factory shop with ample free parking!
         </h1>
     </div>
 </div>
 
-<div class="retail-header-container retail-header-container-1 bg-g1 pt-l">
+<div class="retail-header-container retail-header-container-1 bgi-g1 pt-l">
     <div class="retail-header retail-header-1">
-        <div class="retail-header-item retail-header-item-1 bg-g2 py-m fs-l">
+        <div class="retail-header-item retail-header-item-1 bgi-g2 py-m fs-l">
             Huge selection of products
         </div>
     </div>
 </div>
 
-<div class="retail-container retail-container-1 bg-g2">
+<div class="retail-container retail-container-1 bgi-g2">
     <div class="retail retail-1 my-m">
 
         <div class="retail-img retail-1-img my-m">
@@ -40,15 +40,15 @@
     </div>
 </div>
 
-<div class="retail-header-container-2 bg-g2 pt-l">
+<div class="retail-header-container-2 bgi-g2 pt-l">
     <div class="retail-header-2">
-        <div class="retail-header-2-item bg-s py-m c-g1 fs-l">
+        <div class="retail-header-2-item bgi-s py-m c-g1 fs-l">
             Products for All Occasions
         </div>
     </div>
 </div>
 
-<div class="retail-container retail-container-2 bg-s">
+<div class="retail-container retail-container-2 bgi-s">
     <div class="retail retail-2 my-m">
         <div class="retail-info retail-2-info my-l">
             <p class="retail-2-info-item retail-info-item-2 px-l my-m fs-m c-g1">
@@ -66,15 +66,15 @@
     </div>
 </div>
 
-<div class="retail-header-container-2 bg-s pt-l">
+<div class="retail-header-container-2 bgi-s pt-l">
         <div class="retail-header-2">
-            <div class="retail-header-2-item bg-g1 py-m c-p fs-l">
+            <div class="retail-header-2-item bgi-g1 py-m c-p fs-l">
                 Expert Staff
             </div>
         </div>
     </div>
 
-<div class="retail-details-2-container">
+<div class="retail-details-2-container bgi-g1">
     <div class="retail-details-2 my-l">
         <div class="retail-details-2-info my-m">
             <p class="retail-details-2-info-item fs-m">Can’t see what you want? Just ask our friendly staff will be happy to get it for you! Not everything we supply fits into our display cabinets but we stock a huge amount in our refrigerated stock rooms.

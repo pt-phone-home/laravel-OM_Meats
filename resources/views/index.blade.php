@@ -5,7 +5,7 @@ Home | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
-    <div class="welcome-container">
+    <div class="welcome-container bgi-p">
         <div class="welcome my-m">
             <h1 class="welcome-heading fs-xl">
                 Welcome to O’Mahony Meats
@@ -18,18 +18,18 @@ Home | O'Mahony Meats Ltd.
             <p class="welcome-info welcome-info-2">Our Product range includes:</p> --}}
         </div>
     </div>
-    <div class="products-quote-container bg-g1">
-        <div class="products-quote my-l bg-g1">
+    <div class="products-quote-container bgi-g1">
+        <div class="products-quote my-l bgi-g1">
             <h3 class="products-quote-text fs-xl my-m c-p">"We supply meat to both the catering trade foodservice sector and the general public"</h3>
         </div>
     </div>
-    <div class="products-title bg-g1">
-        <div class="products-title-item c-p bg-g3  py-m fs-l">
+    <div class="products-title bgi-g1">
+        <div class="products-title-item c-p bgi-g3  py-m fs-l">
             Our products include:
         </div>
 
     </div>
-    <div class="products-container bg-g3">
+    <div class="products-container bgi-g3">
         <div class="products my-m">
             <div class="products-item products-item-1 my-l">
                 <h2 class="products-item-title c-g1 bg-p fs-l">

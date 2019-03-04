@@ -5,14 +5,14 @@ Contact | O'Mahoney Meats Ltd.
 @endsection
 
 @section('content')
-    <div class="contact-title-container">
+    <div class="contact-title-container bgi-p">
         <div class="contact-title">
             <h1 class="contact-title-heading my-m fs-xl">
                 Contact Us
             </h1>
         </div>
     </div>
-    <div class="contact-container">
+    <div class="contact-container bgi-g1">
         <div class="contact my-m">
 
             <div class="contact-phone">

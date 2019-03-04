@@ -1,6 +1,5 @@
 .retail-title-container {
     grid-column: 1 / -1;
-    background: $primary;
     display: grid;
 
     .retail-title {
@@ -117,7 +116,6 @@
 .retail-details-2-container {
     grid-column: 1 / -1;
     display: grid;
-    background: $grey1;
 
     .retail-details-2 {
         // margin-top: 2rem;

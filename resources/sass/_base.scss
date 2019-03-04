@@ -199,6 +199,41 @@ body {
     font-weight: bold;
 }
 
+// BACKGROUNDS
+
+.bgi-g1 {
+    background: url("/images/g1.png");
+    background-repeat: repeat;
+}
+.bgi-g2 {
+    background: url("/images/g2.png");
+    background-repeat: repeat;
+}
+.bgi-g3 {
+    background: url("/images/g3.png");
+    background-repeat: repeat;
+}
+.bgi-g4 {
+    background: url("/images/g4.png");
+    background-repeat: repeat;
+}
+.bgi-g5 {
+    background: url("/images/g5.png");
+    background-repeat: repeat;
+}
+.bgi-g6 {
+    background: url("/images/g6.png");
+    background-repeat: repeat;
+}
+.bgi-s {
+    background: url("/images/s.png");
+    background-repeat: repeat;
+}
+.bgi-p {
+    background: url("/images/p.png");
+    background-repeat: repeat;
+}
+
 // mixins
 @mixin row {
     grid-column: 1 / -1;

@@ -5,7 +5,7 @@ Careers | O'Mahoney Meats Ltd.
 @endsection
 
 @section('content')
-    <div class="careers-header-container bg-p">
+    <div class="careers-header-container bgi-p">
         <div class="careers-header my-m">
             <h1 class="careers-header-heading my-m c-g1 fs-xl">
                 Work with O'Mahoney Meats
@@ -13,20 +13,20 @@ Careers | O'Mahoney Meats Ltd.
         </div>
     </div>
 
-    <div class="careers-title-container bg-g1 pt-l">
+    <div class="careers-title-container bgi-g1 pt-l">
         <div class="careers-title">
-            <div class="careers-title-item py-s bg-g1 fs-l fw-b">
+            <div class="careers-title-item py-s bgi-g1 fs-l fw-b">
                 Current Career Opportunties
             </div>
         </div>
     </div>
-    <div class="careers-container bg-g1">
+    <div class="careers-container bgi-g1">
 
        
         <div class="careers py-m">
                 @if($careers)
                 @foreach($careers as $career)
-            <div class="careers-item my-m">
+            <div class="careers-item my-m bg-g1">
                 <h3 class="careers-item-heading fs-m"> {{$career->title}}</h3>
 
                 <div class="careers-item-info">

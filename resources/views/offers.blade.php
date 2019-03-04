@@ -6,7 +6,7 @@
 
 @section('content')
 
-<div class="offers-banner-container bg-p">
+<div class="offers-banner-container bgi-p">
     <div class="offers-banner my-m">
         <h1 class="offers-banner-item my-m c-g1 fs-xl">
             Offers From O'Manony's
@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<div class="latest-offer-container bg-g1">
+<div class="latest-offer-container bgi-g1">
     <div class="latest-offer my-m">
         <div class="latest-offer-title">
             <div class="latest-offer-title-item fs-l c-p">
@@ -44,14 +44,14 @@
 </div>
 
 
-<div class="offers-title-container bg-g1 pt-l">
+<div class="offers-title-container bgi-g1 pt-l">
     <div class="offers-title">
-        <h2 class="offers-title-item fs-l c-p bg-g3 py-m">
+        <h2 class="offers-title-item fs-l c-p bgi-g3 py-m">
             Offers
         </h2>
     </div>
 </div>
-<div class="offers-container bg-g3">
+<div class="offers-container bgi-g3">
     <div class="offers my-l">
         @if($offers)
         @foreach($offers as $offer)
@@ -64,8 +64,8 @@
                     {{$offer->title}}
                 </h4>
             </div>
-            <div class="offers-card-detail">
-            <div class="offers-card-detail-item my-m px-s">{!! $offer->detail !!}
+            <div class="offers-card-detail bg-g1">
+            <div class="offers-card-detail-item my-m px-s bg-g1">{!! $offer->detail !!}
             </div>
             </div>
             <div class="offers-card-bottom bg-s">

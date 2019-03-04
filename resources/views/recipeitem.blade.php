@@ -6,7 +6,7 @@
 
 @section('content')
 
-<div class="recipes-banner-container bg-p">
+<div class="recipes-banner-container bgi-p">
     <div class="recipes-banner my-m">
         <h1 class="recipes-banner-item my-m fs-xl c-g1">
             Recipe Ideas from O'Manony's
@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<div class="recipeitem-container">
+<div class="recipeitem-container bgi-g1">
     <div class="recipeitem my-m">
         @if($recipe)
         <div class="recipeitem-title bg-s c-g1">
@@ -26,7 +26,7 @@
             </h5>
         </div>
         <hr>
-        <div class="recipeitem-img bg-g1 my-m">
+        <div class="recipeitem-img bg-g2 my-m">
             <img src="/{{$recipe->img}}" alt="">
         </div>
         <hr>
@@ -34,6 +34,7 @@
             {!! $recipe->detail !!}
         </div>
         @endif
+        <a href="/recipes" class="btn">Back to Recipes</a>
     </div>
 </div>
 

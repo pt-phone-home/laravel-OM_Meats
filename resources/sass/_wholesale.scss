@@ -1,7 +1,6 @@
 .wholesale-title-container {
     grid-column: 1 / -1;
     display: grid;
-    background: $primary;
 
     .wholesale-title {
         margin-top: 2rem;
@@ -72,7 +71,6 @@
 .wholesale-info-container {
     grid-column: 1 / -1;
     display: grid;
-    background: $grey1;
 
     .wholesale-info {
         // margin-top: 2rem;

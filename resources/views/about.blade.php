@@ -5,29 +5,29 @@ About | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
-    <div class="about-us-header-container bg-p">
-        <div class="about-us-header bg-p my-l">
+    <div class="about-us-header-container bgi-p">
+        <div class="about-us-header bgi-p my-l">
             <h1 class="about-us-header-heading fs-xl c-g1">About O'Mahony Meats</h1>
         </div>
     </div>
 
-    <div class="about-us-quote-container bg-g1">
-        <div class="about-us-quote my-xl bg-g1">
+    <div class="about-us-quote-container bgi-g1">
+        <div class="about-us-quote my-xl bgi-g1">
             <div class="about-us-quote-text fs-l c-p">
                 "For the past 50 years, O’Mahony Meats has gone from <strong>strength</strong> to <strong>strength</strong>. It is a thriving wholesale and retail business enjoying a great reputation as one of the main meat wholesalers in the greater Dublin area"
             </div>
         </div>
     </div>
 
-    <div class="about-us-1-title-container bg-g1 pt-l">
+    <div class="about-us-1-title-container bgi-g1 pt-l">
         <div class="about-us-1-title">
-            <h1 class="about-us-1-title-heading c-g1 bg-p py-m">
+            <h1 class="about-us-1-title-heading c-g1 bgi-p py-m">
                 In the beginning
             </h1>
         </div>
     </div>
 
-    <div class="about-us-1-container bg-p">
+    <div class="about-us-1-container bgi-p">
         <div class="about-us-1 my-l">
             <div class="about-us-1-img my-m">
                 <img src="/images/kilester_old.jpg" alt="">
@@ -44,15 +44,15 @@ About | O'Mahony Meats Ltd.
         </div>
     </div>
 
-    <div class="about-us-2-title-container bg-p pt-l">
+    <div class="about-us-2-title-container bgi-p pt-l">
         <div class="about-us-2-title">
-            <h1 class="about-us-2-title-heading bg-s fs-l c-g1 py-m">
+            <h1 class="about-us-2-title-heading bgi-s fs-l c-g1 py-m">
                 A new era for O'Mahony Meats
             </h1>
         </div>
     </div>
     
-    <div class="about-us-2-container bg-s">
+    <div class="about-us-2-container bgi-s">
         <div class="about-us-2 my-l">
 
             <div class="about-us-2-info my-m fs-sm">
@@ -68,14 +68,14 @@ About | O'Mahony Meats Ltd.
         </div>
     </div>
 
-    <div class="about-us-3-title-container bg-s pt-l">
+    <div class="about-us-3-title-container bgi-s pt-l">
         <div class="about-us-3-title ">
-            <div class="about-us-3-title-heading bg-g2 py-m fs-l c-p fw-b">
+            <div class="about-us-3-title-heading bgi-g2 py-m fs-l c-p fw-b">
                 Strength to Strength
             </div>
         </div>
     </div>
-    <div class="about-us-3-container bg-g2">
+    <div class="about-us-3-container bgi-g2">
         <div class="about-us-3 my-l">
             <div class="about-us-3-img my-m">
                 <img src="/images/staff.jpg" alt="">

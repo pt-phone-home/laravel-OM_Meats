@@ -5,20 +5,20 @@
 @endsection
 
 @section('content')
-<div class="wholesale-title-container">
+<div class="wholesale-title-container bgi-p">
     <div class="wholesale-title my-m">
         <h1 class="wholesale-title-heading my-m c-g1">
             Wholesale
         </h1>
     </div>
 </div>
-<div class="wholesale-quote-container bg-g2">
+<div class="wholesale-quote-container bgi-g2">
     <div class="wholesale-quote my-m">
         <h1 class="wholesale-quote-item my-m c-p">"Here at O'Mahony Meats, we offer a comprehensive package tailor made for restaurants, cafes and anyone in the food industry!"
         </h1>
     </div>
 </div>
-<div class="wholesale-banner-container bg-g2">
+<div class="wholesale-banner-container bgi-g2">
     <div class="wholesale-banner">
         <div class="wholesale-banner-img wholesale-banner-img-1">
             <img src="/images/restaurant.jpg" alt="">
@@ -32,13 +32,13 @@
     </div>
 </div>
 
-<div class="wholesale-info-title-container bg-g2 pt-l">
+<div class="wholesale-info-title-container bgi-g2 pt-l">
     <div class="wholesale-info-title">
-        <h2 class="wholesale-info-title-item bg-g1 py-m fs-l">Order With Us</h2>
+        <h2 class="wholesale-info-title-item bgi-g1 py-m fs-l">Order With Us</h2>
     </div>
 </div>
 
-<div class="wholesale-info-container">
+<div class="wholesale-info-container bgi-g1">
     <div class="wholesale-info my-xl">
         <p class="wholesale-info-item fs-m">
                 You can place an order by simply calling <strong>01-8476000</strong> between Monday &amp; Saturday (7am - 5pm) or by eMailing us on <strong>orders@ommeats.ie</strong> and we will take it from there.

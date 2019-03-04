@@ -2,3 +2,5 @@
 
 1. Fix issue with recipe container
 2. Set up offers page - done
+3. Set up login and create user pages
+4. insert the correct images

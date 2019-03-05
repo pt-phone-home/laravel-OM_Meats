@@ -47,7 +47,6 @@
 
             &-heading {
                 margin-bottom: 2rem;
-                margin-left: 1rem;
             }
 
             &-info {
@@ -103,4 +102,10 @@
             }
         }
     }
+}
+
+// Careers Item Page
+
+.careersitem-description {
+    border: 3px solid $primary;
 }

@@ -78,7 +78,7 @@ About | O'Mahony Meats Ltd.
     <div class="about-us-3-container bgi-g2">
         <div class="about-us-3 my-l">
             <div class="about-us-3-img my-m px-m py-m bgi-p">
-                <img src="/images/staff.jpg" alt="">
+                <img src="/images/staff2.jpg" alt="">
             </div>
             <div class="about-us-3-info px-l">
                 <p class="about-us-3-info-item my-m fs-sm">

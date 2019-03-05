@@ -32,18 +32,18 @@
 </div>
 <div class="image-gallery-container bgi-s">
     <div class="image-gallery bgi-s my-xl">
-        <img src="/images/gallery1.jpg" alt="">
-        <img src="/images/gallery2.jpg" alt="">
-        <img src="/images/gallery3.jpg" alt="">
-        <img src="/images/gallery4.jpg" alt="">
-        <img src="/images/gallery5.jpg" alt="">
-        <img src="/images/gallery6.jpg" alt="">
-        <img src="/images/gallery7.jpg" alt="">
-        <img src="/images/gallery8.jpg" alt="">
-        <img src="/images/gallery9.jpg" alt="">
-        <img src="/images/gallery10.jpg" alt="">
-        <img src="/images/gallery11.jpg" alt="">
-        <img src="/images/gallery12.jpg" alt="">
+        <img src="/images/slider/1.jpg" alt="">
+        <img src="/images/slider/2.jpg" alt="">
+        <img src="/images/slider/3.jpg" alt="">
+        <img src="/images/slider/4.jpg" alt="">
+        <img src="/images/slider/5.jpg" alt="">
+        <img src="/images/slider/6.jpg" alt="">
+        <img src="/images/slider/7.jpg" alt="">
+        <img src="/images/slider/8.jpg" alt="">
+        <img src="/images/slider/9.jpg" alt="">
+        <img src="/images/slider/10.jpg" alt="">
+        <img src="/images/slider/11.jpg" alt="">
+        <img src="/images/slider/12.jpg" alt="">
         {{-- <img src="/images/gallery13.jpg" alt=""> --}}
         
     </div>

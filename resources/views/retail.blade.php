@@ -60,7 +60,7 @@
         </div>
 
         <div class="retail-img retail-2-img my-l px-m py-m bgi-g1">
-            <img src="/images/retail_1.png" alt="">
+            <img src="/images/products.jpg" alt="">
         </div>
         
     </div>

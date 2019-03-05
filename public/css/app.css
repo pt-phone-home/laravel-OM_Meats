@@ -627,6 +627,39 @@ body {
   height: 20rem;
 }
 
+.footer-conatiner .footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1rem;
+}
+
+.footer-conatiner .footer-links-heading {
+  grid-column: 1/-1;
+}
+
+.footer-conatiner .footer-links-left,
+.footer-conatiner .footer-links-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer-conatiner .footer-links-link {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.footer-conatiner .footer-links-link:hover {
+  color: #d3d3d3;
+}
+
+.footer-conatiner .footer-contact,
+.footer-conatiner .footer-connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .about-us-header-container {
   grid-column: 1/-1;
   display: grid;
@@ -1410,7 +1443,8 @@ body {
 .image-gallery-container .image-gallery img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 26rem;
+  width: 25rem;
+  height: 20rem;
 }
 
 .careers-header-container {
@@ -1467,7 +1501,6 @@ body {
 
 .careers-container .careers-item-heading {
   margin-bottom: 2rem;
-  margin-left: 1rem;
 }
 
 .careers-container .careers-item-info {
@@ -1517,6 +1550,10 @@ body {
 .careersitem-container .careersitem-description-output ul li,
 .careersitem-container .careersitem-description-output ol li {
   margin: 1rem 2rem;
+}
+
+.careersitem-description {
+  border: 3px solid #76232f;
 }
 
 .offers-banner-container {

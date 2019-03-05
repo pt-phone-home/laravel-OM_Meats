@@ -89,8 +89,8 @@ Quality | O'Mahony Meats Ltd.
             </div>
         </div>
     </div>
-    <div class="accreditation-container bgi-g1">
-        <div class="accreditation my-m bgi-g1">
+    <div class="accreditation-container bg-w">
+        <div class="accreditation my-l bgi-w">
             <img src="/images/craftbutchers.png" alt="">
             <img src="/images/eiqa.jpg" alt="">
             <img src="/images/haccp.png" alt="">

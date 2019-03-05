@@ -36,7 +36,7 @@ Home | O'Mahony Meats Ltd.
                     Beef
                 </h2>
                 <div class="products-item-img">
-                    <img src="/images/gallery9.jpg" alt="">
+                    <img src="/images/beef.jpg" alt="">
                 </div>
             </div>
             <div class="products-item products-item-2 my-l">
@@ -44,7 +44,7 @@ Home | O'Mahony Meats Ltd.
                     Lamb
                 </h2>
                 <div class="products-item-img">
-                    <img src="/images/gallery4.jpg" alt="">
+                    <img src="/images/lamb.jpg" alt="">
                 </div>
             </div>
             <div class="products-item products-item-3 my-l">
@@ -52,7 +52,7 @@ Home | O'Mahony Meats Ltd.
                     Pork &amp; Bacon
                 </h2>
                 <div class="products-item-img">
-                    <img src="/images/gallery1.jpg" alt="">
+                    <img src="/images/pork.jpg" alt="">
                 </div>
             </div>
             <div class="products-item products-item-4 my-m">
@@ -60,7 +60,7 @@ Home | O'Mahony Meats Ltd.
                     Poultry
                 </h2>
                 <div class="products-item-img">
-                    <img src="/images/gallery3.jpg" alt="">
+                    <img src="/images/chicken.jpg" alt="">
                 </div>
             </div>
             <div class="products-item products-item-5 my-m">
@@ -68,7 +68,7 @@ Home | O'Mahony Meats Ltd.
                     Cooked Meats
                 </h2>
                 <div class="products-item-img">
-                    <img src="/images/gallery8.jpg" alt="">
+                    <img src="/images/cooked.jpg" alt="">
                 </div>
             </div>
             <div class="products-item products-item-6 my-m">
@@ -76,7 +76,7 @@ Home | O'Mahony Meats Ltd.
                     Eggs
                 </h2>
                 <div class="products-item-img">
-                    <img src="/images/gallery10.jpg" alt="">
+                    <img src="/images/eggs.jpg" alt="">
                 </div>
             </div>
             

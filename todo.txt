@@ -4,28 +4,28 @@
 
 
 HOME PAGE
-1. Update product images
+
 
 ABOUT PAGE
-1. update images
+
 
 QUALITY PAGE
-1. Fix images at bottom of page
+
 
 CAREERS PAGE
-1. Fix card title
+
 
 CAREERS ITEM PAGE
-1. Update container to match news container
+
 
 CONTACT PAGE
 1. Get images 
 
 RETAIL PAGE
-1. Update images
+
 
 PRODUCTS PAGE
-1. Update images
+
 
 OFFERS PAGE
 1. Test Crud features

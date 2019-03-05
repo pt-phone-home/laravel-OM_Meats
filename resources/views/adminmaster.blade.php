@@ -13,13 +13,13 @@
 </head>
 <body>
     <div class="container">
-        <div class="admin-header bg-p c-g1">
+        <div class="admin-header bgi-p c-g1">
             <h1 class="admin-header-title my-l">
                 O'Mahony Meats <br> <br>Admin Area
             </h1>
 
         </div>
-        <div class="admin-nav bg-s c-g1 py-m px-s">
+        <div class="admin-nav bgi-s c-g1 py-m px-s">
             <li class="admin-nav-item"><a class="admin-nav-item-link c-g1" href="/">Return to main site</a></li>
             @if (!Request::is('admin'))
             <li class="admin-nav-item"><a class="admin-nav-item-link c-g1" href="/admin">Return to Admin Page</a></li>

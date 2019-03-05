@@ -39,10 +39,11 @@
 
         &-card {
             width: 70rem;
-            height: 30rem;
+            height: auto;
             // height: 30rem;
             display: grid;
             grid-template-columns: 1fr 1fr;
+            border: 3px solid $primary;
 
             &-left {
                 grid-column: 1 / 2;
@@ -51,7 +52,7 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                border: 3px solid $primary;
+                border-right: 3px solid $primary;
 
                 &-title {
                 }
@@ -88,7 +89,7 @@
             &-right {
                 grid-column: 2 / 3;
                 width: 100%;
-                border: 3px solid $primary;
+
                 // height: 100%;
                 // width: 100%;
 

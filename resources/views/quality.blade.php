@@ -47,13 +47,13 @@ Quality | O'Mahony Meats Ltd.
     <div class="quality-container quality-container-2 bgi-g1">
         <div class="quality quality-2">
             <div class="quality-2-item quality-2-item-1 my-l">
-                <div class="quality-card my-m">
+                <div class="quality-card my-m ">
                     <div class="quality-card-left bgi-p">
                         <div class="quality-card-left-heading bg-p c-g1"> <h3 class="fs-m">Traceability</h3></div>
                         <div class="quality-card-left-base bg-s"><i class="fas fa-globe-europe c-g1"></i></div>
                     </div>
 
-                    <div class="quality-card-right px-m">
+                    <div class="quality-card-right px-m bg-g1">
                         <div class="quality-card-right-header">
                             <i class="fas fa-globe-europe"></i>
                             <h2 class="quality-card-right-header-heading c-p fs-l">Traceability</h2>
@@ -70,11 +70,11 @@ Quality | O'Mahony Meats Ltd.
             <div class="quality-2-item quality-2-item-2 my-l">
                 <div class="quality-card my-m">
                     <div class="quality-card-left bgi-p">
-                        <div class="quality-card-left-heading quality-card-left-heading-2 bgi-p c-g1"> <h3 class="fs-m">Accreditation</h3></div>
-                        <div class="quality-card-left-base bgi-s"><i class="fas fa-stamp c-g1"></i></div>
+                        <div class="quality-card-left-heading quality-card-left-heading-2 bg-p c-g1"> <h3 class="fs-m">Accreditation</h3></div>
+                        <div class="quality-card-left-base bg-s"><i class="fas fa-stamp c-g1"></i></div>
                     </div>
 
-                    <div class="quality-card-right px-m">
+                    <div class="quality-card-right px-m bg-g1">
                         <div class="quality-card-right-header">
                             <i class="fas fa-stamp"></i>
                             <h2 class="quality-card-right-header-heading c-p fs-l">Accreditation</h2>

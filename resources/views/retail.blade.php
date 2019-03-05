@@ -29,7 +29,7 @@
 <div class="retail-container retail-container-1 bgi-g2">
     <div class="retail retail-1 my-m">
 
-        <div class="retail-img retail-1-img my-m">
+        <div class="retail-img retail-1-img my-m px-m py-m bgi-p">
             <img src="/images/retail5.JPG" alt="">
         </div>
         <div class="retail-info retail-info-1">
@@ -59,7 +59,7 @@
             </p>
         </div>
 
-        <div class="retail-img retail-2-img my-l">
+        <div class="retail-img retail-2-img my-l px-m py-m bgi-g1">
             <img src="/images/retail_1.png" alt="">
         </div>
         
@@ -80,7 +80,7 @@
             <p class="retail-details-2-info-item fs-m">Can’t see what you want? Just ask our friendly staff will be happy to get it for you! Not everything we supply fits into our display cabinets but we stock a huge amount in our refrigerated stock rooms.
             </p>
         </div>
-        <div class="retail-details-2-img my-m">
+        <div class="retail-details-2-img my-m px-m py-m bgi-p">
             <img src="/images/staff.jpg" alt="">
         </div>
     </div>

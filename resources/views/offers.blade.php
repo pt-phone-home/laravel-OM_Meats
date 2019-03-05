@@ -55,8 +55,8 @@
     <div class="offers my-l">
         @if($offers)
         @foreach($offers as $offer)
-        <div class="offers-card my-m">
-            <div class="offers-card-img px-s py-s">
+        <div class="offers-card my-m bg-g3">
+            <div class="offers-card-img px-s py-s ">
                 <img src="{{$offer->img}}" alt="">
             </div>
             <div class="offers-card-title bg-p c-g1 px-s py-s fs-m">

@@ -335,19 +335,18 @@ body {
 .topheader-slogan {
   grid-column: 1/2;
   display: grid;
+  color: #f8f8f8;
 }
 
 .topheader-slogan-title {
   margin-top: 1rem;
   font-size: 3rem;
-  color: #76232f;
   justify-self: center;
 }
 
 .topheader-slogan-tag {
   justify-self: center;
   font-size: 2rem;
-  color: #76232f;
   margin-top: 1rem;
 }
 
@@ -367,7 +366,6 @@ body {
 .topheader .topheadernav-item-link {
   text-decoration: none;
   text-transform: uppercase;
-  color: #2f4f4f;
 }
 
 .topheader .topheadernav-item-link:visited {
@@ -375,7 +373,7 @@ body {
 }
 
 .topheader .topheadernav-item-link:hover {
-  color: #76232f;
+  color: #b8b8b8;
 }
 
 .midheader {
@@ -617,7 +615,6 @@ body {
 
 .footer-conatiner {
   grid-column: 1/-1;
-  background: #76232f;
   display: grid;
 }
 
@@ -1252,8 +1249,8 @@ body {
 .retail-container .retail-img img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 25rem;
-  width: 30rem;
+  height: 30rem;
+  width: 40rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -1282,8 +1279,8 @@ body {
 .retail-container .retail-2-img img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 25rem;
-  width: 30rem;
+  height: 30rem;
+  width: 40rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -1334,8 +1331,8 @@ body {
 .retail-details-2-container .retail-details-2-img img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 25rem;
-  width: 30rem;
+  height: 30rem;
+  width: 40rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -1703,9 +1700,10 @@ body {
 
 .latest-recipe-container .latest-recipe-card {
   width: 70rem;
-  height: 30rem;
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border: 3px solid #76232f;
 }
 
 .latest-recipe-container .latest-recipe-card-left {
@@ -1714,7 +1712,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 3px solid #76232f;
+  border-right: 3px solid #76232f;
 }
 
 .latest-recipe-container .latest-recipe-card-left-output h1,
@@ -1747,7 +1745,6 @@ body {
 .latest-recipe-container .latest-recipe-card-right {
   grid-column: 2/3;
   width: 100%;
-  border: 3px solid #76232f;
 }
 
 .latest-recipe-container .latest-recipe-card-right img {

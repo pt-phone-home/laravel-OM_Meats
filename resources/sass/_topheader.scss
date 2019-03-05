@@ -13,18 +13,17 @@
     &-slogan {
         grid-column: 1 / 2;
         display: grid;
+        color: $grey1;
 
         &-title {
             margin-top: 1rem;
             font-size: 3rem;
-            color: $primary;
             justify-self: center;
         }
 
         &-tag {
             justify-self: center;
             font-size: 2rem;
-            color: $primary;
             margin-top: 1rem;
         }
     }
@@ -43,14 +42,13 @@
             &-link {
                 text-decoration: none;
                 text-transform: uppercase;
-                color: $grey6;
 
                 &:visited {
                     color: inherit;
                 }
 
                 &:hover {
-                    color: $primary;
+                    color: $grey4;
                 }
             }
         }

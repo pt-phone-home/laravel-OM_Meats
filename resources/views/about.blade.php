@@ -29,7 +29,7 @@ About | O'Mahony Meats Ltd.
 
     <div class="about-us-1-container bgi-p">
         <div class="about-us-1 my-l">
-            <div class="about-us-1-img my-m">
+            <div class="about-us-1-img my-m px-m py-m bgi-g1">
                 <img src="/images/kilester_old.jpg" alt="">
             </div>
 
@@ -61,7 +61,7 @@ About | O'Mahony Meats Ltd.
                 </p>
             </div>
 
-            <div class="about-us-2-img my-m">
+            <div class="about-us-2-img my-m px-m py-m bgi-g1">
                 <img src="/images/industrial.jpg" alt="">
             </div>
 
@@ -77,7 +77,7 @@ About | O'Mahony Meats Ltd.
     </div>
     <div class="about-us-3-container bgi-g2">
         <div class="about-us-3 my-l">
-            <div class="about-us-3-img my-m">
+            <div class="about-us-3-img my-m px-m py-m bgi-p">
                 <img src="/images/staff.jpg" alt="">
             </div>
             <div class="about-us-3-info px-l">

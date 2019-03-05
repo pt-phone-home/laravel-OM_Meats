@@ -9,8 +9,8 @@ O'Mahony Meats Admin Panel
 @section('content')
 @include('inc.messages')
 
-<div class="admin-container">
-    <div class="admin-news my-m">
+<div class="admin-container bgi-g1">
+    <div class="admin-news my-m bg-g1">
         <h2 class="admin-news-heading my-m">News Controls</h2>
         <a href="/createnewsitem" class="admin-create-btn">Create News Artilce</a>
 
@@ -47,7 +47,7 @@ O'Mahony Meats Admin Panel
         </table>
     </div>
 
-    <div class="admin-careers my-m">
+    <div class="admin-careers my-m bg-g1">
         <h2 class="admin-careers-heading my-m">Career Controls</h2>
         <a href="/createcareer" class="admin-create-btn">Create Career </a>
 
@@ -83,7 +83,7 @@ O'Mahony Meats Admin Panel
             @endif
         </table>
     </div>
-    <div class="admin-offers my-m">
+    <div class="admin-offers my-m bg-g1">
         <h2 class="admin-offers-heading my-m">Offers Controls</h2>
         <a href="/createoffer" class="admin-create-btn">Create Offer </a>
 
@@ -117,7 +117,7 @@ O'Mahony Meats Admin Panel
             @endif
         </table>
     </div>
-    <div class="admin-recipes my-m">
+    <div class="admin-recipes my-m bg-g1">
         <h2 class="admin-offers-heading my-m">Recipe Controls</h2>
         <a href="/createrecipe" class="admin-create-btn">Create Recipe </a>
 

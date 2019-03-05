@@ -8,7 +8,7 @@ Careers | O'Mahoney Meats Ltd.
     <div class="careers-header-container bgi-p">
         <div class="careers-header my-m">
             <h1 class="careers-header-heading my-m c-g1 fs-xl">
-                Work with O'Mahoney Meats
+                Work with O'Mahony Meats
             </h1>
         </div>
     </div>

@@ -115,6 +115,11 @@ body {
   margin-right: 2rem;
 }
 
+.mx-l {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 .mt-s {
   margin-top: 1rem;
 }
@@ -622,9 +627,9 @@ body {
   justify-self: center;
   width: 80%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: 20rem;
 }
 
 .footer-conatiner .footer-links {
@@ -653,11 +658,21 @@ body {
   color: #d3d3d3;
 }
 
-.footer-conatiner .footer-contact,
-.footer-conatiner .footer-connect {
+.footer-conatiner .footer-contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.footer-conatiner .footer-connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-conatiner .footer-connect-link:hover {
+  color: #d3d3d3;
 }
 
 .about-us-header-container {

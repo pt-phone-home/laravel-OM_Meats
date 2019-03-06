@@ -2235,6 +2235,10 @@ body {
   color: inherit;
 }
 
+.admin-nav-item-log {
+  margin-left: auto;
+}
+
 .messages-container {
   grid-column: 1/-1;
   display: grid;

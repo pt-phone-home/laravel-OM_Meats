@@ -7,7 +7,7 @@ use App\Careers;
 use App\Offer;
 use App\News;
 use App\Recipe;
-
+use Auth;
 class PagesController extends Controller
 {
     public function index() {
@@ -98,5 +98,32 @@ class PagesController extends Controller
             'offers' => $offers,
             'recipes' => $recipes
         ]);
+    }
+
+    public function login() {
+        return view('login');
+    }
+
+    public function logincheck(Request $request) {
+
+        $credentials = $request->only('email', 'password');
+
+        if (Auth::attempt($credentials)) {
+            // Auth Passed
+
+            return redirect()->intended('/admin');
+        } else {
+
+            return redirect()->back()->with('failed', 'Sorry your details are not correct');
+        }
+
+
+    }
+
+    public function logout() {
+
+        Auth::logout();
+
+        return redirect('login')->with('success', 'You are logged out');
     }
 }

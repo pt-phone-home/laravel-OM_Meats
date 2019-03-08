@@ -37,5 +37,4 @@ NEWS PAGE
 1. Test CRUD features
 
 FOOTER
-1. Add in links
 

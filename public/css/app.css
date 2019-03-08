@@ -1623,7 +1623,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: 30rem;
+  height: 75%;
 }
 
 .latest-offer-container .latest-offer-card-right {

@@ -60,21 +60,27 @@ class RecipesController extends Controller
             'detail' => 'required|min:10',
         ]);
 
+        $recipe = Recipe::find($id);
+
         if ($request->file('img')) {
             $filenameWithExt = $request->file('img')->getClientOriginalName();
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
             $extension = $request->file('img')->getClientOriginalExtension();
             $filenameToStore = $filename . '_' . time() . '.' . $extension;
             $path = $request->file('img')->move('images/recipes', $filenameToStore);
-        } else {
-            $path = 'images/recipes/default' . rand(1, 4) . '.jpg';
-        }
 
-        $recipe = Recipe::find($id);
+            $recipe->img = $path;
+
+        } 
+        // else {
+        //     $path = 'images/recipes/default' . rand(1, 4) . '.jpg';
+        // }
+
+        
 
         $recipe->title = $request['title'];
         $recipe->detail = $request['detail'];
-        $recipe->img = $path;
+        
 
         $recipe->save();
         return redirect('admin')->with('success', 'Recipe Updated Successfully');

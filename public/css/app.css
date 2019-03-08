@@ -1767,7 +1767,7 @@ body {
   border-right: 3px solid #76232f;
 }
 
-.latest-recipe-container .latest-recipe-card-left-output > * {
+.latest-recipe-container .latest-recipe-card-left-output * {
   margin: 0rem 1rem;
 }
 

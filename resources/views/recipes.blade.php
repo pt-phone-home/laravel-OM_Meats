@@ -32,7 +32,7 @@
                 <h3 class="latest-recipe-card-left-title  fs-m px-s bg-s c-g1 py-s">{{$latest_recipe->title}}
                 </h3>
                 <div class="latest-recipe-card-left-output bg-g1">
-                    {!! str_limit($latest_recipe->detail, $limit = 100, $end = '...') !!}
+                    {!! str_limit($latest_recipe->detail, $limit = 200, $end = '...') !!}
                 </div>
                 <div class="latest-recipe-card-left-bottom">
                     <a href="/recipeitem/{{$latest_recipe->id}}" class="latest-recipe-card-left-bottom-cta">Read More</a>

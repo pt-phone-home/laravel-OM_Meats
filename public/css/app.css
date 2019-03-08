@@ -1775,7 +1775,8 @@ body {
   margin: 0rem 1rem;
 }
 
-.latest-recipe-container .latest-recipe-card-left-output ul li {
+.latest-recipe-container .latest-recipe-card-left-output ul,
+.latest-recipe-container .latest-recipe-card-left-output ol li {
   margin: 0rem 1rem;
 }
 

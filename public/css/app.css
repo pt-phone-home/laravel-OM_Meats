@@ -1851,20 +1851,8 @@ body {
   justify-content: space-between;
 }
 
-.recipes-container .recipes-card-bottom-output h1,
-.recipes-container .recipes-card-bottom-output h2,
-.recipes-container .recipes-card-bottom-output h3,
-.recipes-container .recipes-card-bottom-output h4,
-.recipes-container .recipes-card-bottom-output h5 {
-  margin: 0rem 1rem;
-}
-
-.recipes-container .recipes-card-bottom-output ul li {
-  margin: 0rem 1rem;
-}
-
-.recipes-container .recipes-card-bottom-output p {
-  margin: 0rem 1rem;
+.recipes-container .recipes-card-bottom-output * {
+  margin: 0.2rem 1rem;
 }
 
 .recipes-container .recipes-card-cta {

@@ -182,21 +182,8 @@
                 flex-direction: column;
                 justify-content: space-between;
 
-                &-output {
-                    h1,
-                    h2,
-                    h3,
-                    h4,
-                    h5 {
-                        margin: 0rem 1rem;
-                    }
-
-                    ul li {
-                        margin: 0rem 1rem;
-                    }
-                    p {
-                        margin: 0rem 1rem;
-                    }
+                &-output * {
+                    margin: 0.2rem 1rem;
                 }
             }
 

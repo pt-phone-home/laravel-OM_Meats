@@ -68,7 +68,7 @@
                 <img src="/{{$new->img}}" alt="">
             </div>
             <div class="news-card-bottom">
-                <h5 class="news-card-bottom-title px-m py-s fs-m"> {{$new->title}}</h5>
+                <h5 class="news-card-bottom-title px-m py-s fs-m bg-s c-g1"> {{$new->title}}</h5>
                 <div class="news-card-bottom-info px-m my-s">{!! str_limit($new->body, $limit = 50, $end = '...') !!}</div>
             </div>
             <div class="news-card-bottom-cta">

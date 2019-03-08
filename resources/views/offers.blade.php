@@ -32,7 +32,7 @@
                 <div class="latest-offer-card-right-details fs-m">
                     {!! $latest_offer->detail !!}
                 </div>
-                <h2 class="latest-offer-card-right-valid c-p ">Valid Until: {{$latest_offer->valid}} </h2>
+                <h2 class="latest-offer-card-right-valid c-p my-s ">Valid Until: {{$latest_offer->valid}} </h2>
             </div>
             <div class="latest-offer-card-bottom bg-p c-g1">
             <h3 class="latest-offer-card-bottom-item py-s fs-l">{{$latest_offer->title}}</h3>
@@ -69,7 +69,7 @@
             </div>
             </div>
             <div class="offers-card-bottom bg-s">
-                <h4 class="offers-card-bottom-item py-s c-g1 px-s my-s">
+                <h4 class="offers-card-bottom-item py-s c-g1 px-s">
                     Valid Until: {{$offer->valid}}
                 </h4>
             </div>

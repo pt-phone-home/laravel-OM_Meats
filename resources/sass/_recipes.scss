@@ -57,22 +57,23 @@
                 &-title {
                 }
 
-                &-output {
-                    h1,
-                    h2,
-                    h3,
-                    h4,
-                    h5 {
-                        margin: 0rem 1rem;
-                    }
+                &-output > * {
+                    margin: 0rem 1rem;
+                    // h1,
+                    // h2,
+                    // h3,
+                    // h4,
+                    // h5 {
+                    //     margin: 0rem 1rem;
+                    // }
 
-                    ul,
-                    ol li {
-                        margin: 0rem 3rem;
-                    }
-                    p {
-                        margin: 0rem 1rem;
-                    }
+                    // ul,
+                    // ol li {
+                    //     margin: 0rem 3rem;
+                    // }
+                    // p {
+                    //     margin: 0rem 1rem;
+                    // }
                 }
 
                 &-bottom {

@@ -1767,20 +1767,7 @@ body {
   border-right: 3px solid #76232f;
 }
 
-.latest-recipe-container .latest-recipe-card-left-output h1,
-.latest-recipe-container .latest-recipe-card-left-output h2,
-.latest-recipe-container .latest-recipe-card-left-output h3,
-.latest-recipe-container .latest-recipe-card-left-output h4,
-.latest-recipe-container .latest-recipe-card-left-output h5 {
-  margin: 0rem 1rem;
-}
-
-.latest-recipe-container .latest-recipe-card-left-output ul,
-.latest-recipe-container .latest-recipe-card-left-output ol li {
-  margin: 0rem 3rem;
-}
-
-.latest-recipe-container .latest-recipe-card-left-output p {
+.latest-recipe-container .latest-recipe-card-left-output > * {
   margin: 0rem 1rem;
 }
 

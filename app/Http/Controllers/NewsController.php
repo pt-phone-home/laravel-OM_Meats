@@ -66,6 +66,8 @@ class NewsController extends Controller
             'body' => 'required|min:40'
         ]);
 
+        $newsitem = News::find($id);
+
         if ($request->file('img')) {
             $filenameWithExt = $request->file('img')->getClientOriginalName();
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
@@ -79,7 +81,7 @@ class NewsController extends Controller
         //     $path = 'images/news/default' . rand(1, 4) . '.jpg';
         // }
 
-        $newsitem = News::find($id);
+        
 
         $newsitem->title = $request['title'];
         $newsitem->headline = $request['headline'];

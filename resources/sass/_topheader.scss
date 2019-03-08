@@ -43,8 +43,10 @@
                 text-decoration: none;
                 text-transform: uppercase;
 
-                &:visited {
-                    color: inherit;
+                &:visited,
+                &:active,
+                &:link {
+                    color: $grey1;
                 }
 
                 &:hover {

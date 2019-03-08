@@ -373,8 +373,10 @@ body {
   text-transform: uppercase;
 }
 
-.topheader .topheadernav-item-link:visited {
-  color: inherit;
+.topheader .topheadernav-item-link:visited,
+.topheader .topheadernav-item-link:active,
+.topheader .topheadernav-item-link:link {
+  color: #f8f8f8;
 }
 
 .topheader .topheadernav-item-link:hover {

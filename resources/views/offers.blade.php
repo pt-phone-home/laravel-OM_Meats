@@ -69,7 +69,7 @@
             </div>
             </div>
             <div class="offers-card-bottom bg-s">
-                <h4 class="offers-card-bottom-item py-s c-g1 px-s">
+                <h4 class="offers-card-bottom-item py-s c-g1 px-s my-s">
                     Valid Until: {{$offer->valid}}
                 </h4>
             </div>

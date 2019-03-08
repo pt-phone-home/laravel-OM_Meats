@@ -840,8 +840,8 @@ body {
 }
 
 .about-us-3-container .about-us-3-img img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   height: 30rem;
   width: 40rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);

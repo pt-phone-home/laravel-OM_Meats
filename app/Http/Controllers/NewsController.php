@@ -24,7 +24,8 @@ class NewsController extends Controller
         $this->validate($request, [
             'title' => 'required | max:30',
             'headline' => 'required',
-            'body' => 'required|min:40'
+            'body' => 'required|min:40',
+            'img' => 'max:5000'
         ]);
 
         if ($request->file('img')) {

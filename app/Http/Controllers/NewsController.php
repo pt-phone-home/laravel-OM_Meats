@@ -72,16 +72,19 @@ class NewsController extends Controller
             $extension = $request->file('img')->getClientOriginalExtension();
             $filenameToStore = $filename . '_' . time() . '.' . $extension;
             $path = $request->file('img')->move('images/news', $filenameToStore);
-        } else {
-            $path = 'images/news/default' . rand(1, 4) . '.jpg';
-        }
+     
+            $newsitem->img = $path;
+        } 
+    // else {
+        //     $path = 'images/news/default' . rand(1, 4) . '.jpg';
+        // }
 
         $newsitem = News::find($id);
 
         $newsitem->title = $request['title'];
         $newsitem->headline = $request['headline'];
         $newsitem->body = $request['body'];
-        $newsitem->img = $path;
+        // $newsitem->img = $path;
 
         $newsitem->save();
 

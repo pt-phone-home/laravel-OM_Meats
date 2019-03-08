@@ -29,7 +29,7 @@
             
             </div>
             <div class="latest-offer-card-right px-m py-m bg-g1">
-                <div class="latest-offer-card-right-details fs-m my-s">
+                <div class="latest-offer-card-right-details fs-m">
                     {!! $latest_offer->detail !!}
                 </div>
                 <h2 class="latest-offer-card-right-valid c-p my-s ">Valid Until: {{$latest_offer->valid}} </h2>

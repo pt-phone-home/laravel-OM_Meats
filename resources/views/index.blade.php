@@ -11,7 +11,7 @@ Home | O'Mahony Meats Ltd.
                 Welcome to O’Mahony Meats
             </h1>
 
-            <h2 class="welcome-subheading fs-l">Your One-stop Meat Supplier</h2>
+            <h2 class="welcome-subheading fs-l">Your One-stop Meat </h2>
 
             {{-- <p class="welcome-info">We supply meat to both the catering trade foodservice sector and the general public.</p>
 

@@ -30,9 +30,9 @@
             </div>
             <div class="latest-offer-card-right px-m py-m bg-g1">
                 <div class="latest-offer-card-right-details fs-m">
-                    {!! $latest_offer->detail !!}
+                    {!! str_limit($latest_offer->detail, $limit = 200, $end = '...') !!}
                 </div>
-                <h2 class="latest-offer-card-right-valid c-p my-s ">Valid Until: {{$latest_offer->valid}} </h2>
+                <h2 class="latest-offer-card-right-valid c-g1 my-s px-s py-s bg-s">Valid Until: {{$latest_offer->valid}} </h2>
             </div>
             <div class="latest-offer-card-bottom bg-p c-g1">
             <h3 class="latest-offer-card-bottom-item py-s fs-l">{{$latest_offer->title}}</h3>
@@ -69,7 +69,7 @@
             </div>
             </div>
             <div class="offers-card-bottom bg-s">
-                <h4 class="offers-card-bottom-item py-s c-g1 px-s">
+                <h4 class="offers-card-bottom-item py-s c-g1 px-s bg-s">
                     Valid Until: {{$offer->valid}}
                 </h4>
             </div>

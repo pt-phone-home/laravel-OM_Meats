@@ -32,10 +32,10 @@
                     {{$latest_news->title}}
                 </h2>
                 <div class="latest-news-card-left-headline">
-                    <strong>{{$latest_news->headline}}</strong>
+                    <strong>{{str_limit($latest_news->headline, $limit = 100, $end = '... ')}}</strong>
                 </div>
                 <div class="latest-news-card-left-info py-s px-s">
-                    {!! str_limit($latest_news->body, $limit = 100, $end = '...') !!}
+                    {!! str_limit($latest_news->body, $limit = 40, $end = '...') !!}
                 </div>
                 <div class="latest-news-card-left-bottom">
                 <a href="/newsitem/{{$latest_news->id}}" class="latest-news-card-left-bottom-cta">Read More</a>

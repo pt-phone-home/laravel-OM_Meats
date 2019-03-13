@@ -16,7 +16,7 @@ class OffersController extends Controller
 
         $this->validate($request, [
             'title' => 'required',
-            'detail' => 'required|min:10',
+            'detail' => 'required|min:10| max:150',
             'valid' => 'required'
         ]);
 

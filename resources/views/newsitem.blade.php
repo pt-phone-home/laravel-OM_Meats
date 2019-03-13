@@ -15,11 +15,11 @@
 </div>
 
 <div class="newsitem-container bgi-g1">
+        @if($newsitem)
         <div class="newsitem my-m">
-            @if($newsitem)
             <div class="newsitem-title bg-s c-g1">
                 <h2 class="recipeitem-title-item my-m">
-                {{$newsitem->title}}
+                    {{$newsitem->title}}
                 </h2>
                 <h5 class="newsitem-title-date my-m"> Updated:
                         {{$newsitem->updated_at->diffForHumans()}}
@@ -38,10 +38,11 @@
             <div class="newsitem-detail my-m mx-m bg-g1">
                 {!! $newsitem->body !!}
             </div>
-            @endif
-        <a href="/news" class="btn">Back to news</a>
+            
+            <a href="/news" class="btn">Back to news</a>
         </div>
-    </div>
+        @endif
+</div>
     
 
 

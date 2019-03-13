@@ -26,7 +26,7 @@ Edit Offer
         </div>
 
         <div class="form-group">
-            <label for="detail">Offer Detail:</label>
+            <label for="detail">Offer Detail: (suggested max 100 characters)</label>
         <textarea name="detail" id="" cols="30" rows="10" placeholder="Information about offer" required>{{$offer->detail}}</textarea>
         </div>
         <div class="form-group">

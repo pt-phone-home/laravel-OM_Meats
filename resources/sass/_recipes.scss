@@ -38,7 +38,7 @@
         justify-content: center;
 
         &-card {
-            width: 70rem;
+            width: 80rem;
             height: auto;
             // height: 30rem;
             display: grid;
@@ -177,7 +177,7 @@
             }
 
             &-bottom {
-                height: 15rem;
+                min-height: 15rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;

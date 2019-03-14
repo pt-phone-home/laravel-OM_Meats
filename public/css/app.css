@@ -637,11 +637,12 @@ body {
 .footer-conatiner .footer-links {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1rem;
+  grid-column-gap: 5rem;
 }
 
 .footer-conatiner .footer-links-heading {
   grid-column: 1/-1;
+  justify-self: center;
 }
 
 .footer-conatiner .footer-links-left,

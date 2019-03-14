@@ -6,7 +6,7 @@
 
 @section('content')
 
-<div class="news-banner-container bg-p">
+<div class="news-banner-container bgi-p">
     <div class="news-banner my-m">
         <h1 class="news-banner-item my-m c-g1 fs-xl">
             Latest News from O'Mahony's

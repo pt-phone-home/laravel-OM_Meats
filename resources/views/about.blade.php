@@ -47,7 +47,7 @@ About | O'Mahony Meats Ltd.
     <div class="about-us-2-title-container bgi-p pt-l">
         <div class="about-us-2-title">
             <h1 class="about-us-2-title-heading bgi-s fs-l c-g1 py-m">
-                A new era for O'Mahony Meats
+                A New Era for O'Mahony Meats
             </h1>
         </div>
     </div>

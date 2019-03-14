@@ -18,7 +18,7 @@
             Here at O'Mahony Meats we sell over 600 different products!
         </p>
         <p class="products-info-item fs-m c-p">
-            Beef, Lamb, Pork, Bacon, Chicken &amp; Poultry - we can provide any cut or tailor any service you require.
+            Beef, Lamb, Pork, Bacon, Chicken &amp; Poultry - we can provide any cut or tailor any service you require.<br> <br>
             Simply call the factory on <strong>01-8476000</strong> or Michael on <strong>087-2576678</strong>
         </p>
     </div>

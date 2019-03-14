@@ -60,7 +60,7 @@ Route::get('/recipeitem/{id}', 'RecipesController@show');
     Route::delete('/recipe/{id}', 'RecipesController@destory')->middleware('auth');
 
     // News
-    Route::get('/newsitem/{id}', 'NewsController@show')->middleware('auth');
+    Route::get('/newsitem/{id}', 'NewsController@show');
     Route::get('/createnewsitem', 'NewsController@create')->middleware('auth');
     Route::post('/createnewsitem', 'NewsController@store')->middleware('auth');
     Route::get('/newsitem/{id}/editnewsitem', 'NewsController@edit')->middleware('auth');

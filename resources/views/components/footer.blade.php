@@ -21,9 +21,10 @@
         </div>
         <div class="footer-item footer-contact mx-l my-m">
             <h3>Contact</h3>
-            <p><i class="fas fa-phone px-s"></i> 01-8476000</p>
-            <p>General Enquiries: <span class="px-s">info@ommeats.ie</span></p>
-            <p>Order Enquiries: <span class="px-s">orders@ommeats.ie</span></p>
+            <p>Phone:<i class="fas fa-phone px-s"></i> 01-8476000</p>
+            <p>Fax: <i class="fas fa-fax px-s"></i> 01-8476869 </p>
+            {{-- <p>General Enquiries: <span class="px-s">info@ommeats.ie</span></p> --}}
+            <p>Email: <span class="px-s">orders@ommeats.ie</span></p>
         </div>
         <div class="footer-item footer-connect mx-l my-m">
             <h3>Connect</h3>

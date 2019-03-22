@@ -194,6 +194,10 @@ body {
   font-size: 3rem;
 }
 
+.fs-lxl {
+  font-size: 3.5rem;
+}
+
 .fs-xl {
   font-size: 4rem;
 }
@@ -333,7 +337,7 @@ body {
 .topheader {
   grid-column: 2/4;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr;
   margin-bottom: 2rem;
 }
 
@@ -351,8 +355,10 @@ body {
 
 .topheader-slogan-tag {
   justify-self: center;
-  font-size: 2rem;
+  font-size: 2.4rem;
+  letter-spacing: 3px;
   margin-top: 1rem;
+  font-style: italic;
 }
 
 .topheader .topheadernav {
@@ -389,18 +395,22 @@ body {
 }
 
 .midheader .midheadernav {
-  margin: 0rem 10rem;
+  margin: 0rem 3.5rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
 
 .midheader .midheadernav-item {
   list-style: none;
-  background: #76232f;
   color: #f8f8f8;
   border-radius: 10px 10px 0px 0px;
   transition: all 0.2s ease-in-out;
   z-index: 0;
+  margin-left: 2rem;
+  min-width: 12rem;
+  min-height: 5rem;
+  text-align: center;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
 }
 
 .midheader .midheadernav-item:hover {
@@ -479,7 +489,6 @@ body {
 }
 
 .sidelogo-container .sidelogo-1 {
-  background: #76232f;
   position: relative;
 }
 
@@ -493,10 +502,6 @@ body {
           transform: rotate(-90deg);
   margin-left: -10rem;
   letter-spacing: 8px;
-}
-
-.sidelogo-container .sidelogo-2 {
-  background: #4b4f54;
 }
 
 @-webkit-keyframes fade-in {
@@ -564,11 +569,46 @@ body {
 .products-quote-container .products-quote {
   justify-self: center;
   width: 80%;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
 }
 
 .products-quote-container .products-quote-text {
   text-align: center;
+}
+
+.products-overview {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.products-overview-item {
+  justify-self: center;
+  width: 80%;
+  text-align: center;
+  line-height: 30px;
+}
+
+.products-overview-item-link {
+  text-decoration: none;
+  color: #2f4f4f;
+  text-decoration: underline;
+}
+
+.products-overview-img-container {
+  grid-column: 1/-1;
+  display: grid;
+}
+
+.products-overview-img-container .products-overview-img {
+  justify-self: center;
+  width: 80%;
+}
+
+.products-overview-img-container .products-overview-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 50rem;
 }
 
 .products-title {

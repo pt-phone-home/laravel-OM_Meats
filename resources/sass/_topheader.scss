@@ -7,7 +7,7 @@
 .topheader {
     grid-column: 2/ 4;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
     margin-bottom: 2rem;
 
     &-slogan {
@@ -23,8 +23,11 @@
 
         &-tag {
             justify-self: center;
-            font-size: 2rem;
+            font-size: 2.4rem;
+            letter-spacing: 3px;
             margin-top: 1rem;
+            // margin-left: 5.5rem;
+            font-style: italic;
         }
     }
 
@@ -62,19 +65,24 @@
     display: grid;
 
     .midheadernav {
-        margin: 0rem 10rem;
+        margin: 0rem 3.5rem;
         // justify-self: center;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-end;
 
         &-item {
             list-style: none;
-            background: $primary;
+            // background: $primary;
             color: $grey1;
             border-radius: 10px 10px 0px 0px;
             transition: all 0.2s ease-in-out;
             // transform: translateY(10px);
             z-index: 0;
+            margin-left: 2rem;
+            min-width: 12rem;
+            min-height: 5rem;
+            text-align: center;
+            box-shadow: $box-shadow-dark;
 
             &:hover {
                 transform: translateY(-5px);
@@ -156,7 +164,7 @@
         grid-template-rows: 2fr 1fr;
 
         &-1 {
-            background: $primary;
+            // background: $primary;
             position: relative;
 
             &-heading {
@@ -177,7 +185,7 @@
         }
 
         &-2 {
-            background: $secondary;
+            // background: $secondary;
         }
     }
 }

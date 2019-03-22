@@ -11,7 +11,7 @@ Home | O'Mahony Meats Ltd.
                 Welcome to O’Mahony Meats
             </h1>
 
-            <h2 class="welcome-subheading fs-l">Your One-stop Meat </h2>
+            <h2 class="welcome-subheading fs-l">Your One-Stop Meat Supplier</h2>
 
             {{-- <p class="welcome-info">We supply meat to both the catering trade foodservice sector and the general public.</p>
 
@@ -20,15 +20,34 @@ Home | O'Mahony Meats Ltd.
     </div>
     <div class="products-quote-container bgi-g1">
         <div class="products-quote my-l bgi-g1">
-            <h3 class="products-quote-text fs-xl my-m c-p">"We supply meat to both the catering trade foodservice sector and the general public"</h3>
+            <h3 class="products-quote-text fs-lxl my-m c-p">"We supply meat to both the catering trade foodservice sector <br> and the general public."</h3>
+        </div>
+        <div class="products-overview">
+            <p class="products-overview-item fs-m my-m">
+                "We sell over 600 <a href="/products" class="products-overview-item-link">products</a>. We can prepare any cut to your own specifications. In fact at O’Mahony Meats we specialise in customer-driven products."
+            </p>
         </div>
     </div>
+    <div class="products-overview-img-container bgi-g1">
+        <div class="products-overview-img my-m">
+            <img src="/images/shop.jpg" alt="">
+        </div>
+
+    </div>
+    <div class="products-overview bgi-g1">
+        <p class="products-overview-item fs-m my-m">
+            “For your convenience O’Mahony Meats is open 6 days a week, Monday to Saturday from 8am to 5pm (retail) and 5am to 4.30pm (wholesale).”
+        </p>
+    </div>
+
+    {{--
     <div class="products-title bgi-g1">
         <div class="products-title-item c-p bgi-g3  py-m fs-l">
             Our products include:
         </div>
 
     </div>
+    
     <div class="products-container bgi-g3">
         <div class="products my-m">
             <div class="products-item products-item-1 my-l">
@@ -82,7 +101,7 @@ Home | O'Mahony Meats Ltd.
             
 
         </div>
-    </div>
+    </div> --}}
     
 @endsection
 

@@ -24,22 +24,22 @@
     </div>
     <div class="midheader">
             <ul class="midheadernav">
-                <li class="midheadernav-item">
+                <li class="midheadernav-item bgi-p">
                     <a href="/wholesale" class="midheadernav-item-link">Wholesale</a>
                 </li>
-                <li class="midheadernav-item">
+                <li class="midheadernav-item bgi-p">
                     <a href="/retail" class="midheadernav-item-link">Retail</a>
                 </li>
-                <li class="midheadernav-item">
+                <li class="midheadernav-item bgi-p">
                     <a href="/products" class="midheadernav-item-link">Products</a>
                 </li>
-                <li class="midheadernav-item">
+                <li class="midheadernav-item bgi-p">
                     <a href="/offers" class="midheadernav-item-link">Offers</a>
                 </li>
-                <li class="midheadernav-item">
+                <li class="midheadernav-item bgi-p ">
                     <a href="/recipes" class="midheadernav-item-link">Recipes</a>
                 </li>
-                <li class="midheadernav-item">
+                <li class="midheadernav-item bgi-p">
                     <a href="/news" class="midheadernav-item-link">News</a>
                 </li>
             </ul>
@@ -48,7 +48,7 @@
 
             <div class="bottomheader-img-container slide bgi-g1">
                  <div class="bottomheader-img bottomheader-img-1">
-                    <img src="/images/slider/1.jpg" alt="">
+                    <img src="/images/slider/1.png" alt="">
                 </div>
                 <div class="bottomheader-img bottomheader-img-2">
                     <img src="/images/slider/2.jpg" alt="">
@@ -81,12 +81,12 @@
             </div>
 
         </div>
-        <div class="sidelogo-container bg-g1">
+        <div class="sidelogo-container bgi-p">
             <div class="sidelogo">
                 <div class="sidelogo-1">
                     <h2 class="sidelogo-1-heading">O M Meats</h2>
                 </div>
-                <div class="sidelogo-2">
+                <div class="sidelogo-2 bgi-s">
                 2
                 </div>
             </div>

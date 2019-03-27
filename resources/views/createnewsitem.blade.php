@@ -43,8 +43,26 @@ Add News Item
 @endsection
 
 @section('scripts')
-<script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/4.11.1/standard-all/ckeditor.js"></script>
 <script>
-        CKEDITOR.replace('body');
+        CKEDITOR.replace('body', {
+            toolbarGroups:[{
+                'name': 'basicstyles', 
+                'groups': ['basicstyles']
+            },
+            {
+                'name': 'clipboard',
+                'groups': ['clipboard', 'undo']
+            },
+            {
+                'name': 'paragraph',
+                'groups': ['list', 'indent', 'blocks']
+            },
+            {
+                'name': 'styles',
+                'groups': ['styles']
+            }
+            ]
+        });
     </script>
 @endsection

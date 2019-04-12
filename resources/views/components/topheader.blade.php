@@ -48,7 +48,7 @@
 
             <div class="bottomheader-img-container slide bgi-g1">
                  <div class="bottomheader-img bottomheader-img-1">
-                    <img src="/images/slider/1.png" alt="">
+                    <img src="/images/slider/1.jpg" alt="">
                 </div>
                 <div class="bottomheader-img bottomheader-img-2">
                     <img src="/images/slider/2.jpg" alt="">

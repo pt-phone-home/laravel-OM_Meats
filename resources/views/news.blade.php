@@ -9,7 +9,7 @@
 <div class="news-banner-container bgi-p">
     <div class="news-banner my-m">
         <h1 class="news-banner-item my-m c-g1 fs-xl">
-            Latest News from O'Mahony's
+            News
         </h1>
     </div>
 </div>
@@ -53,7 +53,7 @@
 <div class="news-title-container bgi-g1 pt-l">
     <div class="news-title">
         <h2 class="news-title-item bgi-g3 fs-l py-m c-p">
-            News
+            Other News
         </h2>
     </div>
 </div>

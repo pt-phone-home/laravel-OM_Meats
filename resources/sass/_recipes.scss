@@ -7,6 +7,9 @@
         display: grid;
 
         &-item {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             justify-self: center;
             text-align: center;
         }
@@ -19,8 +22,11 @@
     .latest-recipe-title {
         @include rowinset(80%);
         display: grid;
+
         // grid-template-columns: 1fr 1.5fr 1fr;
         &-item {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
             text-align: center;
             // grid-column: 2 / 3;
             // border-radius: 20px 20px 0px 0px;
@@ -54,8 +60,7 @@
                 justify-content: space-between;
                 border-right: 3px solid $primary;
 
-                &-title {
-                }
+                &-title {}
 
                 &-output * {
                     margin: 0.2rem 1rem;
@@ -138,6 +143,8 @@
         grid-template-columns: 1fr 1.5fr 1fr;
 
         &-item {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
             text-align: center;
             grid-column: 2 / 3;
             border-radius: 20px 20px 0px 0px;
@@ -169,6 +176,7 @@
 
             &-top {
                 height: 15rem;
+
                 img {
                     object-fit: contain;
                     height: 100%;
@@ -233,6 +241,7 @@
         }
 
         &-detail {
+
             h1,
             h2,
             h3,
@@ -245,6 +254,7 @@
             ul li {
                 margin: 1rem 1rem;
             }
+
             p {
                 margin: 1rem 1rem;
             }

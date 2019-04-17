@@ -1876,6 +1876,9 @@ body {
 }
 
 .recipes-banner-container .recipes-banner-item {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
   justify-self: center;
   text-align: center;
 }
@@ -1892,6 +1895,8 @@ body {
 }
 
 .latest-recipe-title-container .latest-recipe-title-item {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -1964,6 +1969,8 @@ body {
 }
 
 .recipes-title-container .recipes-title-item {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
   text-align: center;
   grid-column: 2/3;
   border-radius: 20px 20px 0px 0px;
@@ -2089,6 +2096,9 @@ body {
 }
 
 .news-banner-container .news-banner-item {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
   justify-self: center;
   text-align: center;
 }
@@ -2105,6 +2115,8 @@ body {
 }
 
 .latest-news-title-container .latest-news-title-item {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
   justify-self: center;
   text-align: center;
 }
@@ -2184,6 +2196,8 @@ body {
 }
 
 .news-title-container .news-title-item {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
   grid-column: 2/3;
   text-align: center;
   border-radius: 20px 20px 0px 0px;

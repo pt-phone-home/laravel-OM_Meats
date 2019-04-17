@@ -6,11 +6,15 @@
         display: grid;
 
         &-item {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             justify-self: center;
             text-align: center;
         }
     }
 }
+
 .latest-news-title-container {
     @include row;
 
@@ -19,6 +23,8 @@
         display: grid;
 
         &-item {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
             justify-self: center;
             text-align: center;
         }
@@ -53,7 +59,7 @@
 
                 &-title,
                 &-info,
-                &-headline > * {
+                &-headline>* {
                     margin: 1rem;
                     padding: 1rem;
                 }
@@ -96,6 +102,8 @@
         grid-template-columns: 1fr 1.5fr 1fr;
 
         &-item {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
             grid-column: 2 / 3;
             text-align: center;
             border-radius: 20px 20px 0px 0px;
@@ -137,8 +145,7 @@
                 display: flex;
                 flex-direction: column;
 
-                &-title {
-                }
+                &-title {}
 
                 &-info * {
                     margin: 1rem;
@@ -178,8 +185,7 @@
             justify-content: space-between;
         }
 
-        &-headline {
-        }
+        &-headline {}
 
         &-img {
             height: 30rem;

@@ -9,7 +9,7 @@
 <div class="recipes-banner-container bgi-p">
     <div class="recipes-banner my-m">
         <h1 class="recipes-banner-item my-m fs-xl c-g1">
-            Recipe Ideas from O'Mahony's
+            Recipes
         </h1>
     </div>
 </div>
@@ -17,7 +17,7 @@
 <div class="latest-recipe-title-container bgi-g1">
     <div class="latest-recipe-title">
         <h2 class="latest-recipe-title-item fs-l py-m ">
-            Latest Recipe Idea
+            New Recipe Idea
         </h2>
     </div>
 </div>
@@ -52,7 +52,7 @@
 <div class="recipes-title-container bgi-g1 pt-l">
     <div class="recipes-title">
         <h2 class="recipes-title-item py-m bgi-g3 c-p fs-l">
-            Recipe Ideas
+            Other Recipe Ideas
         </h2>
     </div>
 </div>

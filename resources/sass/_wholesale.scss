@@ -10,6 +10,9 @@
         display: grid;
 
         &-heading {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             justify-self: center;
             font-size: 4rem;
             text-align: center;
@@ -25,7 +28,19 @@
         display: grid;
 
         &-item {
+            font-size: 2.5rem;
             text-align: center;
+
+            &-link {
+                text-decoration: none;
+                color: $grey6;
+                text-decoration: underline;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+
         }
     }
 }
@@ -52,6 +67,7 @@
         }
     }
 }
+
 .wholesale-info-title-container {
     @include row;
 
@@ -62,12 +78,16 @@
         grid-template-columns: 1fr 1.5fr 1fr;
 
         &-item {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             grid-column: 2 / 3;
             text-align: center;
             border-radius: 20px 20px 0px 0px;
         }
     }
 }
+
 .wholesale-info-container {
     grid-column: 1 / -1;
     display: grid;

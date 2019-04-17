@@ -7,7 +7,7 @@ Quality | O'Mahony Meats Ltd.
 @section('content')
     <div class="quality-heading-container bgi-p">
         <div class="quality-heading my-m">
-            <h1 class="quality-heading-heading c-g1 fs-xl my-m">We Focus on <span>Quality</span></h1>
+            <h1 class="quality-heading-heading c-g1 fs-xl my-m">Quality</h1>
         </div>
     </div>
 
@@ -22,14 +22,14 @@ Quality | O'Mahony Meats Ltd.
     <div class="quality-title-container quality-title-1-container bgi-g1 pt-l">
         <div class="quality-title qulaity-title-1">
             <h2 class="quality-title-item quality-title-item-1 bgi-s py-m c-g1 fs-l">
-                Our Quality Commitment
+                Our Commitment
             </h2>
         </div>
     </div>
     <div class="quality-container quality-container-1 bgi-s">
         <div class="quality quality-1 my-l">
             <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Implementation and maintenance of the HACCP Food Safety Management System</p>
-            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>An annual independent audit of our premises by Excellence Ireland Quality Association (EIQA)</p>
+            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Annual independent audit of our premises by Excellence Ireland Quality Association (EIQA)</p>
             <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Maintenance and regular updating of Food Hygiene systems in place</p>
             <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Training of all our staff in Food Hygiene procedures</p>
             <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Quality control checks at all stages of our operation, including routine microbiological testing of all products</p>
@@ -40,7 +40,7 @@ Quality | O'Mahony Meats Ltd.
     <div class="quality-title-container quality-title-container-2 bgi-s pt-l">
         <div class="quality-title quality-title-2">
             <div class="quality-title-item quality-title-item-2 bgi-g1 py-m fs-l">
-                Demonstrating Quality
+                Compliance 
             </div>
         </div>
     </div>
@@ -50,15 +50,16 @@ Quality | O'Mahony Meats Ltd.
                 <div class="quality-card my-m ">
                     <div class="quality-card-left bgi-p">
                         <div class="quality-card-left-heading bg-p c-g1"> <h3 class="fs-m">Traceability</h3></div>
-                        <div class="quality-card-left-base bg-s"><i class="fas fa-globe-europe c-g1"></i></div>
+                        <div class="quality-card-left-base bg-s"><i class="fas fa-search-location c-g1"></i></div>
                     </div>
 
                     <div class="quality-card-right px-m bg-g1">
                         <div class="quality-card-right-header">
-                            <i class="fas fa-globe-europe"></i>
+                            <i class="fas fa-search-location"></i>
                             <h2 class="quality-card-right-header-heading c-p fs-l">Traceability</h2>
                         </div>
                         <div class="quality-card-right-info">
+                            <p class="my-m">A comprehensive supply chain management system is vital. </p>
                             <p class="quality-card-right-info-item my-s">All products sold at O’Mahony Meats have a unique batch code which ensures that they are fully traceable right through the production process to the approved source.</p>
                             <p class="quality-card-right-info-item my-s">Our traceability system is routinely tested by our independent food hygiene consultant. This involves tracing products right back to the approved processing plants and farms of origin.
                             </p>
@@ -71,12 +72,12 @@ Quality | O'Mahony Meats Ltd.
                 <div class="quality-card my-m">
                     <div class="quality-card-left bgi-p">
                         <div class="quality-card-left-heading quality-card-left-heading-2 bg-p c-g1"> <h3 class="fs-m">Accreditation</h3></div>
-                        <div class="quality-card-left-base bg-s"><i class="fas fa-stamp c-g1"></i></div>
+                        <div class="quality-card-left-base bg-s"><i class="fas fa-check-double c-g1"></i></div>
                     </div>
 
                     <div class="quality-card-right px-m bg-g1">
                         <div class="quality-card-right-header">
-                            <i class="fas fa-stamp"></i>
+                            <i class="fas fa-check-double"></i>
                             <h2 class="quality-card-right-header-heading c-p fs-l">Accreditation</h2>
                         </div>
                         <div class="quality-card-right-info">
@@ -95,7 +96,13 @@ Quality | O'Mahony Meats Ltd.
             <img src="/images/eiqa.jpg" alt="">
             <img src="/images/haccp.png" alt="">
         </div>
+        <div class="accreditation my-l bgi-w">
+                <img src="/images/acc1.png" alt="" class="img-2">
+                <img src="/images/acc2.png" alt="" class="img-2">
+                <img src="/images/acc3.png" alt="" class="img-2">
+        </div>
     </div>
+
 
     
 @endsection

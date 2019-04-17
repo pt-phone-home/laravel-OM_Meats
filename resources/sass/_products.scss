@@ -10,6 +10,9 @@
         display: grid;
 
         &-heading {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             justify-self: center;
             text-align: center;
         }

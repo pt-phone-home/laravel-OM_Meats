@@ -7,6 +7,9 @@
         width: 80%;
 
         &-heading {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             text-align: center;
         }
     }
@@ -19,7 +22,18 @@
         @include rowinset(70%);
 
         &-text {
+            line-height: 35px;
             text-align: center;
+
+            &-link {
+                text-decoration: none;
+                color: $grey6;
+                text-decoration: underline;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
         }
     }
 }
@@ -35,6 +49,9 @@
         grid-template-columns: 1fr 1.5fr 1fr;
 
         &-heading {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             grid-column: 2 / 3;
             text-align: center;
             border-radius: 20px 20px 0px 0px;
@@ -82,6 +99,9 @@
         grid-template-columns: 1fr 1.5fr 1fr;
 
         &-heading {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             grid-column: 2 / 3;
             text-align: center;
             border-radius: 20px 20px 0px 0px;
@@ -130,6 +150,9 @@
         grid-template-columns: 1fr 1.5fr 1fr;
 
         &-heading {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             text-align: center;
             grid-column: 2 / 3;
             border-radius: 20px 20px 0px 0px;

@@ -20,7 +20,7 @@
 
         </div>
         <div class="footer-item footer-contact mx-l my-m">
-            <h3>Contact</h3>
+            <h3 class="footer-contact-header">Contact</h3>
             <p>Phone:<i class="fas fa-phone px-s"></i> 01-8476000</p>
             <p>Fax: <i class="fas fa-fax px-s"></i> 01-8476869 </p>
             {{-- <p>General Enquiries: <span class="px-s">info@ommeats.ie</span></p> --}}

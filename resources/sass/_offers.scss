@@ -6,11 +6,15 @@
         display: grid;
 
         &-item {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             justify-self: center;
             text-align: center;
         }
     }
 }
+
 .latest-offer-container {
     @include row;
     // background: url("/images/background.png");
@@ -125,6 +129,7 @@
 
             &-detail {
                 min-height: 10rem;
+
                 &-item {
                     height: 100%;
                 }

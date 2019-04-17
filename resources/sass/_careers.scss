@@ -8,6 +8,9 @@
         display: grid;
 
         &-heading {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             text-align: center;
         }
     }
@@ -61,8 +64,7 @@
                     align-self: center;
                 }
 
-                &-btn {
-                }
+                &-btn {}
             }
         }
     }
@@ -76,12 +78,16 @@
         display: grid;
 
         &-title {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
             justify-self: center;
             text-align: center;
         }
 
         &-output {
             height: auto;
+
             h1,
             h2,
             h3,

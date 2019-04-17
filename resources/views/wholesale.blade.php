@@ -14,7 +14,9 @@
 </div>
 <div class="wholesale-quote-container bgi-g2">
     <div class="wholesale-quote my-m">
-        <h1 class="wholesale-quote-item my-m c-p">"Here at O'Mahony Meats, we offer a comprehensive package tailor made for restaurants, cafes and anyone in the food industry!"
+        <h1 class="wholesale-quote-item my-m c-p">O’Mahony Meats offer a comprehensive range of meat <a href="/products" class="wholesale-quote-item-link">products</a>  tailor-made for hotels, restaurants, hospitals, nursing homes, and anyone in the food industry. <br><br>
+        Call our sales representative, Michael Cooke (01 8476000 +5), to talk about your specific requirements.
+                
         </h1>
     </div>
 </div>
@@ -34,17 +36,39 @@
 
 <div class="wholesale-info-title-container bgi-g2 pt-l">
     <div class="wholesale-info-title">
-        <h2 class="wholesale-info-title-item bgi-g1 py-m fs-l">Order With Us</h2>
+        <h2 class="wholesale-info-title-item bgi-g1 py-m fs-l">Ordering Service</h2>
     </div>
 </div>
 
 <div class="wholesale-info-container bgi-g1">
     <div class="wholesale-info my-xl">
         <p class="wholesale-info-item fs-m">
-                You can place an order by simply calling <strong>01-8476000</strong> between Monday &amp; Saturday (7am - 5pm) or by eMailing us on <strong>orders@ommeats.ie</strong> and we will take it from there.
+                <strong>New Customers</strong><br>
+                Contact Michael Cooke on 01 8476000 +5 to set up your account and meet with him to discuss your specific needs and pricing.
+
         </p>
         <p class="wholesale-info-item fs-m">
-                We run a fleet of 9 refrigerated vans and offer delivery six days a week, from 6am - 3pm. We also offer a specialised same day delivery for those last minute emergencies!
+                <strong>Existing Customers</strong><br>
+                Place your order via email (orders@ommeats.ie) or by phone (01 8476000 +1) Monday-Saturday between 6am-4.30pm. <br>
+                Automated answering service for out of hours orders. 
+
+        </p>
+    </div>
+</div>
+
+<div class="wholesale-info-title-container bgi-g1 pt-l">
+    <div class="wholesale-info-title">
+        <h2 class="wholesale-info-title-item bgi-g4 py-m fs-l">Delivery</h2>
+    </div>
+</div>
+
+<div class="wholesale-info-container bgi-g4">
+    <div class="wholesale-info my-xl">
+        <p class="wholesale-info-item fs-m">
+                We run a fleet of 9 refrigerated GPS-monitored vans. Our delivery service operates 6 days a week, from 6am to 3pm. <br>
+        </p>
+        <p class="wholesale-info-item fs-m">
+                We deliver daily to customers in Dublin and the greater Dublin area, and twice-weekly in Meath and Kildare.
         </p>
     </div>
 </div>

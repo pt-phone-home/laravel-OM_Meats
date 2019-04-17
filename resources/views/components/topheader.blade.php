@@ -44,33 +44,33 @@
                 </li>
             </ul>
         </div>
-        <div class="bottomheader bg-g1">
+        <div class="bottomheader bg-gw">
 
-            <div class="bottomheader-img-container slide bgi-g1">
+            <div class="bottomheader-img-container slide bgi-gw">
                  <div class="bottomheader-img bottomheader-img-1">
-                    <img src="/images/slider/1.jpg" alt="">
+                    <img src="/images/slider/1.png" alt="">
                 </div>
                 <div class="bottomheader-img bottomheader-img-2">
-                    <img src="/images/slider/2.jpg" alt="">
+                    <img src="/images/slider/2.png" alt="">
                 </div>
                 <div class="bottomheader-img bottomheader-img-3">
-                    <img src="/images/slider/3.jpg" alt="">
+                    <img src="/images/slider/3.png" alt="">
                 </div>
             </div>
-            <div class="bottomheader-img-container bottomheader-img-container-2 slide bgi-g1">
+            <div class="bottomheader-img-container bottomheader-img-container-2 slide bgi-gw">
                  <div class="bottomheader-img bottomheader-img-1">
-                    <img src="/images/slider/4.jpg" alt="">
+                    <img src="/images/slider/4.png" alt="">
                 </div>
                 <div class="bottomheader-img bottomheader-img-2">
-                    <img src="/images/slider/5.jpg" alt="">
+                    <img src="/images/slider/5.png" alt="">
                 </div>
                 <div class="bottomheader-img bottomheader-img-3">
-                    <img src="/images/slider/6.jpg" alt="">
+                    <img src="/images/slider/6.png" alt="">
                 </div>
             </div>
-            <div class="bottomheader-img-container bottomheader-img-container-3 slide bgi-g1">
+            <div class="bottomheader-img-container bottomheader-img-container-3 slide bgi-gw">
                  <div class="bottomheader-img bottomheader-img-1">
-                    <img src="/images/slider/7.jpg" alt="">
+                    <img src="/images/slider/7.png" alt="">
                 </div>
                 <div class="bottomheader-img bottomheader-img-2">
                     <img src="/images/slider/8.jpg" alt="">

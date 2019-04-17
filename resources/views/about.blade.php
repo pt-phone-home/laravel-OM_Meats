@@ -14,7 +14,7 @@ About | O'Mahony Meats Ltd.
     <div class="about-us-quote-container bgi-g1">
         <div class="about-us-quote my-xl bgi-g1">
             <div class="about-us-quote-text fs-l c-p">
-                "For the past 50 years, O’Mahony Meats has gone from <strong>strength</strong> to <strong>strength</strong>. It is a thriving wholesale and retail business enjoying a great reputation as one of the main meat wholesalers in the greater Dublin area"
+                For over 50 years now O’Mahony Meats has gone from strength to strength. <br> It is a thriving <a href="/wholesale" class="about-us-quote-text-link">wholesale</a> and <a href="/retail" class="about-us-quote-text-link">retail</a> business enjoying a great reputation as one of the main meat wholesalers in the greater Dublin area
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@ About | O'Mahony Meats Ltd.
                     O’Mahony Meats was established by William Joe O’Mahony in August 1964. He opened a family butcher shop in Killester, a growing neighbourhood on the north side of Dublin.
                 </p>
                 <p class="about-us-1-info-item c-g1 my-m px-l fs-sm">
-                    In the 1980s, one of his sons, Kieran, joined the family business, which then consisted of his father, another butcher and a part-time book-keeper. Kieran turned to Dublin city centre restaurateurs in order to develop O’Mahony Meats.
+                    Kieran, one of his sons, joined the small family business in the 1980s and subsequently developed O'Mahony Meats into a thriving wholesale business. 
                 </p>
             </div>
         </div>
@@ -47,7 +47,7 @@ About | O'Mahony Meats Ltd.
     <div class="about-us-2-title-container bgi-p pt-l">
         <div class="about-us-2-title">
             <h1 class="about-us-2-title-heading bgi-s fs-l c-g1 py-m">
-                A New Era for O'Mahony Meats
+                A New Era 
             </h1>
         </div>
     </div>
@@ -57,7 +57,9 @@ About | O'Mahony Meats Ltd.
 
             <div class="about-us-2-info my-m fs-sm">
                 <p class="about-us-2-info-item c-g1 my-m px-l">
-                    Ten years ago, as the company had outgrown its Killester premises, it moved to a purpose-built EU licensed factory in the Malahide Road Industrial Park, Coolock. A genuine factory shop was also opened where O’Mahony Meats has been selling meats of the finest quality at wholesale prices to the general public since September 2004.
+                    In the early noughties O’Mahony Meats moved to a purpose-built EC-licensed factory on the outskirts of Dublin northside with easy access to both the M50 and the city centre.
+At the same time the meat factory went back to its roots: we opened a genuine factory shop where our customers can buy a wide range of quality meats at wholesale prices.
+
                 </p>
             </div>
 
@@ -82,10 +84,10 @@ About | O'Mahony Meats Ltd.
             </div>
             <div class="about-us-3-info px-l">
                 <p class="about-us-3-info-item my-m fs-sm">
-                    For the past 50 years, O’Mahony Meats has gone from <strong>strength</strong> to <strong>strength</strong>. It is a thriving wholesale and retail business enjoying a great reputation as one of the main meat wholesalers in the greater Dublin area. Its wide customer base comprises large corporations (public and private), hospitals, hotels, nursing homes and restaurants. We currently employ over 40 staff.
+                    In order to comply with the ever-changing demands of the food industry as well as the specific needs of our customers we at O’Mahony Meats use the most up-to-date manufacturing technology and keep abreast of industry standards. These include full HACCP compliance, a traceability system from intake, incorporating all production processes, right through to dispatch.
                 </p>
                 <p class="about-us-3-info-item my-m fs-sm">
-                    A lot has changed since the butcher shop in Killester, but we are proud to still be an Irish-owned and family-run business serving the Dublin community. More than ever, we are committed to selling the best quality meats at competitive prices - <span class="c-p"><strong>“Catering for Quality”</strong></span>. 
+                    Over the years we have built close working relationships with reliable and professional suppliers to ensure the delivery of quality products. It is crucial that we continue to develop these systems to ensure superior quality, consistency and reliable supply of our meat products to all our customers no matter how big or small.
                 </p>
             </div>
         </div>

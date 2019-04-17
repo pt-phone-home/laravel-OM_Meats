@@ -11,9 +11,12 @@
         grid-template-rows: 1fr 1fr;
 
         &-heading {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
             justify-self: center;
             align-self: center;
             color: $grey1;
+            text-transform: uppercase;
 
             // span {
             //     color: $primary;
@@ -22,6 +25,8 @@
         }
 
         &-subheading {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
             justify-self: center;
             align-self: center;
             color: $grey1;
@@ -50,6 +55,8 @@
         margin-bottom: 2rem;
 
         &-text {
+            font-family: 'Libre Baskerville', serif;
+            font-weight: 400;
             text-align: center;
         }
     }
@@ -61,12 +68,16 @@
     &-item {
         @include rowinset(80%);
         text-align: center;
-        line-height: 30px;
+        line-height: 33px;
 
         &-link {
             text-decoration: none;
-            color: $grey6;
+            color: $primary;
             text-decoration: underline;
+
+            &:hover {
+                color: $grey6;
+            }
         }
     }
 }
@@ -108,6 +119,7 @@
 
         &-item {
             display: grid;
+
             &-title {
                 justify-self: center;
                 text-align: center;

@@ -16,9 +16,16 @@ Contact | O'Mahoney Meats Ltd.
         <div class="contact my-m">
 
             <div class="contact-phone">
-                <p><i class="fas fa-phone-volume"></i> Call us at our office on: 01-8476000</p>
+                <p class="my-m"><i class="fas fa-phone-volume"></i> Call us Monday to Saturday: 01-8476000</p>
+                <div class="mx-l">
+                    <p class="py-s"><i class="fas fa-ellipsis-h"></i>Orders: 01 8476000 +1  / orders@ommeats.ie</p>
+                    <p class="py-s"><i class="fas fa-ellipsis-h"></i>Dispatch: 01 8476000 +2</p>
+                    <p class="py-s"><i class="fas fa-ellipsis-h"></i>Accounts: 01 8476000 +3 / madeleine@ommeats.ie</p>
+                    <p class="py-s"><i class="fas fa-ellipsis-h"></i>Shop: 01 8476000 +4</p>
+                    <p class="py-s"><i class="fas fa-ellipsis-h"></i>Sales: 01 8476000 +5 / michael@ommeats.ie</p>
+                </div>
             </div>
-            <div class="contact-email contact-email-1">
+            {{-- <div class="contact-email contact-email-1">
                 <h2 class="contact-email-heading"> General Enquiries</h2>
                 <p class="contact-email-info">Email us <i class="fas fa-at"></i> info@ommeats.ie</p>
             </div>
@@ -46,7 +53,7 @@ Contact | O'Mahoney Meats Ltd.
                     <p><i class="fas fa-phone"></i>0872633614</p>
                     <p><i class="fas fa-at"></i>kieran@ommeats.ie</p>
                 </div>
-            </div>
+            </div> --}}
 
         </div>
     </div>

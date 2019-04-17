@@ -9,7 +9,7 @@
 <div class="offers-banner-container bgi-p">
     <div class="offers-banner my-m">
         <h1 class="offers-banner-item my-m c-g1 fs-xl">
-            Offers From O'Mahony Meats
+            Special Offers
         </h1>
     </div>
 </div>

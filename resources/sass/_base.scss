@@ -12,30 +12,39 @@ html {
     @media (max-width: 1250px) {
         font-size: 62.5%;
     }
+
     @media (max-width: 1150px) {
         font-size: 60.5%;
     }
+
     @media (max-width: 1050px) {
         font-size: 58.5%;
     }
+
     @media (max-width: 950px) {
         font-size: 56.5%;
     }
+
     @media (max-width: 850px) {
         font-size: 55.5%;
     }
+
     @media (max-width: 750px) {
         font-size: 53.5%;
     }
+
     @media (max-width: 650px) {
         font-size: 51.5%;
     }
+
     @media (max-width: 550px) {
         font-size: 49.5%;
     }
+
     @media (max-width: 450px) {
         font-size: 47.5%;
     }
+
     @media (max-width: 350px) {
         font-size: 45.5%;
     }
@@ -70,6 +79,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .my-l {
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -93,6 +103,7 @@ body {
 .mt-s {
     margin-top: 1rem;
 }
+
 .mt-m {
     margin-top: 2rem;
 }
@@ -104,6 +115,7 @@ body {
 .mb-s {
     margin-bottom: 1rem;
 }
+
 // Padding
 
 .py-s {
@@ -115,6 +127,7 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
 .py-l {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -124,6 +137,7 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .px-m {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -181,6 +195,7 @@ body {
 .c-g1 {
     color: $grey1;
 }
+
 // Backgrounds
 
 .bg-p {
@@ -198,6 +213,7 @@ body {
 .bg-g2 {
     background: $grey2;
 }
+
 .bg-g3 {
     background: $grey3;
 }
@@ -210,34 +226,52 @@ body {
 
 // BACKGROUNDS
 
+// Background images are from http://bg.siteorigin.com/ 45degree Fabric Pattern intensity up slightly
+.bgi-gw {
+    background: url("/images/gw.png");
+    background-repeat: repeat;
+}
+
+.bgi-gl {
+    background: url("/images/gl.png");
+    background-repeat: repeat;
+}
+
 .bgi-g1 {
     background: url("/images/g1.png");
     background-repeat: repeat;
 }
+
 .bgi-g2 {
     background: url("/images/g2.png");
     background-repeat: repeat;
 }
+
 .bgi-g3 {
     background: url("/images/g3.png");
     background-repeat: repeat;
 }
+
 .bgi-g4 {
     background: url("/images/g4.png");
     background-repeat: repeat;
 }
+
 .bgi-g5 {
     background: url("/images/g5.png");
     background-repeat: repeat;
 }
+
 .bgi-g6 {
     background: url("/images/g6.png");
     background-repeat: repeat;
 }
+
 .bgi-s {
     background: url("/images/s.png");
     background-repeat: repeat;
 }
+
 .bgi-p {
     background: url("/images/p.png");
     background-repeat: repeat;

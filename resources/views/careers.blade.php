@@ -8,7 +8,7 @@ Careers | O'Mahoney Meats Ltd.
     <div class="careers-header-container bgi-p">
         <div class="careers-header my-m">
             <h1 class="careers-header-heading my-m c-g1 fs-xl">
-                Work with O'Mahony Meats
+                Careers
             </h1>
         </div>
     </div>
@@ -16,7 +16,7 @@ Careers | O'Mahoney Meats Ltd.
     <div class="careers-title-container bgi-g1 pt-l">
         <div class="careers-title">
             <div class="careers-title-item py-s bgi-g1 fs-l fw-b">
-                Current Career Opportunties
+                Current Career Opportunities
             </div>
         </div>
     </div>

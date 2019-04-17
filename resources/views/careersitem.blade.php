@@ -8,19 +8,21 @@ Careers | O'Mahoney Meats Ltd.
     <div class="careers-header-container bg-p">
         <div class="careers-header my-m">
             <h1 class="careers-header-heading my-m c-g1 fs-xl">
-                Work with O'Mahoney Meats
+                Careers
             </h1>
         </div>
     </div>
 
     <div class="careers-title-container bg-g1">
-        <div class="careers-title bg-s c-g1">
-            <div class="careers-title-item py-m fs-l fw-b">
+        <div class="careers-title c-p">
+            <div></div>
+            <div class="careers-title-item py-m fs-l fw-b bg-g3">
                 {{$career->title}}
             </div>
+            <div></div>
         </div>
     </div>
-    <div class="careersitem-container bg-g1">
+    <div class="careersitem-container bg-g3">
         <div class="careersitem-description my-m px-m py-m">
             <h3 class="careersitem-description-title fs-l py-s">Job Description</h3>
             <hr>

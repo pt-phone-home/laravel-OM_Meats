@@ -18,25 +18,25 @@ Home | O'Mahony Meats Ltd.
             <p class="welcome-info welcome-info-2">Our Product range includes:</p> --}}
         </div>
     </div>
-    <div class="products-quote-container bgi-g1">
-        <div class="products-quote my-l bgi-g1">
-            <h3 class="products-quote-text fs-lxl my-m c-p">"We supply meat to both the catering trade foodservice sector <br> and the general public."</h3>
+    <div class="products-quote-container bgi-gw">
+        <div class="products-quote my-l bgi-gw">
+            <h3 class="products-quote-text fs-lxl my-m c-p">"We supply meat to both the catering trade <br> and the general public."</h3>
         </div>
     </div>
-    <div class="products-overview bgi-g1">
+    <div class="products-overview bgi-gw">
         <p class="products-overview-item fs-m my-m">
-            "We sell over 600 <a href="/products" class="products-overview-item-link">products</a>. We can prepare any cut to your own specifications. In fact at O’Mahony Meats we specialise in customer-driven products."
+            We sell over 600 <a href="/products" class="products-overview-item-link">products</a>. We can prepare any cut to your own specifications. <br> In fact at O’Mahony Meats we specialise in customer-driven products.
         </p>
     </div>
-    <div class="products-overview-img-container bgi-g1">
+    <div class="products-overview-img-container bgi-gw">
         <div class="products-overview-img my-m">
             <img src="/images/shop.jpg" alt="">
         </div>
 
     </div>
-    <div class="products-overview bgi-g1">
+    <div class="products-overview bgi-gw">
         <p class="products-overview-item fs-m my-m">
-            “For your convenience O’Mahony Meats is open 6 days a week, Monday to Saturday from 8am to 5pm (retail) and 5am to 4.30pm (wholesale).”
+            For your convenience O’Mahony Meats is open 6 days a week, <br> Monday to Saturday from 8am to 5pm (retail) and 5am to 4.30pm (wholesale).
         </p>
     </div>
 

@@ -21,7 +21,7 @@
 <div class="retail-header-container retail-header-container-1 bgi-g1 pt-l">
     <div class="retail-header retail-header-1">
         <div class="retail-header-item retail-header-item-1 bgi-g2 py-m fs-l">
-            Huge selection of products
+            Large choice of products
         </div>
     </div>
 </div>
@@ -34,7 +34,8 @@
         </div>
         <div class="retail-info retail-info-1">
             <p class="retail-info-item retail-info-item-1 px-l fs-m">
-                You will find a huge selection of fresh separate and pre-packed meats, some cooked products such as lasagna and shepherd’s pies and also a range of convenience frozen meats.
+                    You will find a large selection of freshly cut premium meats, as well as conveniently pre-packed meats, a choice of ready-made meals, eggs and a range of convenience frozen meats. <br>
+                    Check out our Special Offers counter and our range of Leaner Option packs!
             </p>
         </div>
     </div>
@@ -55,7 +56,7 @@
                 Small appetite, or small family to feed? No problem! Our in-house butchers will cut or trim any piece of meat to suit your needs.
             </p>
             <p class="retail-info-item retail-2-info-item px-l my-m fs-m c-g1">
-                Hosting a family event and need large quantities? Not a problem! As we supply some of Ireland's busiest restaurants we are used to it!
+                Hosting a family event and need large quantities? Not a problem! We supply some of Dublin’s busiest hotels and restaurants so we are well used to it! 
             </p>
         </div>
 
@@ -77,7 +78,7 @@
 <div class="retail-details-2-container bgi-g1">
     <div class="retail-details-2 my-l">
         <div class="retail-details-2-info my-m">
-            <p class="retail-details-2-info-item fs-m">Can’t see what you want? Just ask our friendly staff will be happy to get it for you! Not everything we supply fits into our display cabinets but we stock a huge amount in our refrigerated stock rooms.
+            <p class="retail-details-2-info-item fs-m">Can’t see what you want? Just ask! Our friendly staff will be happy to get it for you! Not everything we supply fits into our display cabinets but we stock a huge amount in our refrigerated stock rooms.
             </p>
         </div>
         <div class="retail-details-2-img my-m px-m py-m bgi-p">

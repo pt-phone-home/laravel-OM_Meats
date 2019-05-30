@@ -5,86 +5,72 @@
 @endsection
 
 @section('content')
-<div class="products-header-container bgi-p">
-    <div class="products-header my-m">
-        <h1 class="products-header-heading my-m fs-xl c-g1">
+<div class="bgi-p">
+    <div class="container mx-auto">
+        <h1 class="text-center py-10 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
             Products
-        </h1>
+        </h1>  
     </div>
 </div>
-<div class="products-info-container bgi-g1">
-    <div class="products-info my-l">
-        <p class="products-info-headline my-l">
+
+<div class="bgi-g1">
+    <div class="container mx-auto flex flex-col items-center justify-center py-12 w-90p">
+        <p class="text-3xl text-p py-6 text-center">
             Here at O'Mahony Meats we sell over 600 different products!
         </p>
-        <p class="products-info-item fs-m c-p">
+        <p class="text-xl text-p text-center">
             Beef, Lamb, Pork, Bacon, Chicken &amp; Poultry - we can provide any cut or tailor your order to suit your requirements.<br> <br>
             Simply call the factory on <strong>01 8476000 +1</strong> or Michael on <strong>01 8476000 + 5</strong>
         </p>
     </div>
 </div>
-<div class="image-gallery-title-container bgi-g1 pt-l">
-    <div class="image-gallery-title">
-        <div class="image-gallery-title-item bgi-g3 py-m c-p fs-l">
-            Over 600 Products
-        </div>
+<div class="div bgi-g1 pt-8 flex"> 
+    <div class="w-1/3">
+
+    </div>
+    <h1 class="text-grey-darkest bgi-g3 py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+        Over 600 Products
+    </h1>
+    <div class="w-1/3">
+
     </div>
 </div>
-<div class="products-container bgi-g3">
-        <div class="products my-m">
-            <div class="products-item products-item-1 my-l">
-                <h2 class="products-item-title c-g1 bg-p fs-l">
-                    Beef/Lamb/Pork
-                </h2>
-                <div class="products-item-img">
-                    <img src="/images/beef.png" alt="">
-                    {{-- <img src="/images/beef.jpg" alt=""> --}}
-                </div>
-            </div>
-            <div class="products-item products-item-2 my-l">
-                <h2 class="products-item-title c-g1 bg-p fs-l">
-                    Bacon/Chicken
-                </h2>
-                <div class="products-item-img">
-                    <img src="/images/chicken.png" alt="">
-                    {{-- <img src="/images/lamb.jpg" alt=""> --}}
-                </div>
-            </div>
-            <div class="products-item products-item-3 my-l">
-                <h2 class="products-item-title c-g1 bg-p fs-l">
-                    Poultry/Eggs
-                </h2>
-                <div class="products-item-img">
-                    <img src="/images/eggs.jpg" alt="">
-                    {{-- <img src="/images/pork.jpg" alt=""> --}}
-                </div>
-            </div>
-            {{-- <div class="products-item products-item-4 my-m">
-                <h2 class="products-item-title c-g1 bg-p fs-l">
-                    Poultry
-                </h2>
-                <div class="products-item-img">
-                    <img src="/images/chicken.jpg" alt="">
-                </div>
-            </div>
-            <div class="products-item products-item-5 my-m">
-                <h2 class="products-item-title c-g1 bg-p fs-l">
-                    Cooked Meats
-                </h2>
-                <div class="products-item-img">
-                    <img src="/images/cooked.jpg" alt="">
-                </div>
-            </div>
-            <div class="products-item products-item-6 my-m">
-                <h2 class="products-item-title c-g1 bg-p fs-l">
-                    Eggs
-                </h2>
-                <div class="products-item-img">
-                    <img src="/images/eggs.jpg" alt="">
-                </div>
-            </div> --}}
-            
 
+<div class="bgi-g3">
+    <div class="container mx-auto flex flex-wrap justify-center py-12">
+        <div class="w-full md:w-1/3 px-2 py-2">
+            <div class="flex flex-col">
+                <h1 class="bgi-p text-grey-lightest text-center py-2 rounded-t-xlg">Beef/Lamb/Pork</h1>
+                <div class="h-10r">
+                     <img src="/images/beef.png" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="flex justify-center  bgi-p py-2 rounded-b-lg group">
+                    <button class="text-grey-lightest w-full">More</button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-1/3 px-2 py-2">
+            <div class="flex flex-col">
+                <h1 class="bgi-p text-grey-lightest text-center py-2 rounded-t-xlg"> Bacon/Chicken</h1>
+                <div class="h-10r">
+                     <img src="/images/chicken.png" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="flex justify-center  bgi-p py-2 rounded-b-lg group">
+                    <button class="text-grey-lightest w-full">More</button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-1/3 px-2 py-2">
+            <div class="flex flex-col">
+                <h1 class="bgi-p text-grey-lightest text-center py-2 rounded-t-xlg"> Poultry/Eggs</h1>
+                <div class="h-10r">
+                     <img src="/images/eggs.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="flex justify-center  bgi-p py-2 rounded-b-lg group">
+                    <button class="text-grey-lightest w-full">More</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 {{-- <div class="image-gallery-container bgi-s">

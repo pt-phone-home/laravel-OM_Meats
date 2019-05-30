@@ -8,31 +8,26 @@ Edit Career
 
 @section('content')
 
-<div class="createcareer-title-container">
-    <div class="createcareer-title my-m">
-        <h1 class="createcareer-title-item">Edit a  Career Opportunity</h1>
-    </div>
-</div>
 
-<div class="createcareer-container">
+<div class="container mx-auto">
     <form action="/career/{{$career->id}}" method="POST" class="careerform my-m">
         @csrf
         @method('PUT')
-        <div class="careerform-group py-m">
-            <label for="title">Position Title:</label>
-        <input type="text" name="title" value="{{$career->title}}" placeholder="Position Title"required>
+        <div class="py-4">
+            <label for="title" class="block py-2 ">Position Title:</label>
+        <input type="text" name="title" value="{{$career->title}}" placeholder="Position Title" class="block h-6 rounded w-60p outline border"required>
         </div>
-        <div class="careerform-group">
-            <label for="overview">Position Overview:</label>
-        <input type="text" name="overview" value="{{$career->overview}}" placeholder="Position Overview">
+        <div class="pb-4">
+            <label for="overview" class="block py-2 ">Position Overview:</label>
+        <input type="text" name="overview" value="{{$career->overview}}" placeholder="Position Overview" class="block h-6 rounded w-60p outline border" required>
         </div>
-        <div class="careerform-group">
-            <label for="summernote">Job Description:</label>
+        <div class="pb-4">
+            <label for="summernote" class="block py-2">Job Description:</label>
         <textarea name="details" id="details" cols="30" rows="10" placeholder="Please enter the detail of the job description, responsibilities etc.." required>{{$career->details}}</textarea>
         </div>
 
-        <div class="careerform-group">
-            <button>Update</button>
+        <div class="pb-4">
+            <button class="bg-p hover:bg-grey-lightest rounded py-2 px-4 text-om-white no-underline hover:text-p hover:border hover:border-p">Update</button>
         </div>
 
     </form>

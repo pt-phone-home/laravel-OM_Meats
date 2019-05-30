@@ -2,22 +2,24 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Offer;
+use Illuminate\Http\Request;
 
 class OffersController extends Controller
 {
-    public function create() {
+    public function create()
+    {
 
         return view('createoffer');
     }
 
-    public function store(Request $request) {
+    public function store(Request $request)
+    {
 
         $this->validate($request, [
             'title' => 'required',
-            'detail' => 'required|min:10| max:150',
-            'valid' => 'required'
+            'detail' => 'required|min:10',
+            'valid' => 'required',
         ]);
 
         if ($request->file('img')) {
@@ -41,7 +43,8 @@ class OffersController extends Controller
         return redirect('admin')->with('success', 'Offer Added Successfully');
     }
 
-    public function edit($id) {
+    public function edit($id)
+    {
 
         $offer = Offer::findorfail($id);
 
@@ -49,12 +52,13 @@ class OffersController extends Controller
 
     }
 
-    public function update(Request $request, $id) {
+    public function update(Request $request, $id)
+    {
 
         $this->validate($request, [
             'title' => 'required',
             'detail' => 'required|min:10',
-            'valid' => 'required'
+            'valid' => 'required',
         ]);
 
         $offer = Offer::find($id);
@@ -68,24 +72,22 @@ class OffersController extends Controller
 
             $offer->img = $path;
 
-        } 
+        }
         // else {
         //     $path = 'images/offers/default' . rand(1, 4) . '.jpg';
         // }
 
-        
-
         $offer->title = $request['title'];
         $offer->valid = $request['valid'];
         $offer->detail = $request['detail'];
-        
 
         $offer->save();
         return redirect('admin')->with('success', 'Offer Added Successfully');
 
     }
 
-    public function destroy($id) {
+    public function destroy($id)
+    {
 
         $offer = Offer::find($id);
 

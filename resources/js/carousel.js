@@ -13,7 +13,7 @@ function showSlides() {
         slideIndex = 1;
     }
 
-    slides[slideIndex - 1].style.display = "grid";
+    slides[slideIndex - 1].style.display = "flex";
 
     setTimeout(showSlides, 4000);
 }

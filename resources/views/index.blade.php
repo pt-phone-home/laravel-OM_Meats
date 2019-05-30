@@ -5,40 +5,45 @@ Home | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
-    <div class="welcome-container bgi-p">
-        <div class="welcome my-m">
-            <h1 class="welcome-heading fs-xl">
+<div class="bgi-p">
+        <div class="container mx-auto">
+            <h1 class="text-center pt-4 pb-2 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
                 Welcome to O’Mahony Meats
             </h1>
 
-            <h2 class="welcome-subheading fs-l">Your One-Stop Meat Supplier</h2>
+            <p class="text-center text-3xl text-om-white pb-6 tracking-wide font-hairline">Your One-Stop Meat Supplier</p>
 
             {{-- <p class="welcome-info">We supply meat to both the catering trade foodservice sector and the general public.</p>
 
             <p class="welcome-info welcome-info-2">Our Product range includes:</p> --}}
         </div>
+</div>
+<div class="bgi-gw">
+    <div class="container mx-auto py-12">
+        <h3 class="text-center text-4xl font-bask font-thin text-p">"We supply meat to both the catering trade <br> and the general public."</h3>
     </div>
-    <div class="products-quote-container bgi-gw">
-        <div class="products-quote my-l bgi-gw">
-            <h3 class="products-quote-text fs-lxl my-m c-p">"We supply meat to both the catering trade <br> and the general public."</h3>
-        </div>
-    </div>
-    <div class="products-overview bgi-gw">
-        <p class="products-overview-item fs-m my-m">
-            We sell over 600 <a href="/products" class="products-overview-item-link">products</a>. We can prepare any cut to your own specifications. <br> In fact at O’Mahony Meats we specialise in customer-driven products.
+</div>
+<div class="bgi-gw">
+    <div class="container mx-auto flex justify-center">
+        <p class="text-xl text-grey-darkest py-6 text-center leading-loose">
+            We sell over 600 <a href="/products" class="text-p hover:text-grey-darkest ">products</a>. We can prepare any cut to your own specifications. <br> In fact at O’Mahony Meats we specialise in customer-driven products.
         </p>
     </div>
-    <div class="products-overview-img-container bgi-gw">
-        <div class="products-overview-img my-m">
-            <img src="/images/shop.jpg" alt="">
-        </div>
-
+</div>
+<div class="bgi-gw">
+    <div class="container mx-auto flex justify-center h-35r w-full py-6">
+        <img src="/images/shop.jpg" alt="" class="h-full w-full object-cover">
     </div>
-    <div class="products-overview bgi-gw">
-        <p class="products-overview-item fs-m my-m">
+</div>
+<div class="bgi-gw">
+    <div class="container mx-auto flex justify-center">
+        <p class="text-xl text-grey-darkest py-6 text-center leading-loose">
             For your convenience O’Mahony Meats is open 6 days a week, <br> Monday to Saturday from 8am to 5pm (retail) and 5am to 4.30pm (wholesale).
         </p>
     </div>
+</div>
+
+
 
     {{--
     <div class="products-title bgi-g1">

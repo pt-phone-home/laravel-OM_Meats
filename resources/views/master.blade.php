@@ -10,19 +10,22 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/custom.css">
 
     <title>@yield('title')</title>
 </head>
 <body>
-    <div class="container">
+   
         @include('components.topheader')
         @yield('content')
 
 
         @include('components.footer')
 
-    </div>
+
 
     @yield('scripts')
     <script src="/js/app.js"></script>

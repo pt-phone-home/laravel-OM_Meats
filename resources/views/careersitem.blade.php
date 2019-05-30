@@ -5,37 +5,45 @@ Careers | O'Mahoney Meats Ltd.
 @endsection
 
 @section('content')
-    <div class="careers-header-container bg-p">
-        <div class="careers-header my-m">
-            <h1 class="careers-header-heading my-m c-g1 fs-xl">
-                Careers
-            </h1>
-        </div>
+<div class="bgi-p">
+    <div class="container mx-auto">
+        <h1 class="text-center py-6 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
+            Careers
+        </h1>  
     </div>
+</div>
+<div class="div bgi-g1 pt-8 flex"> 
+    <div class="w-1/3">
 
-    <div class="careers-title-container bg-g1">
-        <div class="careers-title c-p">
-            <div></div>
-            <div class="careers-title-item py-m fs-l fw-b bg-g3">
-                {{$career->title}}
-            </div>
-            <div></div>
-        </div>
     </div>
-    <div class="careersitem-container bg-g3">
-        <div class="careersitem-description my-m px-m py-m">
-            <h3 class="careersitem-description-title fs-l py-s">Job Description</h3>
-            <hr>
+    <h1 class="text-grey-darkest bgi-g3 py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+        {{$career->title}}
+    </h1>
+    <div class="w-1/3">
 
-            <div class="careersitem-description-output my-l">
+    </div>
+</div>
+<div class="bgi-g3">
+    <div class="container mx-auto flex justify-center pt-8">
+        <div class="w-95p md:w-70p flex flex-col border-2 border-p">
+            <h3 class="uppercase text-center text-grey-darkest font-thin py-4 text-3xl">Job Description</h3>
+            <hr class="border border-grey-dark w-80p">
+            <div class="py-4 px-2 text-grey-darkest">
                 {!!$career->details !!}
             </div>
         </div>
-
-        <a href="/careers" class="btn my-s">Back to Careers</a>
-
-        <a href="/contact" class="admin-create-btn my-m">Contact Us</a>
+        
+        
     </div>
+    <div class="flex justify-center py-4">
+        <a href="/careers" class="bgi-p rounded py-2 px-4 text-om-white no-underline hover:text-grey-light">Back to Careers</a>
+    </div>
+    <div class="flex justify-center py-4">
+        <a href="/contact" class="bgi-p rounded py-2 px-4 text-om-white no-underline hover:text-grey-light">Contact Us</a>
+    </div>
+</div>
+
+    
     
 @endsection
 

@@ -10,31 +10,31 @@ Add News Item
 
 
 
-<div class="form-container">
-    <form action="/createnewsitem" method="POST" class="form my-l" enctype="multipart/form-data">
+<div class="container mx-auto">
+    <form action="/createnewsitem" method="POST" class="" enctype="multipart/form-data">
         @csrf
 
-        <div class="form-group">
-            <label for="title">News Title:</label>
-        <input type="text" name="title" value="{{old('title')}}" placeholder="News Title" required>
+        <div class="py-4">
+            <label for="title" class="block py-2 ">News Title:</label>
+            <input type="text" name="title" value="{{old('title')}}" placeholder="News Title" class="block h-6 rounded w-60p outline border" required>
         </div>
 
-        <div class="form-group">
-            <label for="valid">News Headline:</label>
-        <input type="text" name="headline" value="{{old('headline')}}" placeholder="News Headline" required>
+        <div class="pb-4">
+            <label for="valid" class="block py-2">News Headline:</label>
+        <input type="text" name="headline" value="{{old('headline')}}" placeholder="News Headline" class="block h-6 rounded w-60p outline border"    required>
         </div>
 
-        <div class="form-group">
-            <label for="body"> News Text:</label>
+        <div class="pb-4">
+            <label for="body" class="block py-2"> News Text:</label>
         <textarea name="body" id="" cols="30" rows="10" placeholder="News Item Text" required>{{old('body')}}</textarea>
         </div>
-        <div class="form-group">
-            <label for="img">Upload Image (Optional):</label>
-            <input type="file" name="img" id="img">
+        <div class="pb-4">
+            <label for="img" class="block py-2">Upload Image (Optional):</label>
+            <input type="file" name="img" id="img" class="rounded">
          </div>
 
-         <div class="form-group">
-             <button>Save</button>
+         <div class="pb-4">
+             <button class="bg-p hover:bg-grey-lightest rounded py-2 px-4 text-om-white no-underline hover:text-p hover:border hover:border-p">Save</button>
          </div>
 
     </form>

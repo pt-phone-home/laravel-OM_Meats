@@ -8,32 +8,27 @@ Edit Recipe
 
 @section('content')
 
-<div class="createcareer-title-container">
-    <div class="createcareer-title my-m">
-        <h1 class="createcareer-title-item">Edit Recipe</h1>
-    </div>
-</div>
 
-<div class="createcareer-container">
-<form action="/recipe/{{$recipe->id}}" method="POST" class="careerform my-m" enctype="multipart/form-data">
+<div class="container mx-auto">
+<form action="/recipe/{{$recipe->id}}" method="POST" enctype="multipart/form-data">
         @csrf
         @method('PUT')
-        <div class="careerform-group py-m">
-            <label for="title">Recipe Title:</label>
-        <input type="text" name="title" value="{{$recipe->title}}" placeholder="Recipe Title"required>
+        <div class="py-4">
+            <label for="title" class="block py-2 ">Recipe Title:</label>
+        <input type="text" name="title" value="{{$recipe->title}}" placeholder="Recipe Title" class="block h-6 rounded w-60p outline border" required>
         </div>
         
-        <div class="careerform-group">
-            <label for="summernote">Recipe Detail:</label>
+        <div class="pb-4">
+            <label for="summernote" class="block py-2">Recipe Detail:</label>
         <textarea name="detail" id="detail" cols="30" rows="10" placeholder="Please enter the detail of the job description, responsibilities etc.." required>{{$recipe->detail}}</textarea>
         </div>
-        <div class="form-group">
-            <label for="img">Upload Image (Optional):</label>
-            <input type="file" name="img" id="img">
+        <div class="pb-4">
+            <label for="img" class="block py-2">Upload Image (Optional):</label>
+            <input type="file" name="img" id="img" class="rounded">
          </div>
 
-        <div class="careerform-group">
-            <button>Update</button>
+        <div class="pb-4">
+            <button class="bg-p hover:bg-grey-lightest rounded py-2 px-4 text-om-white no-underline hover:text-p hover:border hover:border-p">Update</button>
         </div>
 
     </form>

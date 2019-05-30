@@ -10,32 +10,32 @@ Edit Offer
 
 
 
-<div class="form-container">
-<form action="/offer/{{$offer->id}}" method="POST" class="form my-l" enctype="multipart/form-data">
+<div class="container mx-auto">
+<form action="/offer/{{$offer->id}}" method="POST" class="" enctype="multipart/form-data">
         @csrf
         @method('PUT')
 
-        <div class="form-group">
-            <label for="title">Offer Title:</label>
-        <input type="text" name="title" value="{{$offer->title}}" placeholder="Offer Title" required>
+        <div class="py-4">
+            <label for="title" class="block py-2 ">Offer Title:</label>
+        <input type="text" name="title" value="{{$offer->title}}" placeholder="Offer Title" class="block h-6 rounded w-60p outline border" required>
         </div>
 
-        <div class="form-group">
-            <label for="valid">Valid Until:</label>
-        <input type="text" name="valid" value="{{$offer->valid}}" placeholder="Offer Valid Until..." required>
+        <div class="pb-4">
+            <label for="valid" class="block py-2 ">Valid Until:</label>
+        <input type="text" name="valid" value="{{$offer->valid}}" placeholder="Offer Valid Until..." class="block h-6 rounded w-60p outline border" required>
         </div>
 
-        <div class="form-group">
-            <label for="detail">Offer Detail: (suggested max 100 characters)</label>
+        <div class="pb-4">
+            <label for="detail" class="block py-2 ">Offer Detail: (suggested max 100 characters)</label>
         <textarea name="detail" id="" cols="30" rows="10" placeholder="Information about offer" required>{{$offer->detail}}</textarea>
         </div>
-        <div class="form-group">
-            <label for="img">Upload Image (Optional):</label>
-            <input type="file" name="img" id="img">
+        <div class="pb-4">
+            <label for="img" class="block py-2 ">Upload Image (Optional):</label>
+            <input type="file" name="img" id="img" class="rounded">
          </div>
 
-         <div class="form-group">
-             <button>Update</button>
+         <div class="pb-4">
+             <button class="bg-p hover:bg-grey-lightest rounded py-2 px-4 text-om-white no-underline hover:text-p hover:border hover:border-p">Update</button>
          </div>
 
     </form>

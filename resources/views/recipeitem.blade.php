@@ -5,38 +5,39 @@
 @endsection
 
 @section('content')
-
-<div class="recipes-banner-container bgi-p">
-    <div class="recipes-banner my-m">
-        <h1 class="recipes-banner-item my-m fs-xl c-g1">
-            Recipe Ideas from O'Manony's
-        </h1>
+<div class="bgi-p">
+    <div class="container mx-auto">
+        <h1 class="text-center py-6 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
+            Recipe Ideas from O'Mahony Meats
+        </h1>  
+    </div>
+</div>
+<div class="bgi-g1">
+    @if($recipe)
+    <div class="container mx-auto flex justify-center py-6">
+        <div class="flex flex-col w-95p md:w-80p border-2 border-p">
+            <div class="bgi-s py-4 px-2">
+                <div class="flex justify-between items-center text-om-white">
+                    <h2>{{$recipe->title}}</h2>
+                    <h5>{{$recipe->updated_at->diffForHumans()}}</h5>
+                </div>
+            </div>
+            <div class="h-20r px-4 py-4">
+                    <img src="/{{$recipe->img}}" alt="" class="h-full w-full object-cover">
+            </div>
+            <hr class="w-90p border border-grey-dark">
+            <div class="px-4 py-4">
+                    {!! $recipe->detail !!}
+            </div>
+        </div>
+    </div>
+    @endif
+    <div class="flex justify-center py-6">
+        <a href="/recipes" class="bgi-p rounded py-2 px-4 text-om-white no-underline hover:text-grey-light">Back to Recipes</a>
     </div>
 </div>
 
-<div class="recipeitem-container bgi-g1">
-    <div class="recipeitem my-m">
-        @if($recipe)
-        <div class="recipeitem-title bg-s c-g1">
-            <h2 class="recipeitem-title-item my-m">
-            {{$recipe->title}}
-            </h2>
-            <h5 class="recipeitem-title-date my-m"> Updated:
-                    {{$recipe->updated_at->diffForHumans()}}
-            </h5>
-        </div>
-        <hr>
-        <div class="recipeitem-img bg-g2 my-m">
-            <img src="/{{$recipe->img}}" alt="">
-        </div>
-        <hr>
-        <div class="recipeitem-detail my-m mx-m">
-            {!! $recipe->detail !!}
-        </div>
-        @endif
-        <a href="/recipes" class="btn">Back to Recipes</a>
-    </div>
-</div>
+
 
 @endsection
 

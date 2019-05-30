@@ -5,103 +5,133 @@ Quality | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
-    <div class="quality-heading-container bgi-p">
-        <div class="quality-heading my-m">
-            <h1 class="quality-heading-heading c-g1 fs-xl my-m">Quality</h1>
-        </div>
+<div class="bgi-p">
+    <div class="container mx-auto">
+        <h1 class="text-center py-10 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
+            Quality
+        </h1>  
     </div>
+</div>
 
-    <div class="quality-quote-container bgi-g1">
-        <div class="quality-quote my-l">
-            <div class="quality-quote-item c-p fs-l my-m">
-                “At O’Mahony Meats we are committed to selling high quality locally sourced products where possible. All our products meet the most current food safety regulations so you can be confident you are buying the best locally sourced quality meat”
-            </div>
+<div class="bgi-g1">
+    <div class="container mx-auto py-12 w-70p">
+        <div class="text-p text-3xl text-center leading-normal my-m">
+            “At O’Mahony Meats we are committed to selling high quality locally sourced products where possible. All our products meet the most current food safety regulations so you can be confident you are buying the best locally sourced quality meat”
         </div>
     </div>
+</div>
+<div class="div bgi-g1 pt-8 flex"> 
+    <div class="w-1/3">
 
-    <div class="quality-title-container quality-title-1-container bgi-g1 pt-l">
-        <div class="quality-title qulaity-title-1">
-            <h2 class="quality-title-item quality-title-item-1 bgi-s py-m c-g1 fs-l">
-                Our Commitment
-            </h2>
-        </div>
     </div>
-    <div class="quality-container quality-container-1 bgi-s">
-        <div class="quality quality-1 my-l">
-            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Implementation and maintenance of the HACCP Food Safety Management System</p>
-            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Annual independent audit of our premises by Excellence Ireland Quality Association (EIQA)</p>
-            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Maintenance and regular updating of Food Hygiene systems in place</p>
-            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Training of all our staff in Food Hygiene procedures</p>
-            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Quality control checks at all stages of our operation, including routine microbiological testing of all products</p>
-            <p class="quality-item c-g1 fs-m my-s"><i class="far fa-check-circle"></i>Regular unannounced audits of our production plant and practices</p>
-        </div>
-    </div>
+    <h1 class="text-grey-lightest bgi-s py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+       Our Commitment
+    </h1>
+    <div class="w-1/3">
 
-    <div class="quality-title-container quality-title-container-2 bgi-s pt-l">
-        <div class="quality-title quality-title-2">
-            <div class="quality-title-item quality-title-item-2 bgi-g1 py-m fs-l">
-                Compliance 
-            </div>
+    </div>
+</div>
+
+   
+    <div class="bgi-s">
+        <div class="container mx-auto py-8">
+            <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Implementation and maintenance of the HACCP Food Safety Management System</p>
+            <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Annual independent audit of our premises by Excellence Ireland Quality Association (EIQA)</p>
+            <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Maintenance and regular updating of Food Hygiene systems in place</p>
+            <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Training of all our staff in Food Hygiene procedures</p>
+            <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Quality control checks at all stages of our operation, including routine microbiological testing of all products</p>
+            <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Regular unannounced audits of our production plant and practices</p>
         </div>
     </div>
-    <div class="quality-container quality-container-2 bgi-g1">
-        <div class="quality quality-2">
-            <div class="quality-2-item quality-2-item-1 my-l">
-                <div class="quality-card my-m ">
-                    <div class="quality-card-left bgi-p">
-                        <div class="quality-card-left-heading bg-p c-g1"> <h3 class="fs-m">Traceability</h3></div>
-                        <div class="quality-card-left-base bg-s"><i class="fas fa-search-location c-g1"></i></div>
+<div class="div bgi-s pt-8 flex"> 
+    <div class="w-1/3">
+
+    </div>
+    <h1 class="text-grey-darkest bgi-g1 py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+        Compliance
+    </h1>
+    <div class="w-1/3">
+
+    </div>
+</div>
+
+<div class="bgi-g1">
+    <div class="container mx-auto flex flex-wrap py-4">
+        <div class="w-full lg:w-1/2 px-6 py-6 flex">
+            <div class="flex border-2 border-p">
+                {{-- left --}}
+                <div class="w-3r flex flex-col">
+                    <div class="h-70p bgi-p">
+                        <h5 class="text-om-white rotateText text-xl">Traceability</h5>
                     </div>
-
-                    <div class="quality-card-right px-m bg-g1">
-                        <div class="quality-card-right-header">
-                            <i class="fas fa-search-location"></i>
-                            <h2 class="quality-card-right-header-heading c-p fs-l">Traceability</h2>
-                        </div>
-                        <div class="quality-card-right-info">
-                            <p class="my-m">A comprehensive supply chain management system is vital. </p>
-                            <p class="quality-card-right-info-item my-s">All products sold at O’Mahony Meats have a unique batch code which ensures that they are fully traceable right through the production process to the approved source.</p>
-                            <p class="quality-card-right-info-item my-s">Our traceability system is routinely tested by our independent food hygiene consultant. This involves tracing products right back to the approved processing plants and farms of origin.
-                            </p>
-                        </div>
+                    <div class="h-30p bgi-s flex justify-center items-center">
+                        <i class="fas fa-search-location text-center text-om-white text-2xl"></i>
                     </div>
                 </div>
-            </div>
-
-            <div class="quality-2-item quality-2-item-2 my-l">
-                <div class="quality-card my-m">
-                    <div class="quality-card-left bgi-p">
-                        <div class="quality-card-left-heading quality-card-left-heading-2 bg-p c-g1"> <h3 class="fs-m">Accreditation</h3></div>
-                        <div class="quality-card-left-base bg-s"><i class="fas fa-check-double c-g1"></i></div>
+                {{-- right --}}
+                <div class="w-full flex flex-col bg-grey-lightest">
+                    <div class="flex flex-col relative">
+                        <h1 class="text-center text-p z-10 py-2">Traceability</h1>
+                        <i class="fas fa-search-location text-center text-grey text-6xl z-0"></i>
                     </div>
-
-                    <div class="quality-card-right px-m bg-g1">
-                        <div class="quality-card-right-header">
-                            <i class="fas fa-check-double"></i>
-                            <h2 class="quality-card-right-header-heading c-p fs-l">Accreditation</h2>
-                        </div>
-                        <div class="quality-card-right-info">
-                            <p class="quality-card-right-info-item my-s">O’Mahony Meats are accredited to Excellence Standard Ireland Quality Association.</p>
-                            <p class="quality-card-right-info-item my-s">The Q mark for hygiene and food safety is a business excellence standard which reviews all aspects of a company’s performances and commitment to hygiene and food safety on an annual basis. It is recognised by the FSAI (Food Safety Authority of Ireland) and Safe Food. The standard has been endorsed by the EOQ (European Organisation for Quality) and involves an annual unannounced inspection of our premises and quality records.
-                            </p>
-                        </div>
+                    
+                    <div class="px-6 flex flex-col h-full">
+                        <p class="py-2">A comprehensive supply chain management system is vital. </p>
+                        <p class="py-2">All products sold at O’Mahony Meats have a unique batch code which ensures that they are fully traceable right through the production process to the approved source.</p>
+                        <p class="py-2">Our traceability system is routinely tested by our independent food hygiene consultant. This involves tracing products right back to the approved processing plants and farms of origin.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="accreditation-container bg-w">
-        <div class="accreditation my-l bgi-w">
-            <img src="/images/craftbutchers.png" alt="">
-            <img src="/images/eiqa.jpg" alt="">
-            <img src="/images/haccp.png" alt="">
+        <div class="w-full lg:w-1/2 px-6 py-6">
+            <div class="flex border-2 border-p">
+                {{-- left --}}
+                <div class="w-3r flex flex-col">
+                    <div class="h-70p bgi-p">
+                        <h5 class="text-om-white rotateText text-xl">Accreditation</h5>
+                    </div>
+                    <div class="h-30p bgi-s flex justify-center items-center">
+                        <i class="fas fa-check-double text-center text-om-white text-2xl"></i>
+                    </div>
+                </div>
+                {{-- right --}}
+                <div class="w-full flex flex-col bg-grey-lightest">
+                    <div class="flex flex-col relative">
+                        <h1 class="text-center text-p z-10 py-2">Accreditation</h1>
+                        <i class="fas fa-check-double text-center text-grey text-6xl z-0"></i>
+                    </div>
+                    
+                    <div class="px-6">
+                        <p class="py-2">O’Mahony Meats are accredited to Excellence Standard Ireland Quality Association.</p>
+                        <p class="py-2">The Q mark for hygiene and food safety is a business excellence standard which reviews all aspects of a company’s performances and commitment to hygiene and food safety on an annual basis. It is recognised by the FSAI (Food Safety Authority of Ireland) and Safe Food. The standard has been endorsed by the EOQ (European Organisation for Quality) and involves an annual unannounced inspection of our premises and quality records.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="accreditation my-l bgi-w">
-                <img src="/images/acc1.png" alt="" class="img-2">
-                <img src="/images/acc2.png" alt="" class="img-2">
-                <img src="/images/acc3.png" alt="" class="img-2">
+        
+    </div>
+
+</div>
+<div class="bg-white">
+    <div class="container mx-auto flex flex-wrap bgi-w">
+        <div class="w-full md:w-1/3">
+            <div class="h-30r flex items-center justify-center">
+                <img src="/images/craftbutchers.png" alt="" class="w-90p h-80p object-contain">
+            </div>
+        </div>
+        <div class="w-full md:w-1/3">
+            <div class="h-30r flex items-center justify-center">
+                <img src="/images/eiqa.jpg" alt="" class="w-90p h-80p object-contain">
+            </div>
+        </div>
+        <div class="w-full md:w-1/3">
+            <div class="h-30r flex items-center justify-center">
+                <img src="/images/haccp.png" alt="" class="w-90p h-80p object-contain">
+            </div>
         </div>
     </div>
+</div>
 
 
     

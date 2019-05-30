@@ -8,30 +8,25 @@ Add Career
 
 @section('content')
 
-<div class="createcareer-title-container">
-    <div class="createcareer-title my-m">
-        <h1 class="createcareer-title-item">Add a new Career Opportunity</h1>
-    </div>
-</div>
 
-<div class="createcareer-container">
+<div class="container mx-auto">
     <form action="/createcareer" method="POST"  enctype="multipart/form-data" class="careerform my-m">
         @csrf
-        <div class="careerform-group py-m">
-            <label for="title">Position Title:</label>
-        <input type="text" name="title" value="{{old('title')}}" placeholder="Position Title"required>
+        <div class="py-4">
+            <label for="title" class="block py-2">Position Title:</label>
+            <input type="text" name="title" value="{{old('title')}}" placeholder="Position Title" class="block h-6 rounded w-60p outline border" required>
         </div>
-        <div class="careerform-group">
-            <label for="overview">Position Overview:</label>
-        <input type="text" name="overview" value="{{old('overview')}}" placeholder="Position Overview">
+        <div class="pb-4">
+            <label for="overview" class="block py-2">Position Overview:</label>
+        <input type="text" name="overview" value="{{old('overview')}}" placeholder="Position Overview" class="block h-6 rounded w-60p outline border" required>
         </div>
-        <div class="careerform-group">
-            <label for="summernote">Job Description:</label>
+        <div class="pb-4">
+            <label for="summernote" class="block py-2">Job Description:</label>
         <textarea name="details" id="details" cols="30" rows="10" placeholder="Please enter the detail of the job description, responsibilities etc.." required>{{old('details')}}</textarea>
         </div>
 
-        <div class="careerform-group">
-            <button>Save</button>
+        <div class="pb-4">
+            <button class="bg-p hover:bg-grey-lightest rounded py-2 px-4 text-om-white no-underline hover:text-p hover:border hover:border-p">Save</button>
         </div>
 
     </form>

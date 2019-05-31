@@ -31,7 +31,7 @@ Home | O'Mahony Meats Ltd.
     </div>
 </div>
 <div class="bgi-gw">
-    <div class="container mx-auto flex justify-center h-35r w-full py-6">
+    <div class="container mx-auto flex justify-center h-35r w-full py-6 px-2 sm:px-0">
         <img src="/images/shop.jpg" alt="" class="h-full w-full object-cover">
     </div>
 </div>
@@ -111,5 +111,6 @@ Home | O'Mahony Meats Ltd.
 @endsection
 
 @section('scripts')
+@parent
 
 @endsection

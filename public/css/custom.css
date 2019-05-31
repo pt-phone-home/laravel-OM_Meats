@@ -145,3 +145,24 @@ body {
 .tb:nth-child(odd) {
     background-color: lightgray;
 }
+
+.show {
+    display: flex;
+    /* transition: all 5s ease-in-out; */
+    animation-name: show;
+    animation-duration: .5s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+
+    100% {
+        height: auto;
+        opacity: 1;
+    }
+}

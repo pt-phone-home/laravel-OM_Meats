@@ -21,20 +21,20 @@ Quality | O'Mahony Meats Ltd.
     </div>
 </div>
 <div class="div bgi-g1 pt-8 flex"> 
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
-    <h1 class="text-grey-lightest bgi-s py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+    <h1 class="text-grey-lightest bgi-s py-6 w-3/5 sm:w-1/2 lg:w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
        Our Commitment
     </h1>
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
 </div>
 
    
     <div class="bgi-s">
-        <div class="container mx-auto py-8">
+        <div class="container mx-auto py-8 px-4">
             <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Implementation and maintenance of the HACCP Food Safety Management System</p>
             <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Annual independent audit of our premises by Excellence Ireland Quality Association (EIQA)</p>
             <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Maintenance and regular updating of Food Hygiene systems in place</p>
@@ -44,13 +44,13 @@ Quality | O'Mahony Meats Ltd.
         </div>
     </div>
 <div class="div bgi-s pt-8 flex"> 
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
-    <h1 class="text-grey-darkest bgi-g1 py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+    <h1 class="text-grey-darkest bgi-g1 py-6 w-3/5 sm:w-1/2 lg:w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
         Compliance
     </h1>
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
 </div>
@@ -116,17 +116,17 @@ Quality | O'Mahony Meats Ltd.
 <div class="bg-white">
     <div class="container mx-auto flex flex-wrap bgi-w">
         <div class="w-full md:w-1/3">
-            <div class="h-30r flex items-center justify-center">
+            <div class="h-20r flex items-center justify-center">
                 <img src="/images/craftbutchers.png" alt="" class="w-90p h-80p object-contain">
             </div>
         </div>
         <div class="w-full md:w-1/3">
-            <div class="h-30r flex items-center justify-center">
+            <div class="h-20r flex items-center justify-center">
                 <img src="/images/eiqa.jpg" alt="" class="w-90p h-80p object-contain">
             </div>
         </div>
         <div class="w-full md:w-1/3">
-            <div class="h-30r flex items-center justify-center">
+            <div class="h-20r flex items-center justify-center">
                 <img src="/images/haccp.png" alt="" class="w-90p h-80p object-contain">
             </div>
         </div>
@@ -138,5 +138,6 @@ Quality | O'Mahony Meats Ltd.
 @endsection
 
 @section('scripts')
+@parent
 
 @endsection

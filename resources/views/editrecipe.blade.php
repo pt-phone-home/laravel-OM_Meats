@@ -37,6 +37,7 @@ Edit Recipe
 @endsection
 
 @section('scripts')
+@parent
 <script src="https://cdn.ckeditor.com/4.11.1/standard-all/ckeditor.js"></script>
 <script>
         CKEDITOR.replace('detail', {

@@ -27,7 +27,33 @@
 
 
 
-    @yield('scripts')
+    @section('scripts')
     <script src="/js/app.js"></script>
+    <script src="/js/TweenMax.min.js"></script>
+    <script src="/js/TimelineMax.min.js"></script>
+    
+
+    <script>
+
+        
+        const navAnimation = new TimelineMax({paused:true, reversed:true});
+     
+        navAnimation.to('#MobNav', 1, {opacity:1, display: 'flex', height: '15rem', ease: Back.easeOut});
+        navAnimation.fromTo('#MobNav>div>div', .5, {opacity: 0, }, {opacity: 1});
+    
+    
+    
+        
+        function showMenu() {
+            navAnimation.reversed() ? navAnimation.play() : navAnimation.reverse();
+        }
+
+        const navBtn = document.getElementById('NavBtn');
+        const mobNav = document.getElementById('MobNav');
+
+        navBtn.addEventListener('click', showMenu);
+
+    </script>
+    @show
 </body>
 </html>

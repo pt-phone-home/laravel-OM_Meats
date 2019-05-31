@@ -46,5 +46,5 @@ Careers | O'Mahoney Meats Ltd.
 @endsection
 
 @section('scripts')
-
+@parent
 @endsection

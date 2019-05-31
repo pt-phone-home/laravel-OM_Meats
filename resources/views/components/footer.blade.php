@@ -3,14 +3,14 @@
         <div class="w-full md:w-1/3 flex flex-col items-center px-4 py-4">
             <h3 class="w-full text-center pb-2">Links</h3>
             <div class="w-full flex justify-center">
-                <div class="w-40p flex flex-col items-start">
+                <div class="w-40p flex flex-col items-center md:items-start">
                     <a class="text-grey-lightest hover:text-grey-light no-underline py-1 " href="/">Home</a>
                     <a class="text-grey-lightest hover:text-grey-light no-underline py-1 " href="/about">About</a>
                     <a class="text-grey-lightest hover:text-grey-light no-underline py-1 " href="/quality">Quality</a>
                     <a class="text-grey-lightest hover:text-grey-light no-underline py-1 " href="/careers">Careers</a>
                     <a class="text-grey-lightest hover:text-grey-light no-underline py-1 " href="/contact">Contact</a>
                 </div>
-                <div class="w-40p flex flex-col items-start">
+                <div class="w-40p flex flex-col items-center md:items-start">
                     <a class="text-grey-lightest hover:text-grey-light no-underline py-1" href="/wholesale">Wholesale</a>
                     <a class="text-grey-lightest hover:text-grey-light no-underline py-1" href="/retail">Retail</a>
                     <a class="text-grey-lightest hover:text-grey-light no-underline py-1" href="/products">Products</a>

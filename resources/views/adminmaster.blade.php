@@ -39,7 +39,8 @@
         @include('components.footer')
 
 
-    @yield('scripts')
+    @include('scripts')
     <script src="/js/app.js"></script>
+    @show
 </body>
 </html>

@@ -14,7 +14,7 @@
     {{-- right side --}}
     <div class="flex flex-col flex-1">
         {{-- Top --}}
-        <div class="flex bgi-s py-4 pl-4 lg:py-0 lg:pl-0">
+        <div class="flex bgi-s py-8 pl-4 lg:py-0 lg:pl-0">
             {{-- OM LTD --}}
             <div class="w-auto lg:w-1/3 bg-grey flex flex-col bgi-s text-om-white">
                 <h1 class="pb-1 pt-2 text-center">O'Mahony Meats Ltd.</h1>
@@ -45,7 +45,7 @@
         </div>
         <div class="hidden flex-col px-8 bgi-p" id="MobNav">
             <div class="w-full px-2 py-2">
-                <div class="flex justify-around py-2">
+                <div class="flex flex-wrap justify-around py-2">
                     <a href="{{route('home')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 ">Home</a>
                     <a href="{{route('about')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">About</a>
                     <a href="{{route('quality')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Quality</a>
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="w-full px-2 py-2">
-                <div class="flex justify-around py-2">
+                <div class="flex flex-wrap justify-around py-2">
                     <a href="{{route('wholesale')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Wholesale</a>
                     <a href="{{route('retail')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Retail</a>
                     <a href="{{route('products')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Products</a>

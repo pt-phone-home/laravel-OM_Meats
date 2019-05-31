@@ -15,18 +15,18 @@
 
 <div class="bgi-g1">
     <div class="container mx-auto flex justify-center py-8">
-        <h1 class="text-p py-12 text-3xl font-thin">Come and visit our genuine factory shop with ample free parking!
+        <h1 class="text-p py-4 px-4 text-3xl font-thin">Come and visit our genuine factory shop with ample free parking!
         </h1>
     </div>
 </div>
 <div class="div bgi-g1 pt-8 flex"> 
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
-    <h1 class="text-grey-darkest bgi-g2 py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+    <h1 class="text-grey-darkest bgi-g2 py-6 w-3/5 sm:w-1/2 lg:w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
         Large choice of products
     </h1>
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
 </div>
@@ -48,13 +48,13 @@
     </div>
 </div>
 <div class="div bgi-g2 pt-8 flex"> 
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
-    <h1 class="text-grey-lightest bgi-s py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+    <h1 class="text-grey-lightest bgi-s py-6 w-3/5 sm:w-1/2 lg:w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
         Products for All Occasions
     </h1>
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
 </div>
@@ -80,13 +80,13 @@
     </div>
 </div>
 <div class="div bgi-s pt-8 flex"> 
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
-    <h1 class="text-grey-darkest bgi-g1 py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+    <h1 class="text-grey-darkest bgi-g1 py-6 w-3/5 sm:w-1/2 lg:w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
         Expert Staff
     </h1>
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
 </div>

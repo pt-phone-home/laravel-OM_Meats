@@ -15,7 +15,7 @@
 <div class="bgi-g1">
     @if($recipe)
     <div class="container mx-auto flex justify-center py-6">
-        <div class="flex flex-col w-95p md:w-80p border-2 border-p">
+        <div class="flex flex-col w-95p mx-2 md:w-80p border-2 border-p">
             <div class="bgi-s py-4 px-2">
                 <div class="flex justify-between items-center text-om-white">
                     <h2>{{$recipe->title}}</h2>

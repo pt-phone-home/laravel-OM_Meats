@@ -21,7 +21,7 @@
         </div>
     </div>
 </div>
-<div class="bgi-g2 pb-20">
+<div class="bgi-g2 pb-8">
     <div class="container mx-auto flex flex-wrap justify-center">
         <div class="w-full md:w-1/3 px-2 py-2 h-20r">
             <img src="/images/restaurant.jpg" alt="" class="w-full h-full object-cover">
@@ -36,13 +36,13 @@
 </div>
 
 <div class="div bgi-g2 pt-8 flex"> 
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
-    <h1 class="text-grey-darkest bgi-g1 py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+    <h1 class="text-grey-darkest bgi-g1 py-6 w-3/5 sm:w-1/2 lg:w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
         Ordering Service
     </h1>
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
 </div>
@@ -64,13 +64,13 @@
 </div>
 
 <div class="div bgi-g1 pt-8 flex"> 
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
-    <h1 class="text-grey-darkest bgi-g4 py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+    <h1 class="text-grey-darkest bgi-g4 py-6 w-3/5 sm:w-1/2 lg:w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
         Delivery
     </h1>
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
 </div>

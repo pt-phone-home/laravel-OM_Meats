@@ -38,7 +38,7 @@
         
         const navAnimation = new TimelineMax({paused:true, reversed:true});
      
-        navAnimation.to('#MobNav', 1, {opacity:1, display: 'flex', height: '15rem', ease: Back.easeOut});
+        navAnimation.to('#MobNav', 1, {opacity:1, display: 'flex', height: '10rem', ease: Back.easeOut});
         navAnimation.fromTo('#MobNav>div>div', .5, {opacity: 0, }, {opacity: 1});
     
     

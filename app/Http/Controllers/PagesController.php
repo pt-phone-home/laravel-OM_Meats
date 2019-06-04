@@ -2,39 +2,49 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Careers;
-use App\Offer;
 use App\News;
+use App\Offer;
 use App\Recipe;
 use Auth;
+use Hash;
+use Illuminate\Http\Request;
+
 class PagesController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         return view('index');
     }
-    public function about() {
+    public function about()
+    {
         return view('about');
     }
-    public function quality() {
+    public function quality()
+    {
         return view('quality');
     }
-    public function careers() {
+    public function careers()
+    {
 
         $careers = Careers::orderBy('updated_at', 'desc')->get();
 
         return view('careers')->with('careers', $careers);
     }
-    public function contact() {
+    public function contact()
+    {
         return view('contact');
     }
-    public function wholesale() {
+    public function wholesale()
+    {
         return view('wholesale');
     }
-    public function retail() {
+    public function retail()
+    {
         return view('retail');
     }
-    public function products() {
+    public function products()
+    {
         return view('products');
     }
     // public function offers() {
@@ -45,47 +55,49 @@ class PagesController extends Controller
 
     //     $offers = Offer::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
 
-        
     //     return view('offers')->with([
     //         'latest_offer' => $latest_offer,
     //         'offers' => $offers
     //     ]);
     // }
 
-    public function offers() {
+    public function offers()
+    {
 
         $latest_offer = Offer::orderBy('updated_at', 'DESC')->first();
         $offers = Offer::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
         return view('offers')->with([
             'latest_offer' => $latest_offer,
-            'offers' => $offers
+            'offers' => $offers,
         ]);
     }
 
-    public function recipes() {
+    public function recipes()
+    {
 
         $latest_recipe = Recipe::orderBy('updated_at', 'DESC')->first();
 
         $recipes = Recipe::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
         return view('recipes')->with([
             'recipes' => $recipes,
-            'latest_recipe' => $latest_recipe
-            ]);
+            'latest_recipe' => $latest_recipe,
+        ]);
     }
-    public function news() {
+    public function news()
+    {
 
         $latest_news = News::orderBy('updated_at', 'DESC')->first();
         $news = News::orderBy('updated_at', 'DESC')->take(6)->skip(1)->get();
         return view('news')->with([
             'latest_news' => $latest_news,
-            'news' => $news
+            'news' => $news,
         ]);
     }
 
-
     // ADMIN PAGES
 
-    public function admin() {
+    public function admin()
+    {
 
         $newsitem = News::all();
         $career = Careers::all();
@@ -96,15 +108,17 @@ class PagesController extends Controller
             'newsitem' => $newsitem,
             'career' => $career,
             'offers' => $offers,
-            'recipes' => $recipes
+            'recipes' => $recipes,
         ]);
     }
 
-    public function login() {
+    public function login()
+    {
         return view('login');
     }
 
-    public function logincheck(Request $request) {
+    public function logincheck(Request $request)
+    {
 
         $credentials = $request->only('email', 'password');
 
@@ -117,13 +131,40 @@ class PagesController extends Controller
             return redirect()->back()->with('failed', 'Sorry your details are not correct');
         }
 
-
     }
 
-    public function logout() {
+    public function logout()
+    {
 
         Auth::logout();
 
         return redirect('login')->with('success', 'You are logged out');
+    }
+
+    public function changepassword()
+    {
+
+        return view('changepassword');
+    }
+
+    public function changepasswordPost(Request $request)
+    {
+        $this->validate($request, [
+            'current_password' => 'required',
+            'new_password' => 'required',
+            'new_password_confirm' => 'required',
+        ]);
+
+        $user = Auth::user();
+
+        if ($request['current_password'] = $user->password && $request['new_password'] == $request['new_password_confirm']) {
+            $password = Hash::make($request['new_password']);
+            $user->password = $password;
+            $user->save();
+            return redirect()->route('admin')->with('success', 'Password Updated');
+        } else {
+            return redirect()->back()->with('failed', 'Sorry, the detials you provided do not match, please try again!');
+        }
+
     }
 }

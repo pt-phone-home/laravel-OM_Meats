@@ -28,7 +28,7 @@ Careers | O'Mahoney Meats Ltd.
         <div class="w-95p md:w-70p flex flex-col border-2 border-p">
             <h3 class="uppercase text-center text-grey-darkest font-thin py-4 text-3xl">Job Description</h3>
             <hr class="border border-grey-dark w-80p">
-            <div class="py-4 px-2 text-grey-darkest">
+            <div class="py-4 px-2 text-grey-darkest output">
                 {!!$career->details !!}
             </div>
         </div>

@@ -75,7 +75,7 @@ About | O'Mahony Meats Ltd.
         </div>
         <div class="w-full md:w-1/3 py-2 flex items-center">
             <div class="h-20r px-4 py-4 bgi-g1">
-                <img src="/images/industrial.jpg" alt="" class="h-full w-full object-cover">
+                <img src="/images/wholesale2.png" alt="" class="h-full w-full object-cover">
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@ About | O'Mahony Meats Ltd.
 
     </div>
     <h1 class="text-grey-darkest bgi-g2 py-6 w-3/5 sm:w-1/2 lg:w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
-        Strength to Strength
+        from Strength to Strength
     </h1>
     <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 

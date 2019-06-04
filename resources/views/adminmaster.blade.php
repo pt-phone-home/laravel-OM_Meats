@@ -39,7 +39,7 @@
         @include('components.footer')
 
 
-    @include('scripts')
+    @section('scripts')
     <script src="/js/app.js"></script>
     @show
 </body>

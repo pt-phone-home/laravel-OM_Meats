@@ -24,3 +24,10 @@
         </div>
     </div>
 @endif
+@if(session('failed'))
+    <div class="messages-container">
+        <div class="messages">
+            {{session('failed')}}
+        </div>
+    </div>
+@endif

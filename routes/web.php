@@ -28,7 +28,7 @@ Route::get('/recipeitem/{id}', 'RecipesController@show')->name('recipe.item');
 
 // Routes with AUTH
 
-Route::get('/admin', 'PagesController@admin')->middleware('auth');
+Route::get('/admin', 'PagesController@admin')->name('admin')->middleware('auth');
 
 // Careers
 Route::get('/createcareer', 'CareersController@create')->middleware('auth');
@@ -66,3 +66,5 @@ Route::delete('/newsitem/{id}', 'NewsController@destroy')->middleware('auth');
 Route::get('login', 'PagesController@login')->name('login');
 Route::post('login', 'PagesController@logincheck')->name('login.post');
 Route::get('logout', 'PagesController@logout')->name('logout');
+Route::get('changepassword', 'PagesController@changepassword')->name('changepassword')->middleware('auth');
+Route::post('changepassword', 'PagesController@changepasswordPost')->name('changepassword.post')->middleware('auth');

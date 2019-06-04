@@ -567,6 +567,7 @@ module.exports = {
         "12": "3rem",
         "16": "4rem",
         "24": "6rem",
+        '28': '7rem',
         "32": "8rem",
         "48": "12rem",
         "64": "16rem",
@@ -585,6 +586,7 @@ module.exports = {
         screen: "100vw",
         '3r': '3rem',
         '5r': '5rem',
+        '7.5r': '7.5rem',
         '10r': '10rem',
         '15r': '15rem',
         '20r': '20rem',
@@ -752,6 +754,7 @@ module.exports = {
     */
 
     maxHeight: {
+        0: '0',
         full: "100%",
         screen: "100vh",
     },
@@ -1034,7 +1037,7 @@ module.exports = {
         tableLayout: ["responsive"],
         textAlign: ["responsive"],
         textColors: ["responsive", "hover", "focus", 'active', 'group-hover'],
-        textSizes: ["responsive"],
+        textSizes: ["responsive", 'hover'],
         textStyle: ["responsive", "hover", "focus"],
         tracking: ["responsive"],
         userSelect: ["responsive"],

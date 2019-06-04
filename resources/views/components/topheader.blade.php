@@ -14,7 +14,7 @@
     {{-- right side --}}
     <div class="flex flex-col flex-1">
         {{-- Top --}}
-        <div class="flex bgi-s py-8 pl-4 lg:py-0 lg:pl-0">
+        <div class="flex bgi-s py-12 pl-4 lg:py-0 lg:pl-0">
             {{-- OM LTD --}}
             <div class="w-auto lg:w-1/3 bg-grey flex flex-col bgi-s text-om-white">
                 <h1 class="pb-1 pt-2 text-center">O'Mahony Meats Ltd.</h1>
@@ -34,13 +34,13 @@
             <div class="">
                 &nbsp;
             </div>
-            <div class="flex justify-between w-75p pr-4">
-                <a href="{{route('wholesale')}}" class="bgi-p w-32 pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link ">Wholesale</a>
-                <a href="{{route('retail')}}" class="bgi-p w-32 pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link ">Retail</a>
-                <a href="{{route('products')}}" class="bgi-p w-32 pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link ">Products</a>
-                <a href="{{route('offers')}}" class="bgi-p w-32 pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link ">Offers</a>
-                <a href="{{route('recipes')}}" class="bgi-p w-32 pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link ">Recipes</a>
-                <a href="{{route('news')}}" class="bgi-p w-32 pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link ">News</a>
+            <div class="flex justify-around w-70p tabs">
+                <a href="{{route('wholesale')}}" class="bgi-p w-7.5r pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link " >Wholesale</a>
+                <a href="{{route('retail')}}" class="bgi-p w-7.5r pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link " >Retail</a>
+                <a href="{{route('products')}}" class="bgi-p w-7.5r pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link " >Products</a>
+                <a href="{{route('offers')}}" class="bgi-p w-7.5r pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link " >Offers</a>
+                <a href="{{route('recipes')}}" class="bgi-p w-7.5r pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link " >Recipes</a>
+                <a href="{{route('news')}}" class="bgi-p w-7.5r pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link " >News</a>
             </div>
         </div>
         {{-- Mobile Nav --}}
@@ -65,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="bgi-gw overflow-hidden flex justify-center px-4 py-4 z-10 h-20r">
+        <div class="bgi-gw overflow-hidden flex justify-center px-4 py-4 z-0 relative h-20r rotating">
             <div class="slide flex items-center">
                 <div class="w-full sm:w-1/2 md:w-1/3 h-18r flex justify-center items-center px-4 py-2">
                    <img src="/images/slider/1.png" alt="" class=" h-full w-full object-cover">

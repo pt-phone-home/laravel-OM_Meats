@@ -6304,6 +6304,10 @@ table {
   margin-left: 1px;
 }
 
+.max-h-0 {
+  max-height: 0;
+}
+
 .max-h-full {
   max-height: 100%;
 }
@@ -11230,6 +11234,66 @@ table {
   font-size: 7rem;
 }
 
+.hover\:text-xs:hover {
+  font-size: .75rem;
+}
+
+.hover\:text-sm:hover {
+  font-size: .875rem;
+}
+
+.hover\:text-base:hover {
+  font-size: 1rem;
+}
+
+.hover\:text-lg:hover {
+  font-size: 1.125rem;
+}
+
+.hover\:text-xl:hover {
+  font-size: 1.25rem;
+}
+
+.hover\:text-2xl:hover {
+  font-size: 1.5rem;
+}
+
+.hover\:text-3xl:hover {
+  font-size: 1.875rem;
+}
+
+.hover\:text-4xl:hover {
+  font-size: 2.25rem;
+}
+
+.hover\:text-4\.5xl:hover {
+  font-size: 2.5rem;
+}
+
+.hover\:text-5xl:hover {
+  font-size: 3rem;
+}
+
+.hover\:text-5\.5xl:hover {
+  font-size: 3.5rem;
+}
+
+.hover\:text-6xl:hover {
+  font-size: 4rem;
+}
+
+.hover\:text-7xl:hover {
+  font-size: 5rem;
+}
+
+.hover\:text-8xl:hover {
+  font-size: 6rem;
+}
+
+.hover\:text-9xl:hover {
+  font-size: 7rem;
+}
+
 .italic {
   font-style: italic;
 }
@@ -11516,6 +11580,10 @@ table {
   width: 6rem;
 }
 
+.w-28 {
+  width: 7rem;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -11594,6 +11662,10 @@ table {
 
 .w-5r {
   width: 5rem;
+}
+
+.w-7\.5r {
+  width: 7.5rem;
 }
 
 .w-10r {
@@ -17451,6 +17523,10 @@ table {
     margin-left: 1px;
   }
 
+  .sm\:max-h-0 {
+    max-height: 0;
+  }
+
   .sm\:max-h-full {
     max-height: 100%;
   }
@@ -22357,6 +22433,66 @@ table {
     font-size: 7rem;
   }
 
+  .sm\:hover\:text-xs:hover {
+    font-size: .75rem;
+  }
+
+  .sm\:hover\:text-sm:hover {
+    font-size: .875rem;
+  }
+
+  .sm\:hover\:text-base:hover {
+    font-size: 1rem;
+  }
+
+  .sm\:hover\:text-lg:hover {
+    font-size: 1.125rem;
+  }
+
+  .sm\:hover\:text-xl:hover {
+    font-size: 1.25rem;
+  }
+
+  .sm\:hover\:text-2xl:hover {
+    font-size: 1.5rem;
+  }
+
+  .sm\:hover\:text-3xl:hover {
+    font-size: 1.875rem;
+  }
+
+  .sm\:hover\:text-4xl:hover {
+    font-size: 2.25rem;
+  }
+
+  .sm\:hover\:text-4\.5xl:hover {
+    font-size: 2.5rem;
+  }
+
+  .sm\:hover\:text-5xl:hover {
+    font-size: 3rem;
+  }
+
+  .sm\:hover\:text-5\.5xl:hover {
+    font-size: 3.5rem;
+  }
+
+  .sm\:hover\:text-6xl:hover {
+    font-size: 4rem;
+  }
+
+  .sm\:hover\:text-7xl:hover {
+    font-size: 5rem;
+  }
+
+  .sm\:hover\:text-8xl:hover {
+    font-size: 6rem;
+  }
+
+  .sm\:hover\:text-9xl:hover {
+    font-size: 7rem;
+  }
+
   .sm\:italic {
     font-style: italic;
   }
@@ -22643,6 +22779,10 @@ table {
     width: 6rem;
   }
 
+  .sm\:w-28 {
+    width: 7rem;
+  }
+
   .sm\:w-32 {
     width: 8rem;
   }
@@ -22721,6 +22861,10 @@ table {
 
   .sm\:w-5r {
     width: 5rem;
+  }
+
+  .sm\:w-7\.5r {
+    width: 7.5rem;
   }
 
   .sm\:w-10r {
@@ -28564,6 +28708,10 @@ table {
     margin-left: 1px;
   }
 
+  .md\:max-h-0 {
+    max-height: 0;
+  }
+
   .md\:max-h-full {
     max-height: 100%;
   }
@@ -33470,6 +33618,66 @@ table {
     font-size: 7rem;
   }
 
+  .md\:hover\:text-xs:hover {
+    font-size: .75rem;
+  }
+
+  .md\:hover\:text-sm:hover {
+    font-size: .875rem;
+  }
+
+  .md\:hover\:text-base:hover {
+    font-size: 1rem;
+  }
+
+  .md\:hover\:text-lg:hover {
+    font-size: 1.125rem;
+  }
+
+  .md\:hover\:text-xl:hover {
+    font-size: 1.25rem;
+  }
+
+  .md\:hover\:text-2xl:hover {
+    font-size: 1.5rem;
+  }
+
+  .md\:hover\:text-3xl:hover {
+    font-size: 1.875rem;
+  }
+
+  .md\:hover\:text-4xl:hover {
+    font-size: 2.25rem;
+  }
+
+  .md\:hover\:text-4\.5xl:hover {
+    font-size: 2.5rem;
+  }
+
+  .md\:hover\:text-5xl:hover {
+    font-size: 3rem;
+  }
+
+  .md\:hover\:text-5\.5xl:hover {
+    font-size: 3.5rem;
+  }
+
+  .md\:hover\:text-6xl:hover {
+    font-size: 4rem;
+  }
+
+  .md\:hover\:text-7xl:hover {
+    font-size: 5rem;
+  }
+
+  .md\:hover\:text-8xl:hover {
+    font-size: 6rem;
+  }
+
+  .md\:hover\:text-9xl:hover {
+    font-size: 7rem;
+  }
+
   .md\:italic {
     font-style: italic;
   }
@@ -33756,6 +33964,10 @@ table {
     width: 6rem;
   }
 
+  .md\:w-28 {
+    width: 7rem;
+  }
+
   .md\:w-32 {
     width: 8rem;
   }
@@ -33834,6 +34046,10 @@ table {
 
   .md\:w-5r {
     width: 5rem;
+  }
+
+  .md\:w-7\.5r {
+    width: 7.5rem;
   }
 
   .md\:w-10r {
@@ -39677,6 +39893,10 @@ table {
     margin-left: 1px;
   }
 
+  .lg\:max-h-0 {
+    max-height: 0;
+  }
+
   .lg\:max-h-full {
     max-height: 100%;
   }
@@ -44583,6 +44803,66 @@ table {
     font-size: 7rem;
   }
 
+  .lg\:hover\:text-xs:hover {
+    font-size: .75rem;
+  }
+
+  .lg\:hover\:text-sm:hover {
+    font-size: .875rem;
+  }
+
+  .lg\:hover\:text-base:hover {
+    font-size: 1rem;
+  }
+
+  .lg\:hover\:text-lg:hover {
+    font-size: 1.125rem;
+  }
+
+  .lg\:hover\:text-xl:hover {
+    font-size: 1.25rem;
+  }
+
+  .lg\:hover\:text-2xl:hover {
+    font-size: 1.5rem;
+  }
+
+  .lg\:hover\:text-3xl:hover {
+    font-size: 1.875rem;
+  }
+
+  .lg\:hover\:text-4xl:hover {
+    font-size: 2.25rem;
+  }
+
+  .lg\:hover\:text-4\.5xl:hover {
+    font-size: 2.5rem;
+  }
+
+  .lg\:hover\:text-5xl:hover {
+    font-size: 3rem;
+  }
+
+  .lg\:hover\:text-5\.5xl:hover {
+    font-size: 3.5rem;
+  }
+
+  .lg\:hover\:text-6xl:hover {
+    font-size: 4rem;
+  }
+
+  .lg\:hover\:text-7xl:hover {
+    font-size: 5rem;
+  }
+
+  .lg\:hover\:text-8xl:hover {
+    font-size: 6rem;
+  }
+
+  .lg\:hover\:text-9xl:hover {
+    font-size: 7rem;
+  }
+
   .lg\:italic {
     font-style: italic;
   }
@@ -44869,6 +45149,10 @@ table {
     width: 6rem;
   }
 
+  .lg\:w-28 {
+    width: 7rem;
+  }
+
   .lg\:w-32 {
     width: 8rem;
   }
@@ -44947,6 +45231,10 @@ table {
 
   .lg\:w-5r {
     width: 5rem;
+  }
+
+  .lg\:w-7\.5r {
+    width: 7.5rem;
   }
 
   .lg\:w-10r {
@@ -50790,6 +51078,10 @@ table {
     margin-left: 1px;
   }
 
+  .xl\:max-h-0 {
+    max-height: 0;
+  }
+
   .xl\:max-h-full {
     max-height: 100%;
   }
@@ -55696,6 +55988,66 @@ table {
     font-size: 7rem;
   }
 
+  .xl\:hover\:text-xs:hover {
+    font-size: .75rem;
+  }
+
+  .xl\:hover\:text-sm:hover {
+    font-size: .875rem;
+  }
+
+  .xl\:hover\:text-base:hover {
+    font-size: 1rem;
+  }
+
+  .xl\:hover\:text-lg:hover {
+    font-size: 1.125rem;
+  }
+
+  .xl\:hover\:text-xl:hover {
+    font-size: 1.25rem;
+  }
+
+  .xl\:hover\:text-2xl:hover {
+    font-size: 1.5rem;
+  }
+
+  .xl\:hover\:text-3xl:hover {
+    font-size: 1.875rem;
+  }
+
+  .xl\:hover\:text-4xl:hover {
+    font-size: 2.25rem;
+  }
+
+  .xl\:hover\:text-4\.5xl:hover {
+    font-size: 2.5rem;
+  }
+
+  .xl\:hover\:text-5xl:hover {
+    font-size: 3rem;
+  }
+
+  .xl\:hover\:text-5\.5xl:hover {
+    font-size: 3.5rem;
+  }
+
+  .xl\:hover\:text-6xl:hover {
+    font-size: 4rem;
+  }
+
+  .xl\:hover\:text-7xl:hover {
+    font-size: 5rem;
+  }
+
+  .xl\:hover\:text-8xl:hover {
+    font-size: 6rem;
+  }
+
+  .xl\:hover\:text-9xl:hover {
+    font-size: 7rem;
+  }
+
   .xl\:italic {
     font-style: italic;
   }
@@ -55982,6 +56334,10 @@ table {
     width: 6rem;
   }
 
+  .xl\:w-28 {
+    width: 7rem;
+  }
+
   .xl\:w-32 {
     width: 8rem;
   }
@@ -56060,6 +56416,10 @@ table {
 
   .xl\:w-5r {
     width: 5rem;
+  }
+
+  .xl\:w-7\.5r {
+    width: 7.5rem;
   }
 
   .xl\:w-10r {

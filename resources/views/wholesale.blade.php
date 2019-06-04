@@ -24,13 +24,13 @@
 <div class="bgi-g2 pb-8">
     <div class="container mx-auto flex flex-wrap justify-center">
         <div class="w-full md:w-1/3 px-2 py-2 h-20r">
-            <img src="/images/restaurant.jpg" alt="" class="w-full h-full object-cover">
+            <img src="/images/wholesale1.png" alt="" class="w-full h-full object-cover rounded shadow">
         </div>
         <div class="w-full md:w-1/3 px-2 py-2 h-20r">
-            <img src="/images/cafe.jpeg" alt="" class="w-full h-full object-cover">
+            <img src="/images/wholesale2.png" alt="" class="w-full h-full object-cover rounded shadow">
         </div>
         <div class="w-full md:w-1/3 px-2 py-2 h-20r">
-            <img src="/images/food.jpg" alt="" class="w-full h-full object-cover">
+            <img src="/images/wholesale3.png" alt="" class="w-full h-full object-cover rounded shadow">
         </div>
     </div>
 </div>

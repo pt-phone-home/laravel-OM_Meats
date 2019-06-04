@@ -8,7 +8,7 @@
 <div class="bgi-p">
     <div class="container mx-auto">
         <h1 class="text-center py-6 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
-            News
+        News From O'Mahony Meats
         </h1>  
     </div>
 </div>

@@ -42,7 +42,7 @@
 
 <div class="bgi-g3">
     <div class="container mx-auto flex flex-wrap justify-center py-12">
-        <div class="w-full sm:w-1/2 md:w-1/3 px-2 py-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-2 py-4">
             <div class="flex flex-col">
                 <h2 class="bgi-p text-grey-lightest text-center py-2 rounded-t-xlg">Beef</h2>
                 <div class="h-10r">
@@ -51,8 +51,8 @@
                 <div class="flex justify-center  bgi-p py-2 rounded-b-lg group">
                     <button class="text-grey-lightest w-full outline-none active:outline-none focus:outline-none z-20" id="prodBtn1">More</button>
                 </div>
-                <div class="px-1 py-1 bgi-g1 rounded-b border-b-2 border-p text-sm hidden" id="prodInfo1">
-                    <div class="flex justify-between">
+                <div class="px-1 py-1 bgi-g1 rounded-b -mt-1 border-b-2 border-p text-sm hidden" id="prodInfo1">
+                    <div class="flex justify-between w-full">
                         <div class="w-1/2 flex flex-col justify-around px-2">
                             <p class="py-1 border-b border-p border-dashed pb-2">Beef Brisket</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Beef Burgers 4oz-10oz</p>
@@ -81,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full sm:w-1/2 md:w-1/3 px-2 py-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-2 py-4">
             <div class="flex flex-col">
                 <h2 class="bgi-p text-grey-lightest text-center py-2 rounded-t-xlg"> Pork &amp; Bacon</h2>
                 <div class="h-10r">
@@ -91,15 +91,15 @@
                     <button class="text-grey-lightest w-full outline-none active:outline-none focus:outline-none z-20" id="prodBtn2">More</button>
                 </div>
                 <div class="px-1 py-1 bgi-g1 rounded-b -mt-1 border-b-2 border-p text-sm hidden" id="prodInfo2">
-                    <div class="flex justify-between">
-                        <div class="w-1/2 flex flex-col justify-around px-2">
+                    <div class="flex justify-between w-full">
+                        <div class="w-45p flex flex-col justify-around px-2">
                             <p class="py-1 border-b border-p border-dashed pb-2">Baby Back Loin Ribs</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Back Rashers (Plain, Smoked, Maple,...)</p>
-                            <p class="py-1 border-b border-p border-dashed pb-2">Bacon - Diced/Lardons/Minced</p>
+                            <p class="py-1 border-b border-p border-dashed pb-2">Bacon - Diced/ Lardons/ Minced</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Breakfast Packs</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Collar of Bacon Joints</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Diced Pork</p>
-                            <p class="py-1 border-b border-p border-dashed pb-2">Gammon Fillets/Steaks</p>
+                            <p class="py-1 border-b border-p border-dashed pb-2">Gammon Fillets/ Steaks</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Legs of Pork</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Loins of Pork</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Minced Pork</p>
@@ -108,16 +108,16 @@
                         <div class="flex flex-col px-4">
                             <hr class="border border-p h-full">
                         </div>
-                        <div class="w-1/2 flex flex-col justify-around px-2">
+                        <div class="w-45p flex-1 flex flex-col justify-around px-2">
                             <p class="py-1 border-b border-p border-dashed pb-2">Pork Belly</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Pork Bones</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Pork Chops</p>
-                            <p class="py-1 border-b border-p border-dashed pb-2">Pork Escalopes (Plain/Breaded)</p>
+                            <p class="py-1 border-b border-p border-dashed pb-2">Pork Escalopes (Plain/ Breaded)</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Pork Neck Fillets</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Pork Ribs</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Pork Steaks</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Pork Shoulders</p>
-                            <p class="py-1 border-b border-p border-dashed pb-2">Pudding Black/White (including Clonakilty)</p>
+                            <p class="py-1 border-b border-p border-dashed pb-2">Pudding Black/ White (including Clonakilty)</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Sausages (various sizes &amp; flavours)</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Streaky Rashers</p>
                         </div>
@@ -126,7 +126,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full sm:w-1/2 md:w-1/3 px-2 py-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-2 py-4">
             <div class="flex flex-col">
                 <h2 class="bgi-p text-grey-lightest text-center py-2 rounded-t-xlg">Chicken, Poultry &amp; Eggs</h2>
                 <div class="h-10r">
@@ -136,7 +136,7 @@
                     <button class="text-grey-lightest w-full outline-none active:outline-none focus:outline-none z-20" id="prodBtn3">More</button>
                 </div>
                 <div class="px-1 py-1 bgi-g1 rounded-b -mt-1 border-b-2 border-p text-sm hidden" id="prodInfo3">
-                    <div class="flex justify-between">
+                    <div class="flex justify-between w-full">
                         <div class="w-1/2 flex flex-col justify-around px-2">
                             <p class="py-1 border-b border-p border-dashed pb-2 text-center font-bold">Chicken</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Chicken Burgers</p>
@@ -185,7 +185,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full sm:w-1/2 md:w-1/3 px-2 py-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-2 py-4">
             <div class="flex flex-col">
                 <h2 class="bgi-p text-grey-lightest text-center py-2 rounded-t-xlg">Lamb</h2>
                 <div class="h-10r">
@@ -195,7 +195,7 @@
                     <button class="text-grey-lightest w-full outline-none active:outline-none focus:outline-none z-20" id="prodBtn4">More</button>
                 </div>
                 <div class="px-1 py-1 bgi-g1 rounded-b -mt-1 border-b-2 border-p text-sm hidden" id="prodInfo4">
-                    <div class="flex justify-between">
+                    <div class="flex justify-between w-full">
                         <div class="w-1/2 flex flex-col justify-around px-2">
                             <p class="py-1 border-b border-p border-dashed pb-2">Diced Lamb</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Gigot Lamb Chops</p>
@@ -224,7 +224,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full sm:w-1/2 md:w-1/3 px-2 py-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-2 py-4">
             <div class="flex flex-col">
                 <h2 class="bgi-p text-grey-lightest text-center py-2 rounded-t-xlg">Cooked Meats</h2>
                 <div class="h-10r">
@@ -234,7 +234,7 @@
                     <button class="text-grey-lightest w-full outline-none active:outline-none focus:outline-none z-20" id="prodBtn5">More</button>
                 </div>
                 <div class="px-1 py-1 bgi-g1 rounded-b -mt-1 border-b-2 border-p text-sm hidden" id="prodInfo5">
-                    <div class="flex justify-between">
+                    <div class="flex justify-between w-full">
                         <div class="w-1/2 flex flex-col justify-around px-2">
                             <p class="py-1 border-b border-p border-dashed pb-2">Beef Lasagne</p>
                             <p class="py-1 border-b border-p border-dashed pb-2">Beef Shepherd’s Pie </p>
@@ -284,7 +284,7 @@
     // Beef
     const prodAnimation1 = new TimelineMax({paused:true, reversed:true});
      
-    prodAnimation1.to('#prodInfo1', 1, {opacity:1, display: 'flex', height: '22rem', minHeight: 'auto', zIndex: '0', ease: Back.easeOut});
+    prodAnimation1.to('#prodInfo1', .7, {opacity:1, display: 'flex', height: '25rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation1.fromTo('#prodInfo1>div>', .5, {opacity: 0, }, {opacity: 1});
      
 
@@ -300,7 +300,7 @@
     // Pork & Bacon
     const prodAnimation2 = new TimelineMax({paused:true, reversed:true});
      
-    prodAnimation2.to('#prodInfo2', 1, {opacity:1, display: 'flex', height: '25rem', minHeight: '10rem', zIndex: '0', ease: Back.easeOut});
+    prodAnimation2.to('#prodInfo2', 1, {opacity:1, display: 'flex', height: '30rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation2.fromTo('#prodInfo2>div>', .5, {opacity: 0, }, {opacity: 1});
      
 
@@ -316,7 +316,7 @@
     // Chicken Poultry & Eggs
     const prodAnimation3 = new TimelineMax({paused:true, reversed:true});
      
-    prodAnimation3.to('#prodInfo3', 1, {opacity:1, display: 'flex', height: '40rem', minHeight: '10rem', zIndex: '0', ease: Back.easeOut});
+    prodAnimation3.to('#prodInfo3', 1, {opacity:1, display: 'flex', height: '48rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation3.fromTo('#prodInfo3>div>', .5, {opacity: 0, }, {opacity: 1});
      
 
@@ -332,7 +332,7 @@
     // Lamb
     const prodAnimation4 = new TimelineMax({paused:true, reversed:true});
      
-    prodAnimation4.to('#prodInfo4', 1, {opacity:1, display: 'flex', height: '20rem', minHeight: '10rem', zIndex: '0', ease: Back.easeOut});
+    prodAnimation4.to('#prodInfo4', 1, {opacity:1, display: 'flex', height: '20rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation4.fromTo('#prodInfo4>div>', .5, {opacity: 0, }, {opacity: 1});
      
 
@@ -348,7 +348,7 @@
     // Cooked Meats 
     const prodAnimation5 = new TimelineMax({paused:true, reversed:true});
      
-    prodAnimation5.to('#prodInfo5', 1, {opacity:1, display: 'flex', height: '15rem', minHeight: '100%', zIndex: '0', ease: Back.easeOut});
+    prodAnimation5.to('#prodInfo5', 1, {opacity:1, display: 'flex', height: '18rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation5.fromTo('#prodInfo5>div>', .5, {opacity: 0, }, {opacity: 1});
      
 

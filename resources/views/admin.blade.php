@@ -82,6 +82,7 @@ O'Mahony Meats Admin Panel
             </div>
         </div>
     </div>
+    
 </div>
 <div class="bgi-g1">
     <div class="container mx-auto flex flex-wrap pb-4 px-2">
@@ -157,7 +158,12 @@ O'Mahony Meats Admin Panel
         </div>
     </div>
 </div>
+<div class="bgi-g1">
+    <div class="container mx-auto flex justify-center py-4">       
+        <a href="{{route('changepassword')}}" class="bg-p hover:bg-grey-lightest rounded py-2 px-4 text-om-white no-underline hover:text-p hover:border hover:border-p">Change Password</a>         
+    </div>
 
+</div>
 
 
 

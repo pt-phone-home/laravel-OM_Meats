@@ -135,7 +135,9 @@ body {
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: 1rem;
-    font-family: "Libre Franklin", sans-serif
+    font-family: "Libre Franklin", sans-serif;
+    line-height: 1.3rem;
+
 }
 
 .evenly {

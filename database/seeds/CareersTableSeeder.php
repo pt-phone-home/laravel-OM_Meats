@@ -13,13 +13,13 @@ class CareersTableSeeder extends Seeder
     {
         DB::table('careers')->insert([
             'title' => 'Sales Executive',
-           'overview' => 'Come join our Sales Team',
-           'details' => 'This role involves the following duties........'
+            'overview' => 'Come join our Sales Team',
+            'details' => 'This role involves the following duties........',
         ]);
         DB::table('careers')->insert([
             'title' => 'Accounts Assistant',
-           'overview' => 'Join our Accounts Team',
-           'details' => 'This role involves the following duties........'
+            'overview' => 'Join our Accounts Team',
+            'details' => 'This role involves the following duties........',
         ]);
     }
 }

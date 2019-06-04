@@ -43,7 +43,8 @@
                 <a href="{{route('news')}}" class="bgi-p w-32 pb-6 pt-3 text-center text-om-white rounded-t-lg no-underline nav-link ">News</a>
             </div>
         </div>
-        <div class="hidden flex-col px-8 bgi-p" id="MobNav">
+        {{-- Mobile Nav --}}
+        <div class="hidden flex-col justify-center px-8 bgi-p" id="MobNav">
             <div class="w-full px-2 py-2">
                 <div class="flex flex-wrap justify-around py-2">
                     <a href="{{route('home')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 ">Home</a>

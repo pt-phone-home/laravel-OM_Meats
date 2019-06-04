@@ -15,9 +15,9 @@
 <div class="bgi-g2">
     <div class="container mx-auto py-6 flex justify-center text-lg">
         <div class="w-90p text-center">
-            <h2 class="text-p py-12 c-p">O’Mahony Meats offer a comprehensive range of meat <a href="/products" class="text-grey-darkest hover:text-p">products</a>  tailor-made for hotels, restaurants, hospitals, nursing homes, and anyone in the food industry. <br><br>
-            Call our sales representative, Michael Cooke (01 8476000 +5), to talk about your specific requirements.   
-            </h2>
+            <p class="text-p text-2xl leading-normal py-12 c-p">O’Mahony Meats offer a comprehensive range of meat <a href="/products" class="text-grey-darkest hover:text-p">products</a>  tailor-made for hotels, restaurants, hospitals, nursing homes, and anyone in the food industry. <br><br>
+            Call our sales representative, Michael Cooke (087 2576678), to talk about your specific requirements.   
+            </p>
         </div>
     </div>
 </div>
@@ -78,7 +78,10 @@
 <div class=" bgi-g4">
     <div class="container mx-auto flex flex-col py-12 w-60p">
         <p class="text-xl text-grey-darkest py-6">
-                We run a fleet of 9 refrigerated GPS-monitored vans. Our delivery service operates 6 days a week, from 6am to 3pm. <br>
+                We run a fleet of 9 refrigerated GPS-monitored vans.<br>
+        </p>
+        <p class="text-xl text-grey-darkest py-6">
+                Our delivery service operates 6 days a week, from 6am to 3pm. <br>
         </p>
         <p class="text-xl text-grey-darkest py-6">
                 We deliver daily to customers in Dublin and the greater Dublin area, and twice-weekly in Meath and Kildare.

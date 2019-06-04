@@ -1022,7 +1022,7 @@ module.exports = {
         objectFit: ["responsive"],
         objectPosition: false,
         opacity: ["responsive", 'hover'],
-        outline: ["focus"],
+        outline: ["focus", 'active'],
         overflow: ["responsive", 'hover'],
         padding: ["responsive", 'hover'],
         pointerEvents: ["responsive"],

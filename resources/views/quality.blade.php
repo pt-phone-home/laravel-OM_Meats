@@ -36,7 +36,7 @@ Quality | O'Mahony Meats Ltd.
     <div class="bgi-s">
         <div class="container mx-auto py-8 px-4">
             <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Implementation and maintenance of the HACCP Food Safety Management System</p>
-            <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Annual independent audit of our premises by Excellence Ireland Quality Association (EIQA)</p>
+            {{-- <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Annual independent audit of our premises by Excellence Ireland Quality Association (EIQA)</p> --}}
             <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Maintenance and regular updating of Food Hygiene systems in place</p>
             <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Training of all our staff in Food Hygiene procedures</p>
             <p class="text-om-white text-xl py-2"><i class="far fa-check-circle mx-4"></i>Quality control checks at all stages of our operation, including routine microbiological testing of all products</p>
@@ -75,16 +75,16 @@ Quality | O'Mahony Meats Ltd.
                         <i class="fas fa-search-location text-center text-grey text-6xl z-0"></i>
                     </div>
                     
-                    <div class="px-6 flex flex-col h-full">
+                    <div class="px-6 pt-2 flex flex-col h-full">
                         <p class="py-2">A comprehensive supply chain management system is vital. </p>
-                        <p class="py-2">All products sold at O’Mahony Meats have a unique batch code which ensures that they are fully traceable right through the production process to the approved source.</p>
+                        <p class="py-2">All products sold at O’Mahony Meats have a unique batch code which ensures that they are fully traceable from the approved source, right through the production process, to the customer.</p>
                         <p class="py-2">Our traceability system is routinely tested by our independent food hygiene consultant. This involves tracing products right back to the approved processing plants and farms of origin.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-full lg:w-1/2 px-6 py-6">
+        <div class="w-full lg:w-1/2 px-6 py-6 flex">
             <div class="flex border-2 border-p">
                 {{-- left --}}
                 <div class="w-3r flex flex-col">
@@ -102,9 +102,11 @@ Quality | O'Mahony Meats Ltd.
                         <i class="fas fa-check-double text-center text-grey text-6xl z-0"></i>
                     </div>
                     
-                    <div class="px-6">
-                        <p class="py-2">O’Mahony Meats are accredited to Excellence Standard Ireland Quality Association.</p>
-                        <p class="py-2">The Q mark for hygiene and food safety is a business excellence standard which reviews all aspects of a company’s performances and commitment to hygiene and food safety on an annual basis. It is recognised by the FSAI (Food Safety Authority of Ireland) and Safe Food. The standard has been endorsed by the EOQ (European Organisation for Quality) and involves an annual unannounced inspection of our premises and quality records.</p>
+                    <div class="px-6 pt-2 flex flex-col h-full">
+                        <p class="py-2">O’Mahony Meats Ltd is approved by the Department of Agriculture, Food &amp; the Marine, Approval Number IE2372. 
+                            This approval is through rigorous inspections carried out routinely by Senior Veterinary Inspectors. 
+                            </p>
+                        <p class="py-2">All raw meat products supplied by O’Mahony Meats are in compliance with all National and EU regulatory standards.</p>
                     </div>
                 </div>
             </div>
@@ -115,17 +117,17 @@ Quality | O'Mahony Meats Ltd.
 </div>
 <div class="bg-white">
     <div class="container mx-auto flex flex-wrap bgi-w">
-        <div class="w-full md:w-1/3">
+        <div class="w-full md:w-1/2">
             <div class="h-20r flex items-center justify-center">
                 <img src="/images/craftbutchers.png" alt="" class="w-90p h-80p object-contain">
             </div>
         </div>
-        <div class="w-full md:w-1/3">
+        {{-- <div class="w-full md:w-1/3">
             <div class="h-20r flex items-center justify-center">
                 <img src="/images/eiqa.jpg" alt="" class="w-90p h-80p object-contain">
             </div>
-        </div>
-        <div class="w-full md:w-1/3">
+        </div> --}}
+        <div class="w-full md:w-1/2">
             <div class="h-20r flex items-center justify-center">
                 <img src="/images/haccp.png" alt="" class="w-90p h-80p object-contain">
             </div>

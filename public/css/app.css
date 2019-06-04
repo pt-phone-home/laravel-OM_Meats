@@ -7405,6 +7405,10 @@ table {
   outline: 0;
 }
 
+.active\:outline-none:active {
+  outline: 0;
+}
+
 .overflow-auto {
   overflow: auto;
 }

@@ -26,7 +26,7 @@
                     <img src="/{{$recipe->img}}" alt="" class="h-full w-full object-cover">
             </div>
             <hr class="w-90p border border-grey-dark">
-            <div class="px-4 py-4">
+            <div class="px-4 py-4 output">
                     {!! $recipe->detail !!}
             </div>
         </div>

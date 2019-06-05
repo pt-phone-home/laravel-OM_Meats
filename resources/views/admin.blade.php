@@ -107,7 +107,7 @@ O'Mahony Meats Admin Panel
                         <div class="w-1/4">{{$offer->updated_at->diffForHumans()}}</div>
                         <div class="w-1/4"><a href="/offer/{{$offer->id}}/editoffer">Edit</a></div>
                         <div class="w-1/4">
-                            <form action="/offer/{{$news->id}}" method="POST" onsubmit="return confirm('Are you sure you want to delete? This cannot be undone!')">
+                            <form action="/offer/{{$offer->id}}" method="POST" onsubmit="return confirm('Are you sure you want to delete? This cannot be undone!')">
                             @csrf
                             @method('DELETE')
                             <button class="bg-red hover:bg-grey-lightest hover:border hover:border-red border border-transparent px-1 py-1 rounded text-grey-lightest hover:text-red text-xs outline-none active:outline-none">DELETE</button>

@@ -140,6 +140,12 @@ body {
 
 }
 
+.output h1,
+.output h2,
+.output h3 {
+    line-height: 2rem;
+}
+
 .evenly {
     justify-content: space-evenly;
 }

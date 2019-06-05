@@ -28,7 +28,7 @@
                     <div class="bg-grey-darkest">
                         <h3 class="text-om-white py-2 px-1">{{$latest_recipe->title}}</h3>
                     </div>
-                    <div class="flex-1 border-r-2 border-p py-2 px-1 bg-grey-lightest">
+                    <div class="flex-1 border-r-2 border-p py-2 px-1 bg-grey-lightest output">
                         {!! str_limit($latest_recipe->detail, $limit = 200, $end = '...') !!}
                     </div>
                     <div class="bg-p py-2 px-1 flex">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 
-                <div class="w-1/2 flex px-4 py-4">
+                <div class="w-1/2 flex px-4 py-4 h-18r">
                     <img src="/{{$latest_recipe->img}}" alt="" class="w-full h-full object-cover">
                 </div>
             </div>
@@ -59,7 +59,7 @@
     <div class="container mx-auto flex flex-wrap py-6">
         @if($recipes)
         @foreach($recipes as $recipe)
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4 py-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4 py-6">
             <div class="flex flex-col border-2 border-p">
                 <div class="h-15r px-4 py-4">
                     <img src="{{$recipe->img}}" alt="" class="w-full h-full object-cover">
@@ -67,7 +67,7 @@
                 <div class="bg-p py-2 px-1">
                     <h4 class="text-om-white text-xl">{{$recipe->title}}</h4>
                 </div>
-                <div class="bg-grey-lightest py-2 px-1 flex-1">
+                <div class="bg-grey-lightest py-2 px-1 flex-1 output">
                     {!! str_limit($recipe->detail, $limit = 50, $end = '...') !!}
                 </div>
                 <div class="bg-grey-darkest py-2 px-1 flex">

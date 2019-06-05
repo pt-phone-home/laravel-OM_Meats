@@ -1,13 +1,13 @@
 @if(session('mail'))
-<div class="messages-container">
-    <div class="messages">
+<div class="">
+    <div class="container mx-auto">
     {{session('mail')}}
     </div>  
 </div>
 @endif
 
 @if($errors->any())
-    <div class="messages-container">
+    <div class="container mx-auto">
     @foreach ($errors->all() as $error)
         <div class="messages">
             {{$error}}
@@ -18,15 +18,15 @@
 @endif
 
 @if(session('success'))
-    <div class="messages-container">
-        <div class="messages">
+    <div class="">
+        <div class="container mx-auto">
             {{session('success')}}
         </div>
     </div>
 @endif
 @if(session('failed'))
-    <div class="messages-container">
-        <div class="messages">
+    <div class="">
+        <div class="container mx-auto">
             {{session('failed')}}
         </div>
     </div>

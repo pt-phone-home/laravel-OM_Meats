@@ -94,7 +94,7 @@ About | O'Mahony Meats Ltd.
 <div class="bgi-g2">
     <div class="container mx-auto flex flex-wrap pt-12 pb-6">
         <div class="w-full md:w-1/3 py-2">
-            <div class="h-20r px-4 py-4 bg-transparent md:bg-p">
+            <div class="h-25r md:h-18r px-4 py-4 bg-transparent md:bg-p">
                 <img src="/images/staff2.jpg" alt="" class="h-full w-full object-contain">
             </div>
         </div>

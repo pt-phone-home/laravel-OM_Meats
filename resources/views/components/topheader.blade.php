@@ -47,7 +47,7 @@
         <div class="hidden flex-col justify-center px-8 bgi-p" id="MobNav">
             <div class="w-full px-2 py-2">
                 <div class="flex flex-wrap justify-around py-2">
-                    <a href="{{route('home')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 ">Home</a>
+                    <a href="{{route('home')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 ">Home</a> 
                     <a href="{{route('about')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">About</a>
                     <a href="{{route('quality')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Quality</a>
                     <a href="{{route('careers')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Careers</a>
@@ -56,12 +56,12 @@
             </div>
             <div class="w-full px-2 py-2">
                 <div class="flex flex-wrap justify-around py-2">
-                    <a href="{{route('wholesale')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Wholesale</a>
-                    <a href="{{route('retail')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Retail</a>
-                    <a href="{{route('products')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Products</a>
-                    <a href="{{route('offers')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Offers</a>
-                    <a href="{{route('recipes')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">Recipes</a>
-                    <a href="{{route('news')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2">News</a>
+                    <a href="{{route('wholesale')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 px-2">Wholesale</a>
+                    <a href="{{route('retail')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 px-2">Retail</a>
+                    <a href="{{route('products')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 px-2">Products</a>
+                    <a href="{{route('offers')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 px-2">Offers</a>
+                    <a href="{{route('recipes')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 px-2">Recipes</a>
+                    <a href="{{route('news')}}" class="no-underline border-b border-transparent hover:border-grey-lightest uppercase text-om-white hover:text-grey-light py-2 px-2">News</a>
                 </div>
             </div>
         </div>

@@ -38,7 +38,7 @@
 <div class="bgi-g2">
     <div class="container mx-auto flex flex-wrap py-12">
         <div class="w-full md:w-1/3 py-2">
-            <div class="h-20r px-4 py-4 bgi-p">
+            <div class="h-20r px-4 py-4 bg-transparent md:bg-p">
                 <img src="/images/retail5.JPG" alt="" class="h-full w-full object-cover">
             </div>
         </div>
@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="w-full md:w-1/3 py-2 flex items-center">
-            <div class="h-20r px-4 py-4 bgi-g1">
+            <div class="h-20r px-4 py-4 bg-transparent md:bg-grey-light">
                 <img src="/images/products.jpg" alt="" class="h-full w-full object-cover">
             </div>
         </div>
@@ -98,7 +98,7 @@
 <div class="bgi-g1">
     <div class="container mx-auto flex flex-wrap py-12">
         <div class="w-full md:w-1/3 py-2">
-            <div class="h-20r px-4 py-4 bgi-p">
+            <div class="h-20r px-4 py-4 bg-transparent md:bg-p">
                 <img src="/images/staff3.png" alt="" class="h-full w-full object-cover">
             </div>
         </div>

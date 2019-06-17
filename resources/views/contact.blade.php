@@ -33,11 +33,11 @@ Contact | O'Mahoney Meats Ltd.
         </p>
 
     </div>
-    <div class="container mx-auto flex pb-4 justify-center bgi-g1">
+    {{-- <div class="container mx-auto flex pb-4 justify-center bgi-g1">
         <div class="map w-full h-30r" id="map">
 
         </div>
-    </div>
+    </div> --}}
     
 </div>
 @endsection

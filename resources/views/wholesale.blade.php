@@ -56,7 +56,7 @@
         </p>
         <p class="text-xl text-grey-darkest py-6">
             <strong>Existing Customers</strong><br>
-            Place your order via email (orders@ommeats.ie) or by phone (01 8476000 +1) Monday-Saturday between 6am-4.30pm. <br>
+            Place your order via email (orders@ommeats.ie) <br> <br> Or by phone (01 8476000 +1) Monday-Saturday between 5am-4.30pm. <br>
             Automated answering service for out of hours orders. 
 
         </p>

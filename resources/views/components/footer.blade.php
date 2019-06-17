@@ -26,6 +26,7 @@
             <p class="py-2 pr-2">Fax: <i class="fas fa-fax px-1"></i> 01-8476869 </p>
             {{-- <p>General Enquiries: <span class="px-s">info@ommeats.ie</span></p> --}}
             <p class="py-2">Email: <span class="px-1">orders@ommeats.ie</span></p>
+            <p class="py-2 text-center">Address:<i class="fas fa-map-marker-alt px-1"></i> Unit 13A, Malahide Rd Industrial Park, D17F309</p>
         </div>
         <div class="w-full md:w-1/3 flex flex-col items-center px-4 py-4">
             <h3 class="w-full pb-2 text-center">Connect</h3>

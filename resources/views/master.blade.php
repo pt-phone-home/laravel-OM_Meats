@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Welcome to O'Mahony Meats. We supply meat to both the catering trade and the general public. We sell over 600 products. We can prepare any cut to your own specificaiton. We specialise in customer-driven products">
+    <meta name="keywords" content="Butcher, Meat Supplier, Beef, Lamb, Pork, Chicken, Poultry, Deals, Offers">
+    <meta name="robots" content="index, follow">
     
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,500,500i,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,700,800" rel="stylesheet">
@@ -11,6 +14,8 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
 
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link rel="stylesheet" href="/css/custom.css">

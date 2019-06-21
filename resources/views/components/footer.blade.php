@@ -1,4 +1,4 @@
-<div class="bgi-p flex justify-center">
+<div class="bgi-p justify-center">
     <div class="container mx-auto py-8 text-grey-lightest flex justify-evenly flex-wrap">
         <div class="w-full md:w-1/3 flex flex-col items-center px-4 py-4">
             <h3 class="w-full text-center pb-2">Links</h3>
@@ -33,5 +33,9 @@
             <a href="https://www.facebook.com/OMahony-Meats-618542641558512/" target="_blank"><i class="fab fa-facebook text-4xl py-4 text-grey-lightest hover:text-grey"></i></a>
             <a href="https://instagram.com/omahonymeats01?utm_source=ig_profile_share&igshid=lvh03cr5iep7"><i class="fab fa-instagram text-4xl py-4 text-grey-lightest hover:text-grey"></i></a>
         </div>
+    </div>
+    <div class="container mx-auto flex justify-center py-2">
+        <p class="text-grey">Designed and Developed by <a href="http://www.rocketchipwebsolutions.ie" class="no-underline text-grey-light hover:text-grey-lightest" target="_blank">Rocket.Chip Web Solutions &copy; {{\Carbon\Carbon::now()->year}}</a></p>
+
     </div>
 </div>

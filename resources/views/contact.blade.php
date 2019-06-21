@@ -17,6 +17,8 @@ Contact | O'Mahoney Meats Ltd.
 
         <div class="">
             <p class="py-4 px-4 text-2xl text-grey-darkest"><i class="fas fa-phone-volume text-p mr-4"></i> Call us Monday to Saturday <br> <br> 01-8476000</p>
+            <p class="pb-1 px-4 text-2xl text-grey-darkest">5am - 4:30pm</p>
+
             <div class="px-8 text-grey-darkest">
                 <p class="py-2 text-xl"><i class="fas fa-ellipsis-h text-p mr-4"></i>Orders: 01 8476000 +1  / orders@ommeats.ie</p>
                 <p class="py-2 text-xl"><i class="fas fa-ellipsis-h text-p mr-4"></i>Dispatch: 01 8476000 +2</p>
@@ -33,11 +35,11 @@ Contact | O'Mahoney Meats Ltd.
         </p>
 
     </div>
-    {{-- <div class="container mx-auto flex pb-4 justify-center bgi-g1">
+    <div class="container mx-auto flex pb-4 justify-center bgi-g1">
         <div class="map w-full h-30r" id="map">
 
         </div>
-    </div> --}}
+    </div>
     
 </div>
 @endsection

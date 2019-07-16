@@ -11,20 +11,20 @@
 |
  */
 
-Route::get('/', 'PagesController@index')->name('home');
-Route::get('/about', 'PagesController@about')->name('about');
-Route::get('/quality', 'PagesController@quality')->name('quality');
-Route::get('/careers', 'PagesController@careers')->name('careers');
-Route::get('/careersitem/{id}', 'CareersController@show')->name('careers.item');
+Route::get('/', 'PagesController@index')->name('home')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/about', 'PagesController@about')->name('about')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/quality', 'PagesController@quality')->name('quality')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/careers', 'PagesController@careers')->name('careers')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/careersitem/{id}', 'CareersController@show')->name('careers.item')->middleware('auth'); // DOESN"T NEED AUTH
 
-Route::get('/contact', 'PagesController@contact')->name('contact');
-Route::get('/wholesale', 'PagesController@wholesale')->name('wholesale');
-Route::get('/retail', 'PagesController@retail')->name('retail');
-Route::get('/products', 'PagesController@products')->name('products');
-Route::get('/offers', 'PagesController@offers')->name('offers');
-Route::get('/recipes', 'PagesController@recipes')->name('recipes');
-Route::get('/news', 'PagesController@news')->name('news');
-Route::get('/recipeitem/{id}', 'RecipesController@show')->name('recipe.item');
+Route::get('/contact', 'PagesController@contact')->name('contact')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/wholesale', 'PagesController@wholesale')->name('wholesale')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/retail', 'PagesController@retail')->name('retail')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/products', 'PagesController@products')->name('products')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/offers', 'PagesController@offers')->name('offers')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/recipes', 'PagesController@recipes')->name('recipes')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/news', 'PagesController@news')->name('news')->middleware('auth'); // DOESN"T NEED AUTH
+Route::get('/recipeitem/{id}', 'RecipesController@show')->name('recipe.item')->middleware('auth'); // DOESN"T NEED AUTH
 
 // Routes with AUTH
 
@@ -54,7 +54,7 @@ Route::put('/recipe/{id}', 'RecipesController@update')->middleware('auth');
 Route::delete('/recipe/{id}', 'RecipesController@destory')->middleware('auth');
 
 // News
-Route::get('/newsitem/{id}', 'NewsController@show');
+Route::get('/newsitem/{id}', 'NewsController@show')->middleware('auth'); // DOESN'T NEED AUTH
 Route::get('/createnewsitem', 'NewsController@create')->middleware('auth');
 Route::post('/createnewsitem', 'NewsController@store')->middleware('auth');
 Route::get('/newsitem/{id}/editnewsitem', 'NewsController@edit')->middleware('auth');
@@ -63,8 +63,8 @@ Route::delete('/newsitem/{id}', 'NewsController@destroy')->middleware('auth');
 
 // LOGIN
 
-Route::get('login', 'PagesController@login')->name('login');
-Route::post('login', 'PagesController@logincheck')->name('login.post');
-Route::get('logout', 'PagesController@logout')->name('logout');
+Route::get('login', 'PagesController@login')->name('login'); // DOESN"T NEED AUTH
+Route::post('login', 'PagesController@logincheck')->name('login.post'); // DOESN"T NEED AUTH
+Route::get('logout', 'PagesController@logout')->name('logout'); // DOESN"T NEED AUTH
 Route::get('changepassword', 'PagesController@changepassword')->name('changepassword')->middleware('auth');
 Route::post('changepassword', 'PagesController@changepasswordPost')->name('changepassword.post')->middleware('auth');

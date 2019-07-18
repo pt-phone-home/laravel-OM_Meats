@@ -16,7 +16,7 @@ Quality | O'Mahony Meats Ltd.
 <div class="bgi-g1">
     <div class="container mx-auto py-12 w-70p">
         <div class="text-p text-3xl text-center leading-normal my-m">
-            “At O’Mahony Meats we are committed to selling high quality locally sourced products where possible. All our products meet the most current food safety regulations so you can be confident you are buying the best locally sourced quality meat”
+            “At O’Mahony Meats we are committed to selling high quality locally sourced products where possible. All our products meet the most current food safety regulations so you can be confident you are buying the best locally sourced quality meat.”
         </div>
     </div>
 </div>

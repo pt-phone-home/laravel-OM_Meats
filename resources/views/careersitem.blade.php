@@ -13,13 +13,13 @@ Careers | O'Mahoney Meats Ltd.
     </div>
 </div>
 <div class="div bgi-g1 pt-8 flex"> 
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
-    <h1 class="text-grey-darkest bgi-g3 py-6 w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
+    <h1 class="text-grey-darkest bgi-g3 py-6 w-3/5 sm:w-1/2 lg:w-1/3 text-center rounded-t-xlg font-nun font-light uppercase">
         {{$career->title}}
     </h1>
-    <div class="w-1/3">
+    <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
 </div>

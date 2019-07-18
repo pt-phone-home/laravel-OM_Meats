@@ -28,7 +28,7 @@
                     <div class="bg-grey-darkest">
                         <h3 class="text-om-white py-2 px-1">{{$latest_recipe->title}}</h3>
                     </div>
-                    <div class="flex-1 border-r-2 border-p py-2 px-1 bg-grey-lightest output">
+                    <div class="flex-1 border-r-2 border-p py-2 pl-4 pr-1 bg-grey-lightest output">
                         {!! str_limit($latest_recipe->detail, $limit = 200, $end = '...') !!}
                     </div>
                     <div class="bg-p py-2 px-1 flex">
@@ -67,7 +67,7 @@
                 <div class="bg-p py-2 px-1">
                     <h4 class="text-om-white text-xl">{{$recipe->title}}</h4>
                 </div>
-                <div class="bg-grey-lightest py-2 px-1 flex-1 output">
+                <div class="bg-grey-lightest py-2 pl-4 pr-1 flex-1 output">
                     {!! str_limit($recipe->detail, $limit = 50, $end = '...') !!}
                 </div>
                 <div class="bg-grey-darkest py-2 px-1 flex">

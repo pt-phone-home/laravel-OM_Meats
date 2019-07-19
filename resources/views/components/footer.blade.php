@@ -35,7 +35,7 @@
         </div>
     </div>
     <div class="container mx-auto flex justify-center py-2">
-        <p class="text-grey">Designed and Developed by <a href="http://www.rocketchipwebsolutions.ie" class="no-underline text-grey-light hover:text-grey-lightest" target="_blank">Rocket.Chip Web Solutions &copy; {{\Carbon\Carbon::now()->year}}</a></p>
+        {{-- <p class="text-grey">Designed and Developed by <a href="http://www.rocketchipwebsolutions.ie" class="no-underline text-grey-light hover:text-grey-lightest" target="_blank">Rocket.Chip Web Solutions &copy; {{\Carbon\Carbon::now()->year}}</a></p> --}}
 
     </div>
 </div>

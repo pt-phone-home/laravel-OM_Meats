@@ -9,7 +9,7 @@
     <div class="container mx-auto">
         <h1 class="text-center py-6 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
                 Special Offers
-        </h1>  
+        </h1>
     </div>
 </div>
 
@@ -44,7 +44,7 @@
 
 </div>
 
-<div class="div bgi-g1 pt-8 flex"> 
+<div class="div bgi-g1 pt-8 flex">
     <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
@@ -72,7 +72,7 @@
                     <div>{!! $offer->detail !!}</div>
                 </div>
                 <div class="bg-grey-darkest py-2 px-2">
-                    <div class="text-om-white text-xl">Valid Until: {{$latest_offer->valid}} </div>
+                    <div class="text-om-white text-xl">Valid Until: {{$offer->valid}} </div>
                 </div>
             </div>
 

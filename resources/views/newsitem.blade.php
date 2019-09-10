@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
- News | O'Mahoney Meats Ltd.
+ News | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@
     <div class="container mx-auto">
         <h1 class="text-center py-6 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
             News from O'Mahony Meats
-        </h1>  
+        </h1>
     </div>
 </div>
 <div class="bgi-g1">
@@ -26,7 +26,7 @@
                     <img src="/{{$newsitem->img}}" alt="" class="h-full w-full object-cover">
             </div>
             <div class="bgi-s py-4 px-2 text-grey-lightest">
-                <h2>{{$newsitem->headline}}</h2>    
+                <h2>{{$newsitem->headline}}</h2>
             </div>
             {{-- <hr class="w-90p border border-grey-dark"> --}}
             <div class="px-4 py-4 output text-grey-darkest">
@@ -41,7 +41,7 @@
 </div>
 
 
-    
+
 
 
 

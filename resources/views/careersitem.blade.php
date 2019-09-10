@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-Careers | O'Mahoney Meats Ltd.
+Careers | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
@@ -9,10 +9,10 @@ Careers | O'Mahoney Meats Ltd.
     <div class="container mx-auto">
         <h1 class="text-center py-6 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
             Careers
-        </h1>  
+        </h1>
     </div>
 </div>
-<div class="div bgi-g1 pt-8 flex"> 
+<div class="div bgi-g1 pt-8 flex">
     <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
@@ -32,8 +32,8 @@ Careers | O'Mahoney Meats Ltd.
                 {!!$career->details !!}
             </div>
         </div>
-        
-        
+
+
     </div>
     <div class="flex justify-center py-4">
         <a href="/careers" class="bgi-p rounded py-2 px-4 text-om-white no-underline hover:text-grey-light">Back to Careers</a>
@@ -43,8 +43,8 @@ Careers | O'Mahoney Meats Ltd.
     </div>
 </div>
 
-    
-    
+
+
 @endsection
 
 @section('scripts')

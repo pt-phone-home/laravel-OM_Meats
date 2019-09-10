@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
- Retail | O'Mahoney Meats Ltd.
+ Retail | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@
     <div class="container mx-auto">
         <h1 class="text-center py-10 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
             Retail
-        </h1>  
+        </h1>
     </div>
 </div>
 
@@ -24,7 +24,7 @@
         <img src="/images/staff2.png" alt="" class="h-full w-full object-contain rounded">
     </div>
 </div>
-<div class="div bgi-g1 pt-8 flex"> 
+<div class="div bgi-g1 pt-8 flex">
     <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
@@ -52,7 +52,7 @@
         </div>
     </div>
 </div>
-<div class="div bgi-g2 pt-8 flex"> 
+<div class="div bgi-g2 pt-8 flex">
     <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
@@ -84,7 +84,7 @@
         </div>
     </div>
 </div>
-<div class="div bgi-s pt-8 flex"> 
+<div class="div bgi-s pt-8 flex">
     <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>

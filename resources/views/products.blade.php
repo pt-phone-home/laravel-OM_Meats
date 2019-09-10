@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
- Products | O'Mahoney Meats Ltd.
+ Products | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@
     <div class="container mx-auto">
         <h1 class="text-center py-10 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
             Products
-        </h1>  
+        </h1>
     </div>
 </div>
 
@@ -19,7 +19,7 @@
             Here at O'Mahony Meats we sell over 600 different products!
         </p>
         <p class="text-xl text-p text-center">
-            We source our meats from a small selection of EU licensed Irish Suppliers, with whom we have built a long and trusted relationship. 
+            We source our meats from a small selection of EU licensed Irish Suppliers, with whom we have built a long and trusted relationship.
         </p>
         <br><br>
         <p class="text-xl text-p text-center">
@@ -28,7 +28,7 @@
         </p>
     </div>
 </div>
-<div class="div bgi-g1 pt-8 flex"> 
+<div class="div bgi-g1 pt-8 flex">
     <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
@@ -175,8 +175,8 @@
                             <p class="py-1 pb-2">Halal Chicken Fillets</p>
                             <p class="py-1 pb-2">Minced Chicken</p>
                             <p class="py-1 pb-2 italic">... and many more</p>
-                            
-                            
+
+
                         </div>
                         <div class="flex flex-col px-4">
                             <hr class="border border-p h-full">
@@ -265,7 +265,7 @@
                             <p class="py-1 pb-2">Chicken Nuggets</p>
                             <p class="py-1 pb-2">Shredded Chicken</p>
                             <p class="py-1 pb-2">Cooked Chicken - Sliced</p>
-                            
+
                         </div>
                         <div class="flex flex-col px-4">
                             <hr class="border border-p h-full">
@@ -301,8 +301,8 @@
         <img src="/images/slider/11.jpg" alt="">
         <img src="/images/slider/12.jpg" alt="">
         {{-- <img src="/images/gallery13.jpg" alt=""> --}}
-        
- 
+
+
 @endsection
 
 @section('scripts')
@@ -310,10 +310,10 @@
 <script>
     // Beef
     const prodAnimation1 = new TimelineMax({paused:true, reversed:true});
-     
+
     prodAnimation1.to('#prodInfo1', .7, {opacity:1, display: 'flex', height: '25rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation1.fromTo('#prodInfo1>div>', .5, {opacity: 0, }, {opacity: 1});
-     
+
 
     function showProd1() {
             prodAnimation1.reversed() ? prodAnimation1.play() : prodAnimation1.reverse();
@@ -326,10 +326,10 @@
 
     // Pork & Bacon
     const prodAnimation2 = new TimelineMax({paused:true, reversed:true});
-     
+
     prodAnimation2.to('#prodInfo2', 1, {opacity:1, display: 'flex', height: '30rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation2.fromTo('#prodInfo2>div>', .5, {opacity: 0, }, {opacity: 1});
-     
+
 
     function showProd2() {
             prodAnimation2.reversed() ? prodAnimation2.play() : prodAnimation2.reverse();
@@ -342,10 +342,10 @@
 
     // Chicken Poultry & Eggs
     const prodAnimation3 = new TimelineMax({paused:true, reversed:true});
-     
+
     prodAnimation3.to('#prodInfo3', 1, {opacity:1, display: 'flex', height: '48rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation3.fromTo('#prodInfo3>div>', .5, {opacity: 0, }, {opacity: 1});
-     
+
 
     function showProd3() {
             prodAnimation3.reversed() ? prodAnimation3.play() : prodAnimation3.reverse();
@@ -358,10 +358,10 @@
 
     // Lamb
     const prodAnimation4 = new TimelineMax({paused:true, reversed:true});
-     
+
     prodAnimation4.to('#prodInfo4', 1, {opacity:1, display: 'flex', height: '20rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation4.fromTo('#prodInfo4>div>', .5, {opacity: 0, }, {opacity: 1});
-     
+
 
     function showProd4() {
             prodAnimation4.reversed() ? prodAnimation4.play() : prodAnimation4.reverse();
@@ -371,13 +371,13 @@
     const prodInfo4 = document.getElementById('prodInfo4');
 
     prodBtn4.addEventListener('click', showProd4);
-    
-    // Cooked Meats 
+
+    // Cooked Meats
     const prodAnimation5 = new TimelineMax({paused:true, reversed:true});
-     
+
     prodAnimation5.to('#prodInfo5', 1, {opacity:1, display: 'flex', height: '18rem', zIndex: '0', ease: Back.easeOut});
     prodAnimation5.fromTo('#prodInfo5>div>', .5, {opacity: 0, }, {opacity: 1});
-     
+
 
     function showProd5() {
             prodAnimation5.reversed() ? prodAnimation5.play() : prodAnimation5.reverse();

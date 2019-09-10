@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-Careers | O'Mahoney Meats Ltd.
+Careers | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@ Careers | O'Mahoney Meats Ltd.
     <div class="container mx-auto">
         <h1 class="text-center py-6 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
             Careers
-        </h1>  
+        </h1>
     </div>
 </div>
 
@@ -42,7 +42,7 @@ Careers | O'Mahoney Meats Ltd.
     </div>
 
 </div>
-    
+
 @endsection
 
 @section('scripts')

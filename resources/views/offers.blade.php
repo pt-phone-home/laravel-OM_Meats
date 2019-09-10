@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
- Offers | O'Mahoney Meats Ltd.
+ Offers | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')

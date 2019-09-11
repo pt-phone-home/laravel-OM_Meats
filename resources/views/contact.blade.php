@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-Contact | O'Mahoney Meats Ltd.
+Contact | O'Mahony Meats Ltd.
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@ Contact | O'Mahoney Meats Ltd.
     <div class="container mx-auto">
         <h1 class="text-center py-10 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
             Contact Us
-        </h1>  
+        </h1>
     </div>
 </div>
 <div class="bgi-g1">
@@ -40,44 +40,44 @@ Contact | O'Mahoney Meats Ltd.
 
         </div>
     </div>
-    
+
 </div>
 @endsection
 
 @section('scripts')
 @parent
-<script> 
+<script>
     function initMap() {
-      
+
       var clonturk = {
           info: '<strong>O\'Mahony Meats </strong><br>\
           Unit 13A, Malahide Rd Industrial Park, D17F309<br>\
                       <a href="https://goo.gl/maps/HuoGoU1kXoJ8hv7w9" target="_blank">Get Directions</a>',
-          lat: 53.397256, 
+          lat: 53.397256,
           long: -6.194748
       };
-  
-  
+
+
       var locations = [
         [clonturk.info, clonturk.lat, clonturk.long, 0],
       ];
-  
+
       var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 14,
           center: new google.maps.LatLng(53.397256, -6.194748),
           mapTypeId: google.maps.MapTypeId.ROADMAP
       });
-  
+
       var infowindow = new google.maps.InfoWindow({});
-  
+
       var marker, i;
-  
+
       for (i = 0; i < locations.length; i++) {
           marker = new google.maps.Marker({
               position: new google.maps.LatLng(locations[i][1], locations[i][2]),
               map: map
           });
-  
+
           google.maps.event.addListener(marker, 'click', (function (marker, i) {
               return function () {
                   infowindow.setContent(locations[i][0]);

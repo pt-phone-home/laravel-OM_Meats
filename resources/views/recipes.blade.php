@@ -56,7 +56,7 @@
     </div>
 </div>
 <div class="bgi-g3">
-    <div class="container mx-auto flex py-6">
+    <div class="container mx-auto flex flex-wrap py-6">
         @if($recipes)
         @foreach($recipes as $recipe)
         <div class="w-full md:w-1/2 lg:w-1/3 px-4 py-6">

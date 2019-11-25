@@ -81,7 +81,6 @@
                     <a href="/newsitem/{{$new->id}}" class="no-underline text-om-white hover:text-grey-light w-full text-center">Read More</a>
                 </div>
             </div>
-
         </div>
 
         @endforeach

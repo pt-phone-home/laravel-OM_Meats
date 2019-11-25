@@ -7,9 +7,9 @@
         <div class="bg-p py-2 px-1">
             <h4 class="text-om-white text-xl">{{$recipe->title}}</h4>
         </div>
-        <div class="bg-grey-lightest py-2 pl-4 pr-1 flex-1 ouput">
+        {{-- <div class="bg-grey-lightest py-2 pl-4 pr-1 flex-1 ouput">
             {!!   str_limit($recipe->detail, $limit = 100, $end = '...') !!}
-        </div>
+        </div> --}}
         <div class="bg-grey-darkest py-2 px-1 flex">
             <a href="/recipeitem/{{$recipe->id}}" class="text-om-white no-underline w-full">Read More</a>
         </div>

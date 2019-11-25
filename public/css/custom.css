@@ -130,6 +130,12 @@ body {
     transform: rotate(-90deg) translateX(-8rem);
 }
 
+.output {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
 .output > * {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;

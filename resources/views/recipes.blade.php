@@ -9,7 +9,7 @@
     <div class="container mx-auto">
         <h1 class="text-center py-6 text-om-white text-4.5xl font-nun uppercase tracking-wide font-light">
                 Recipes
-        </h1>  
+        </h1>
     </div>
 </div>
 <div class="bgi-g1 py-6">
@@ -35,7 +35,7 @@
                         <a href="/recipeitem/{{$latest_recipe->id}}" class="no-underline text-om-white hover:text-grey-light w-full">Read More</a>
                     </div>
                 </div>
-                
+
                 <div class="w-1/2 flex px-4 py-4 h-18r">
                     <img src="/{{$latest_recipe->img}}" alt="" class="w-full h-full object-cover">
                 </div>
@@ -44,7 +44,7 @@
         @endif
     </div>
 </div>
-<div class="div bgi-g1 pt-8 flex"> 
+<div class="div bgi-g1 pt-8 flex">
     <div class="w-1/5 sm:w-1/4 lg:w-1/3">
 
     </div>
@@ -59,7 +59,7 @@
     <div class="container mx-auto flex flex-wrap py-6">
         @if($recipes)
         @foreach($recipes as $recipe)
-        <div class="w-full md:w-1/2 lg:w-1/3 px-4 py-6">
+        <div class="w-full md:w-1/2 lg:w-1/3 py-6">
             <div class="flex flex-col border-2 border-p">
                 <div class="h-15r px-4 py-4">
                     <img src="{{$recipe->img}}" alt="" class="w-full h-full object-cover">

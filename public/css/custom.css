@@ -123,21 +123,27 @@ body {
 
 .nav-link:hover {
     transform: translateY(0px);
-    transition: transform .2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
 .rotateText {
     transform: rotate(-90deg) translateX(-8rem);
-
 }
 
-.output>* {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+.output > * {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     padding-left: 1rem;
     font-family: "Libre Franklin", sans-serif;
     line-height: 1.3rem;
+}
 
+.output p {
+    display: block;
+}
+
+.output em {
+    font-style: italic;
 }
 
 .output h1,
@@ -158,7 +164,7 @@ body {
     display: flex;
     /* transition: all 5s ease-in-out; */
     animation-name: show;
-    animation-duration: .5s;
+    animation-duration: 0.5s;
     animation-direction: normal;
     animation-timing-function: ease-in-out;
 }

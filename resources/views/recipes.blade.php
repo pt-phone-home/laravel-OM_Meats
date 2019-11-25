@@ -56,10 +56,10 @@
     </div>
 </div>
 <div class="bgi-g3">
-    <div class="container mx-auto flex flex-wrap py-6">
+    <div class="container mx-auto flex py-6">
         @if($recipes)
         @foreach($recipes as $recipe)
-        <div class="w-full md:w-1/2 lg:w-1/3 py-6">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4 py-6">
             <div class="flex flex-col border-2 border-p">
                 <div class="h-15r px-4 py-4">
                     <img src="{{$recipe->img}}" alt="" class="w-full h-full object-cover">
